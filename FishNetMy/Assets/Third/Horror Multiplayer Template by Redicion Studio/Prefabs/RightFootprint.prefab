@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1813858231484316853}
-  - component: {fileID: 8837377337283250683}
   m_Layer: 31
   m_Name: RightFootprint
   m_TagString: Untagged
@@ -24,6 +23,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4915087168616340267}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -31,22 +31,7 @@ Transform:
   m_Children:
   - {fileID: 2832439998613710499}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8837377337283250683
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4915087168616340267}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13157e49cd8b15845837aaac58c2b39a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lifeTime: 20
-  isRocket: 0
 --- !u!1 &7203921107842796291
 GameObject:
   m_ObjectHideFlags: 0
@@ -71,13 +56,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7203921107842796291}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0, z: 0.0161}
   m_LocalScale: {x: 0.05507449, y: 0.061837547, z: 0.055074506}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1813858231484316853}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6119152678732931581
 SpriteRenderer:
