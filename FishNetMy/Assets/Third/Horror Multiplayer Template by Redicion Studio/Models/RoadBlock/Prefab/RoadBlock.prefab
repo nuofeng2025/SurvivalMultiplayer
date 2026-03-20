@@ -23,6 +23,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2696128943286693105}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -30,7 +31,6 @@ Transform:
   m_Children:
   - {fileID: 6951717452677945993}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7724419506741755955
 GameObject:
@@ -43,7 +43,6 @@ GameObject:
   - component: {fileID: 6951717452677945993}
   - component: {fileID: 6329437247406839084}
   - component: {fileID: 8084624257954308582}
-  - component: {fileID: 6270196125206996788}
   - component: {fileID: 8090665221114405994}
   m_Layer: 0
   m_Name: RoadBlockModel
@@ -59,13 +58,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7724419506741755955}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.000000036649148, y: -0.16563539, z: 0.000000009045611, w: 0.98618704}
   m_LocalPosition: {x: 0.0000052218, y: 0.00013, z: 0.0000014019}
   m_LocalScale: {x: 0.9646011, y: 0.7348016, z: 1.0215851}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2696128943286693104}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -19.068, z: 0}
 --- !u!33 &6329437247406839084
 MeshFilter:
@@ -117,19 +116,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &6270196125206996788
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7724419506741755955}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 707ba19d71ca70c44b4760b5a54b7118, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  material: 2
 --- !u!64 &8090665221114405994
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -138,9 +124,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7724419506741755955}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 5572122694085131110, guid: 17ae54bd7cf2d0443b642b7d1750cced, type: 3}

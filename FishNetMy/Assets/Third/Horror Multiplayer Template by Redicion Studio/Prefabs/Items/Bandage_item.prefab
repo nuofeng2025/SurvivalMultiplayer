@@ -31,7 +31,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6599687258342018119}
-  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -111,7 +110,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6599687258342018119}
-  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -187,7 +185,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6599687258342018119}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -244,7 +241,6 @@ GameObject:
   - component: {fileID: 6707057013595148104}
   - component: {fileID: 5627625400837668525}
   - component: {fileID: 8227522214859382463}
-  - component: {fileID: 3374670474446421418}
   m_Layer: 10
   m_Name: InteractionIndicator
   m_TagString: Untagged
@@ -269,7 +265,6 @@ RectTransform:
   - {fileID: 519289638872304206}
   - {fileID: 5425066624622129853}
   m_Father: {fileID: 917703474356846031}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -293,7 +288,9 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -337,19 +334,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &3374670474446421418
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5959014897988472303}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f3003f63ec550d4fb5c792522b5dc2c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Cam: {fileID: 0}
 --- !u!1 &6654120719687330200
 GameObject:
   m_ObjectHideFlags: 0
@@ -359,11 +343,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 917703474356846031}
-  - component: {fileID: 1698158898588311447}
   - component: {fileID: 6895042550412453389}
   - component: {fileID: 4237684924723795662}
   - component: {fileID: 5726810175604717129}
-  - component: {fileID: 628241026744538030}
   m_Layer: 10
   m_Name: Bandage_item
   m_TagString: Untagged
@@ -378,6 +360,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6654120719687330200}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -386,25 +369,7 @@ Transform:
   - {fileID: 6599687258342018119}
   - {fileID: 8717808844462596640}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1698158898588311447
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6654120719687330200}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b91ecbcc199f4492b9a91e820070131, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneId: 0
-  serverOnly: 0
-  visible: 0
-  m_AssetId: 6827bc42587ca3d4b8744c9baf1a09c2
-  hasSpawned: 0
 --- !u!54 &6895042550412453389
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -412,10 +377,21 @@ Rigidbody:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6654120719687330200}
-  serializedVersion: 2
+  serializedVersion: 4
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -429,9 +405,17 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6654120719687330200}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
+  serializedVersion: 3
   m_Size: {x: 0.2, y: 0.2, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!135 &5726810175604717129
@@ -442,48 +426,19 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6654120719687330200}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
+  serializedVersion: 3
   m_Radius: 1.2
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &628241026744538030
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6654120719687330200}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52e88024d981c464aa929709421ba77f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  syncMode: 0
-  syncInterval: 0.1
-  icon: {fileID: 21300000, guid: 5799646b6d24c8d4984cd989cd6f72c5, type: 3}
-  interactionIndicator: {fileID: 5959014897988472303}
-  ItemName: bandage
-  Damage: 10
-  useCooldown: 0.1
-  canUsedByHunter: 0
-  canAim: 0
-  isAiming: 0
-  aimAnimatorTriggerName: BandageAim
-  idleAnimatorTriggerName: BandageIdle
-  firstPersonAimAnimatorTriggerName: FirstPersonBandageAim
-  firstPersonIdleAnimatorTriggerName: FirstPersonBandageIdle
-  leftHandPosition: {x: 0, y: 0, z: 0}
-  leftHandRotation: {x: 0, y: 0, z: 0, w: 0}
-  useOverrideController: 0
-  AnimatorController: {fileID: 0}
-  useAnimationLayer4WhenAiming: 0
-  followItemContainerPosition: 0
-  itemContainer: {fileID: 0}
-  itemContainerPositionIndex: 0
-  _itemMesh:
-  - {fileID: 7543753848786803023}
-  amountOfHealthToRegenerate: 50
 --- !u!1 &8166563421269015803
 GameObject:
   m_ObjectHideFlags: 0
@@ -515,7 +470,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6599687258342018119}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -585,13 +539,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8336216065235482778}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.6419734, y: -0.47921833, z: 0.3315849, w: 0.49826854}
   m_LocalPosition: {x: 0.08223, y: -0.01237, z: 0.01496}
   m_LocalScale: {x: 0.032597445, y: 0.032597445, z: 0.090353414}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 917703474356846031}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -18.781, y: -107.428, z: 92.673}
 --- !u!33 &5716259118193094021
 MeshFilter:

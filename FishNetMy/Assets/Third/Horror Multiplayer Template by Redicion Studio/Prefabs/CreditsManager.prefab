@@ -31,7 +31,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6415532184934970281}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -166,7 +165,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6415532184934970281}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -279,8 +277,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4557447731661457466}
-  - component: {fileID: 4557447731661457465}
-  - component: {fileID: 4557447731661457464}
   m_Layer: 0
   m_Name: CreditsManager
   m_TagString: Untagged
@@ -295,6 +291,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4557447731661457463}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -302,63 +299,7 @@ Transform:
   m_Children:
   - {fileID: 8202989338999817793}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4557447731661457465
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4557447731661457463}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcf8f98fd4c8de54899b382600c5e233, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  creditEntries:
-  - title: PRODUCER & GAME DESIGN
-    names:
-    - Florian Lauka
-    - Redicion Studio
-  - title: DEVELOPERS
-    names:
-    - Enter Name
-  - title: LEVEL DESIGN
-    names:
-    - Enter Name
-  - title: 2D/3D ARTISTS
-    names:
-    - Enter Name
-  - title: Animators
-    names:
-    - Enter Name
-  - title: Sound Designers
-    names:
-    - Enter Name
-  - title: 
-    names: []
---- !u!114 &4557447731661457464
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4557447731661457463}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5626f4b3d8ef6064db46f913d20a7c4b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  credits: {fileID: 4557447731661457465}
-  creditsText: {fileID: 4557447730905571772}
-  scrollSpeed: 50
-  startYPositionAddition: 230
-  startYPositionDeduction: 0
-  endYPositionAddition: 1300
-  endYPositionDeduction: 0
-  returnToMainMenuAfterCreditsEnded: 1
-  returnToMainMenuKey: 27
 --- !u!1 &4813692482236425603
 GameObject:
   m_ObjectHideFlags: 0
@@ -371,7 +312,6 @@ GameObject:
   - component: {fileID: 4924540038827232558}
   - component: {fileID: 8330173578307266703}
   - component: {fileID: 5126419463191631656}
-  - component: {fileID: 5530675940348313996}
   m_Layer: 0
   m_Name: UI
   m_TagString: Untagged
@@ -393,7 +333,6 @@ RectTransform:
   m_Children:
   - {fileID: 6415532184934970281}
   m_Father: {fileID: 4557447731661457466}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -417,7 +356,9 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 20
   m_TargetDisplay: 0
@@ -461,20 +402,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &5530675940348313996
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4813692482236425603}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a413c751a25988a44b21152fbade9662, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  infoText: {fileID: 0}
-  infoWindowAnimator: {fileID: 5080725966773726848}
 --- !u!1 &6018783106965078551
 GameObject:
   m_ObjectHideFlags: 0
@@ -507,7 +434,6 @@ RectTransform:
   - {fileID: 4557447730905571771}
   - {fileID: 2415700344913220809}
   m_Father: {fileID: 8202989338999817793}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -516,7 +442,7 @@ RectTransform:
   m_Pivot: {x: 0, y: 0}
 --- !u!95 &5080725966773726848
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -533,4 +459,5 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
