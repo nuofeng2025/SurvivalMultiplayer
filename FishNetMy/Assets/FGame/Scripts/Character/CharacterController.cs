@@ -14,7 +14,17 @@ namespace FGame
         private ControllerMode controllerMode;
 
 
+        public override void OnStartClient()
+        {
+            base.OnStartClient();
+            if (IsOwner)
+            {
+                //GameManager.Instance.cameraSystem.SetCameraTarget(this.transform);
+            
+            
+            }
 
+        }
 
 
 
