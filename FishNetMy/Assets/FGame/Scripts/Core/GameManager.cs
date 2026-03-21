@@ -13,7 +13,7 @@ namespace FGame
         #region ×é¼þ
 
         public CameraSystem cameraSystem;
-
+        public InputSystem inputSystem;
 
 
 
@@ -32,17 +32,11 @@ namespace FGame
             {
                 Destroy(this.gameObject);
             }
-        }
 
-        public void Init()
-        {
-            cameraSystem.Init();
-
-
-
-
+            Init();
 
         }
+
 
 
 
@@ -65,6 +59,15 @@ namespace FGame
 
         #region API
 
+        public void Init()
+        {
+            cameraSystem.Init();
+            inputSystem.Init();
+
+
+
+
+        }
 
         #endregion
 

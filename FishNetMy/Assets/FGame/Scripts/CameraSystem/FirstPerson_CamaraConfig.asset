@@ -12,3 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 384a6910469b4d845aa0924bf7f6e216, type: 3}
   m_Name: FirstPerson_CamaraConfig
   m_EditorClassIdentifier: 
+  cameraType: 0
+  CameraPointOffest: {x: 0, y: 0, z: 0}

@@ -3,7 +3,19 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Bullet
+  - Companion
+  - Generator
+  - Floor
+  - PlayerSpawnPoint
+  - BOTWAYPOINT
+  - Vehicle
+  - RepairCollider
+  - CinemachineTarget
+  - UI_Items
+  - CharacterCanvas
+  - ChatWindow
   layers:
   - Default
   - TransparentFX
@@ -13,7 +25,7 @@ TagManager:
   - UI
   - Player
   - Enemy
-  - 
+  - Ground
   - 
   - 
   - 
