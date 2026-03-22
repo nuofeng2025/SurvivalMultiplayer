@@ -14,4 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraType: 1
   CameraPointOffest: {x: 0.3, y: 1.5, z: 0}
-  CameraFollowOffest: {x: 0, y: 0, z: 0}
+  HorAngleClamp: {x: 0, y: 0}
+  VerAngleClamp: {x: 0, y: 0}

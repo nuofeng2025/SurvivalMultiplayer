@@ -79,9 +79,8 @@ namespace FGame
 
             base.OnStartClient();
             if (IsOwner)
-            {
-                GameManager.Instance.cameraSystem.SetCameraTarget(this.transform, CameraType.ThirdPerson);
-                controllerMode = ControllerMode.ThirdPerson;
+            {               
+                
             }
 
         }
@@ -121,8 +120,39 @@ namespace FGame
             characterController = GetComponent<UnityEngine.CharacterController>();
             rigidbody = GetComponent<Rigidbody>();
             animator = GetComponent<Animator>();
+            SwitchControllerType(ControllerMode.ThirdPerson);
+        }
+
+        /// <summary>
+        /// 切换角色控制模式
+        /// </summary>
+        public void SwitchControllerType(ControllerMode controllerMode)
+        {
+            this.controllerMode = controllerMode;
+            switch (this.controllerMode)
+            {
+                case ControllerMode.FirstPerson:
+
+
+
+
+                    break;
+
+                case ControllerMode.ThirdPerson:
+
+                    GameManager.Instance.cameraSystem.SetCameraTarget(this.transform, CameraType.ThirdPerson);
+
+
+                    break;
+
+            }
+
+
+
+
 
         }
+
 
 
         public void MoveCharacter(Vector2 dir)

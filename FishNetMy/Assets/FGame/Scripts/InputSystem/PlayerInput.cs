@@ -53,15 +53,25 @@ namespace FGame
                 characterController.MoveCharacter(MoveDir);
             }
 
-            if (LookDir.sqrMagnitude>0.1f)
+            if (Input.GetKey(KeyCode.Space))
             {
-                GameManager.Instance.cameraSystem.SetCameraRotate(LookDir);
+                // 添加这两行
+                Cursor.lockState = CursorLockMode.Locked;
+                Cursor.visible = false;
+
             }
 
 
-
-
         }
+
+
+        private void LateUpdate()
+        {
+            GameManager.Instance.cameraSystem.SetCameraRotate(LookDir);
+        }
+
+
+
         #endregion
 
 

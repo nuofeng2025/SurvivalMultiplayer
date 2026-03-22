@@ -61,6 +61,7 @@ namespace FGame
 
         public void Init()
         {
+         
             cameraSystem.Init();
             inputSystem.Init();
 

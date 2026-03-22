@@ -106,7 +106,7 @@ public partial class @MainInput: IInputActionCollection2, IDisposable
                     ""type"": ""Value"",
                     ""id"": ""eff7c53a-9ae5-4c59-8ca0-c4efdd7a2889"",
                     ""expectedControlType"": ""Vector2"",
-                    ""processors"": ""NormalizeVector2"",
+                    ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": true
                 }

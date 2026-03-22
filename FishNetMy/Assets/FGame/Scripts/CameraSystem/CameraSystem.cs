@@ -15,10 +15,35 @@ namespace FGame
         #region 参数
 
 
-        [BoxGroup("参数")]
+        [Title("参数")]
         [SerializeField]
         [LabelText("相机平滑值")]
-        private float CameraSmooth;
+        private float CameraSmooth =1;
+
+        [SerializeField]
+        [LabelText("相机速度")]
+        private float CameraSpeed;
+
+
+        [SerializeField]
+        [LabelText("水平灵敏度（度/秒）")]
+        [Range(50f, 500f)]
+        private float horizontalSensitivity = 200f;
+
+        [SerializeField]
+        [LabelText("垂直灵敏度（度/秒）")]
+        [Range(30f, 300f)]
+        private float verticalSensitivity = 150f;
+
+        [SerializeField]
+        [LabelText("最大旋转速度（度/秒）")]
+        [Range(0f, 720f)]
+        private float maxRotationSpeed = 360f;
+
+        [SerializeField]
+        [LabelText("最小输入阈值（度/秒）")]
+        private float minInputThreshold = 0.01f;
+
 
 
         [Title("状态")]
@@ -36,7 +61,7 @@ namespace FGame
         private CinemachineVirtualCamera CurCamera;
 
 
-        private Vector3 velocity = Vector3.zero;
+        private Vector3 velocity;
         private Vector3 TargetRotation;
 
 
@@ -83,19 +108,6 @@ namespace FGame
                 CameraFollowPointer.transform.position = CameraTarget.transform.position + CurCameraConfig.CameraPointOffest;
             }
 
-            //相机平滑移动至目标值
-            if (TargetRotation != CameraFollowPointer.transform.eulerAngles)
-            {
-                CameraFollowPointer.transform.eulerAngles = Vector3.SmoothDamp(
-                    CameraFollowPointer.transform.eulerAngles,
-                    TargetRotation,
-                    ref velocity,
-                    CameraSmooth
-                );
-            }
-
-
-
         }
 
 
@@ -141,17 +153,45 @@ namespace FGame
 
 
         public void SetCameraRotate(Vector2 CameraDelta)
-        {
-            var CurEulerAngles = CameraFollowPointer.transform.eulerAngles;
+        {      
+            Vector3 currentEuler = CameraFollowPointer.transform.eulerAngles;
+            float YawDelta = CameraDelta.x * horizontalSensitivity * Time.deltaTime;
+            float PitchDelta = CameraDelta.y * verticalSensitivity * Time.deltaTime;
 
-            var YAngleDelta = CameraDelta.x;
-            var XAngleDelta = CameraDelta.y;
+            YawDelta = Mathf.Clamp(YawDelta,-maxRotationSpeed, maxRotationSpeed);
+            PitchDelta = Mathf.Clamp(PitchDelta, -maxRotationSpeed, maxRotationSpeed);
 
-            TargetRotation = CurEulerAngles + new Vector3(XAngleDelta, YAngleDelta, 0); 
+            if (Mathf.Abs(YawDelta) < minInputThreshold)
+            {
+                YawDelta = 0;
+            }
+            if (Mathf.Abs(PitchDelta) < minInputThreshold)
+            {
+                PitchDelta = 0;
+            }
+
+
+
+            float targetYaw = currentEuler.y + YawDelta;
+            float targetPitch = currentEuler.x - PitchDelta;
+
+            targetPitch = AngleUtils.NormalizeAngleSigned(targetPitch);
+            targetYaw = AngleUtils.NormalizeAngle(targetYaw);
+            // 限制俯仰角
+            targetPitch = Mathf.Clamp(targetPitch, -89f, 89f);
+
+            // 使用工具类平滑
+            float smoothYaw = AngleUtils.SmoothDampAngle(
+                currentEuler.y, targetYaw, ref velocity.y, CameraSmooth
+            );
+
+            float smoothPitch = AngleUtils.SmoothDampAngle(
+                currentEuler.x, targetPitch, ref velocity.x, CameraSmooth
+            );
+
+            CameraFollowPointer.transform.eulerAngles = new Vector3(smoothPitch, smoothYaw, 0);
 
         }
-
-
 
 
 
