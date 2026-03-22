@@ -109,6 +109,15 @@ public partial class @MainInput: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""Spring"",
+                    ""type"": ""Button"",
+                    ""id"": ""3af058c5-a8dc-41f1-bc96-83bb7493557b"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -177,6 +186,17 @@ public partial class @MainInput: IInputActionCollection2, IDisposable
                     ""action"": ""LookDir"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""b27a0f6a-f73b-4f5f-8608-16527b224da8"",
+                    ""path"": ""<Keyboard>/shift"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Spring"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -187,6 +207,7 @@ public partial class @MainInput: IInputActionCollection2, IDisposable
         m_PlayerController = asset.FindActionMap("PlayerController", throwIfNotFound: true);
         m_PlayerController_Move = m_PlayerController.FindAction("Move", throwIfNotFound: true);
         m_PlayerController_LookDir = m_PlayerController.FindAction("LookDir", throwIfNotFound: true);
+        m_PlayerController_Spring = m_PlayerController.FindAction("Spring", throwIfNotFound: true);
     }
 
     ~@MainInput()
@@ -269,6 +290,7 @@ public partial class @MainInput: IInputActionCollection2, IDisposable
     private List<IPlayerControllerActions> m_PlayerControllerActionsCallbackInterfaces = new List<IPlayerControllerActions>();
     private readonly InputAction m_PlayerController_Move;
     private readonly InputAction m_PlayerController_LookDir;
+    private readonly InputAction m_PlayerController_Spring;
     /// <summary>
     /// Provides access to input actions defined in input action map "PlayerController".
     /// </summary>
@@ -288,6 +310,10 @@ public partial class @MainInput: IInputActionCollection2, IDisposable
         /// Provides access to the underlying input action "PlayerController/LookDir".
         /// </summary>
         public InputAction @LookDir => m_Wrapper.m_PlayerController_LookDir;
+        /// <summary>
+        /// Provides access to the underlying input action "PlayerController/Spring".
+        /// </summary>
+        public InputAction @Spring => m_Wrapper.m_PlayerController_Spring;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -320,6 +346,9 @@ public partial class @MainInput: IInputActionCollection2, IDisposable
             @LookDir.started += instance.OnLookDir;
             @LookDir.performed += instance.OnLookDir;
             @LookDir.canceled += instance.OnLookDir;
+            @Spring.started += instance.OnSpring;
+            @Spring.performed += instance.OnSpring;
+            @Spring.canceled += instance.OnSpring;
         }
 
         /// <summary>
@@ -337,6 +366,9 @@ public partial class @MainInput: IInputActionCollection2, IDisposable
             @LookDir.started -= instance.OnLookDir;
             @LookDir.performed -= instance.OnLookDir;
             @LookDir.canceled -= instance.OnLookDir;
+            @Spring.started -= instance.OnSpring;
+            @Spring.performed -= instance.OnSpring;
+            @Spring.canceled -= instance.OnSpring;
         }
 
         /// <summary>
@@ -391,5 +423,12 @@ public partial class @MainInput: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnLookDir(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "Spring" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnSpring(InputAction.CallbackContext context);
     }
 }

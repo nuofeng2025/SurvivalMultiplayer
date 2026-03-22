@@ -12,18 +12,26 @@ namespace FGame
         #region 参数
         [LabelText("移动方向")]
         [SerializeField]
-        private Vector2 MoveDir;
+        private Vector2 _moveDir;
 
         [LabelText("鼠标偏移量")]
         [SerializeField]
-        private Vector2 LookDir;
+        private Vector2 _lookDir;
+
+        [LabelText("是否奔跑")]
+        [SerializeField]
+        private bool _isSpring;
 
         //public static MainInput mainInput;
         #endregion
 
 
         #region 组件
-        private CharacterController characterController;
+
+
+        public Vector2 MoveDir { get => _moveDir;}
+        public Vector2 LookDir { get => _lookDir;}
+        public bool IsSpring { get => _isSpring;}
 
 
         #endregion
@@ -32,7 +40,6 @@ namespace FGame
         #region 生命周期
         private void Awake()
         {
-            characterController = GetComponent<CharacterController>();
         }
 
 
@@ -45,32 +52,10 @@ namespace FGame
 
         void Update()
         {
-            MoveDir = GameManager.Instance.inputSystem.GetMoveDir();
-            LookDir = GameManager.Instance.inputSystem.GetLookDir();
-
-            if (MoveDir.sqrMagnitude > 0)
-            {
-                characterController.MoveCharacter(MoveDir);
-            }
-
-            if (Input.GetKey(KeyCode.Space))
-            {
-                // 添加这两行
-                Cursor.lockState = CursorLockMode.Locked;
-                Cursor.visible = false;
-
-            }
-
-
+            _moveDir = GameManager.Instance.inputSystem.MoveDir;
+            _lookDir = GameManager.Instance.inputSystem.LookDir;
+            _isSpring = GameManager.Instance.inputSystem.IsSpring;
         }
-
-
-        private void LateUpdate()
-        {
-            GameManager.Instance.cameraSystem.SetCameraRotate(LookDir);
-        }
-
-
 
         #endregion
 

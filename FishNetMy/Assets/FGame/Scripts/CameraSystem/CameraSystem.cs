@@ -64,6 +64,12 @@ namespace FGame
         private Vector3 velocity;
         private Vector3 TargetRotation;
 
+        /// <summary>
+        /// 返回摄像机当前角度
+        /// </summary>
+        public Vector3 CameraAngle { get {
+                return CameraFollowPointer.eulerAngles;
+            }}
 
         #endregion
 
@@ -117,6 +123,11 @@ namespace FGame
 
         #region API
 
+        /// <summary>
+        /// 设置相机目标
+        /// </summary>
+        /// <param name="Target"></param>
+        /// <param name="cameraType"></param>
         public void SetCameraTarget(Transform Target,CameraType cameraType)
         {
             CameraTarget = Target;
@@ -151,7 +162,10 @@ namespace FGame
         }
 
 
-
+        /// <summary>
+        /// 旋转相机
+        /// </summary>
+        /// <param name="CameraDelta"></param>
         public void SetCameraRotate(Vector2 CameraDelta)
         {      
             Vector3 currentEuler = CameraFollowPointer.transform.eulerAngles;
@@ -169,8 +183,6 @@ namespace FGame
             {
                 PitchDelta = 0;
             }
-
-
 
             float targetYaw = currentEuler.y + YawDelta;
             float targetPitch = currentEuler.x - PitchDelta;
@@ -192,6 +204,14 @@ namespace FGame
             CameraFollowPointer.transform.eulerAngles = new Vector3(smoothPitch, smoothYaw, 0);
 
         }
+
+
+        public Vector3 GetCameraCurrentAngle()
+        {
+            return CameraFollowPointer.transform.eulerAngles;    
+        }
+
+
 
 
 

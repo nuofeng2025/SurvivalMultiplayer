@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/FishNet/Demos/Authenticator/Scenes/Authenticator.unity
-    guid: 0bc02b628363de5499d5e7c00bd63b1b
+    path: Assets/Third/Horror Multiplayer Template by Redicion Studio/Scenes/MainScene.unity
+    guid: eca77db3ffb0fe64bb79e3a27b115e9f
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 6b08822b4c982c34b85b5ea00baee54b, type: 3}

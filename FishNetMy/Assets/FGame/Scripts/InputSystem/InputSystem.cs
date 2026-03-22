@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Sirenix.OdinInspector;
+
 namespace FGame
 {
 
@@ -9,15 +10,16 @@ namespace FGame
     {
 
         #region 参数
-        
-
 
 
         [SerializeField]
-        private Vector2 MoveDir;
+        private Vector2 _MoveDir;
 
         [SerializeField]
-        private Vector2 LookDir;
+        private Vector2 _LookDir;
+
+        [SerializeField]
+        private bool _IsSpring;
 
 
 
@@ -27,6 +29,10 @@ namespace FGame
 
         #region 组件
         private MainInput _mainInput;
+
+        public Vector2 MoveDir { get => _MoveDir;}
+        public Vector2 LookDir { get => _LookDir;}
+        public bool IsSpring { get => _IsSpring; }
 
 
         #endregion
@@ -42,9 +48,9 @@ namespace FGame
         // Update is called once per frame
         void Update()
         {
-            MoveDir = _mainInput.PlayerController.Move.ReadValue<Vector2>();
-            LookDir = _mainInput.PlayerController.LookDir.ReadValue<Vector2>();
-
+            _MoveDir = _mainInput.PlayerController.Move.ReadValue<Vector2>();
+            _LookDir = _mainInput.PlayerController.LookDir.ReadValue<Vector2>();
+            _IsSpring = _mainInput.PlayerController.Spring.IsPressed();
 
         }
 
@@ -57,19 +63,6 @@ namespace FGame
             _mainInput = new MainInput();
             _mainInput.PlayerController.Enable();
         }
-
-
-        public Vector2 GetMoveDir()
-        {
-            return MoveDir.normalized;
-        }
-
-        public Vector2 GetLookDir()
-        {
-            return LookDir;
-        }
-
-
 
 
 
