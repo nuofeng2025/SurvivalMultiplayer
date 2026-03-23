@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 094d2155f07d99242a31358040c5f0fc
 ModelImporter:
-  serializedVersion: 21300
+  serializedVersion: 22200
   internalIDToNameTable:
   - first:
       74: 1827226128182048838
@@ -61,9 +61,9 @@ ModelImporter:
       loopBlendOrientation: 1
       loopBlendPositionY: 1
       loopBlendPositionXZ: 1
-      keepOriginalOrientation: 0
+      keepOriginalOrientation: 1
       keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
+      keepOriginalPositionXZ: 1
       heightFromFeet: 0
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
@@ -81,6 +81,7 @@ ModelImporter:
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
+    importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -108,6 +109,7 @@ ModelImporter:
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -1270,8 +1272,7 @@ ModelImporter:
     - name: abdomenUpper
       parentName: abdomenLower
       position: {x: 1.3322676e-17, y: 0.08431297, z: 0.005528889}
-      rotation: {x: -0.000000014551915, y: -0.000000005820766, z: 0.0000000049112714,
-        w: 1}
+      rotation: {x: -0.000000014551915, y: -0.000000005820766, z: 0.0000000049112714, w: 1}
       scale: {x: 1, y: 1, z: 1.0000001}
     - name: chestLower
       parentName: abdomenUpper
@@ -1286,8 +1287,7 @@ ModelImporter:
     - name: lCollar
       parentName: chestUpper
       position: {x: -0.04063411, y: 0.112847894, z: -0.011117239}
-      rotation: {x: 0.000000011641532, y: 0.000000005820766, z: -0.0000000043655746,
-        w: 1}
+      rotation: {x: 0.000000011641532, y: 0.000000005820766, z: -0.0000000043655746, w: 1}
       scale: {x: 1.0000001, y: 1, z: 1}
     - name: lShldrBend
       parentName: lCollar
@@ -1312,8 +1312,7 @@ ModelImporter:
     - name: lHand
       parentName: lForearmTwist
       position: {x: -0.10348442, y: -0.105605006, z: 0.036920868}
-      rotation: {x: -0.000000048428767, y: 0.00000004097819, z: -0.00000003329478,
-        w: 1}
+      rotation: {x: -0.000000048428767, y: 0.00000004097819, z: -0.00000003329478, w: 1}
       scale: {x: 0.9999999, y: 1.0000001, z: 1}
     - name: lThumb1
       parentName: lHand
@@ -1338,8 +1337,7 @@ ModelImporter:
     - name: lIndex1
       parentName: lCarpal1
       position: {x: -0.053609427, y: -0.05837799, z: 0.025346102}
-      rotation: {x: 0.000000026077029, y: -0.00000001117587, z: 0.00000003073364,
-        w: 1}
+      rotation: {x: 0.000000026077029, y: -0.00000001117587, z: 0.00000003073364, w: 1}
       scale: {x: 1.0000001, y: 1, z: 1}
     - name: lIndex2
       parentName: lIndex1
@@ -1349,8 +1347,7 @@ ModelImporter:
     - name: lIndex3
       parentName: lIndex2
       position: {x: -0.013496017, y: -0.01735527, z: 0.0029576826}
-      rotation: {x: -0.00000002607703, y: 0.000000011175871, z: 0.00000005983747,
-        w: 1}
+      rotation: {x: -0.00000002607703, y: 0.000000011175871, z: 0.00000005983747, w: 1}
       scale: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
     - name: lCarpal2
       parentName: lHand
@@ -1360,8 +1357,7 @@ ModelImporter:
     - name: lMid1
       parentName: lCarpal2
       position: {x: -0.0565406, y: -0.05891197, z: 0.012018311}
-      rotation: {x: 0.00000004842877, y: -0.000000074505806, z: 0.0000000065192545,
-        w: 1}
+      rotation: {x: 0.00000004842877, y: -0.000000074505806, z: 0.0000000065192545, w: 1}
       scale: {x: 0.9999999, y: 0.9999998, z: 1}
     - name: lMid2
       parentName: lMid1
@@ -1386,14 +1382,12 @@ ModelImporter:
     - name: lRing2
       parentName: lRing1
       position: {x: -0.027861975, y: -0.033579025, z: -0.00029073952}
-      rotation: {x: 0.00000003352761, y: -0.00000004842878, z: -0.000000115484006,
-        w: 1}
+      rotation: {x: 0.00000003352761, y: -0.00000004842878, z: -0.000000115484006, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: lRing3
       parentName: lRing2
       position: {x: -0.014768752, y: -0.018543396, z: 0.000082030296}
-      rotation: {x: -0.000000018626453, y: 0.00000003352762, z: -0.000000032829114,
-        w: 1}
+      rotation: {x: -0.000000018626453, y: 0.00000003352762, z: -0.000000032829114, w: 1}
       scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
     - name: lCarpal4
       parentName: lHand
@@ -1408,14 +1402,12 @@ ModelImporter:
     - name: lPinky2
       parentName: lPinky1
       position: {x: -0.019927902, y: -0.02315399, z: -0.0016508889}
-      rotation: {x: -0.000000003725288, y: 0.0000000037252916, z: -0.00000006030313,
-        w: 1}
+      rotation: {x: -0.000000003725288, y: 0.0000000037252916, z: -0.00000006030313, w: 1}
       scale: {x: 0.99999976, y: 0.9999999, z: 0.9999998}
     - name: lPinky3
       parentName: lPinky2
       position: {x: -0.011795998, y: -0.014240417, z: -0.0013700997}
-      rotation: {x: 0.0000000149011585, y: -0.000000014901159, z: 0.0000000013969838,
-        w: 1}
+      rotation: {x: 0.0000000149011585, y: -0.000000014901159, z: 0.0000000013969838, w: 1}
       scale: {x: 1.0000002, y: 1.0000004, z: 1.0000002}
     - name: rCollar
       parentName: chestUpper
@@ -1460,8 +1452,7 @@ ModelImporter:
     - name: rThumb3
       parentName: rThumb2
       position: {x: 0.00370089, y: -0.025371434, z: 0.019087147}
-      rotation: {x: -0.0000000707805, y: -0.000000044703473, z: 0.000000026629998,
-        w: 1}
+      rotation: {x: -0.0000000707805, y: -0.000000044703473, z: 0.000000026629998, w: 1}
       scale: {x: 1.0000001, y: 1, z: 1.0000002}
     - name: rCarpal1
       parentName: rHand
@@ -1471,20 +1462,17 @@ ModelImporter:
     - name: rIndex1
       parentName: rCarpal1
       position: {x: 0.053609427, y: -0.05837799, z: 0.025346102}
-      rotation: {x: -0.000000014901165, y: -0.00000009685753, z: 0.000000010244549,
-        w: 1}
+      rotation: {x: -0.000000014901165, y: -0.00000009685753, z: 0.000000010244549, w: 1}
       scale: {x: 1.0000001, y: 1, z: 1}
     - name: rIndex2
       parentName: rIndex1
       position: {x: 0.02605007, y: -0.03171562, z: 0.008003068}
-      rotation: {x: -0.000000014901152, y: 0.0000000745058, z: 0.000000052154057,
-        w: 1}
+      rotation: {x: -0.000000014901152, y: 0.0000000745058, z: 0.000000052154057, w: 1}
       scale: {x: 1.0000005, y: 1.0000001, z: 1.0000002}
     - name: rIndex3
       parentName: rIndex2
       position: {x: 0.013496017, y: -0.01735527, z: 0.0029576826}
-      rotation: {x: 0.0000000074505797, y: -0.00000003352761, z: -0.000000115949646,
-        w: 1}
+      rotation: {x: 0.0000000074505797, y: -0.00000003352761, z: -0.000000115949646, w: 1}
       scale: {x: 1.0000001, y: 1.0000001, z: 1.0000004}
     - name: rCarpal2
       parentName: rHand
@@ -1494,8 +1482,7 @@ ModelImporter:
     - name: rMid1
       parentName: rCarpal2
       position: {x: 0.0565406, y: -0.05891197, z: 0.012018311}
-      rotation: {x: -0.000000014901163, y: -0.00000006705522, z: 0.000000007450581,
-        w: 1}
+      rotation: {x: -0.000000014901163, y: -0.00000006705522, z: 0.000000007450581, w: 1}
       scale: {x: 1.0000004, y: 1, z: 1.0000001}
     - name: rMid2
       parentName: rMid1
@@ -1505,8 +1492,7 @@ ModelImporter:
     - name: rMid3
       parentName: rMid2
       position: {x: 0.015608597, y: -0.022233352, z: 0.0031025384}
-      rotation: {x: -0.00000001117587, y: 0.000000007450578, z: -0.00000006146728,
-        w: 1}
+      rotation: {x: -0.00000001117587, y: 0.000000007450578, z: -0.00000006146728, w: 1}
       scale: {x: 1.0000007, y: 1.0000002, z: 1.0000006}
     - name: rCarpal3
       parentName: rHand
@@ -1521,14 +1507,12 @@ ModelImporter:
     - name: rRing2
       parentName: rRing1
       position: {x: 0.027861975, y: -0.033579025, z: -0.00029073952}
-      rotation: {x: -0.000000059604638, y: -0.000000011175856, z: -0.000000030500807,
-        w: 1}
+      rotation: {x: -0.000000059604638, y: -0.000000011175856, z: -0.000000030500807, w: 1}
       scale: {x: 1.0000006, y: 1, z: 1.0000005}
     - name: rRing3
       parentName: rRing2
       position: {x: 0.014768752, y: -0.018543396, z: 0.000082030296}
-      rotation: {x: 0.0000000074505797, y: -0.000000007450589, z: -0.00000008870847,
-        w: 1}
+      rotation: {x: 0.0000000074505797, y: -0.000000007450589, z: -0.00000008870847, w: 1}
       scale: {x: 1.0000007, y: 1.0000002, z: 1.0000007}
     - name: rCarpal4
       parentName: rHand
@@ -1543,14 +1527,12 @@ ModelImporter:
     - name: rPinky2
       parentName: rPinky1
       position: {x: 0.019927902, y: -0.02315399, z: -0.0016508889}
-      rotation: {x: -0.000000044703484, y: -0.00000003352761, z: -0.00000011688097,
-        w: 1}
+      rotation: {x: -0.000000044703484, y: -0.00000003352761, z: -0.00000011688097, w: 1}
       scale: {x: 1.0000006, y: 1, z: 1.0000005}
     - name: rPinky3
       parentName: rPinky2
       position: {x: 0.011795998, y: -0.014240417, z: -0.0013700997}
-      rotation: {x: 0.00000002607703, y: 0.000000018626453, z: -0.000000001629815,
-        w: 1}
+      rotation: {x: 0.00000002607703, y: 0.000000018626453, z: -0.000000001629815, w: 1}
       scale: {x: 0.9999997, y: 0.99999994, z: 0.9999996}
     - name: neckLower
       parentName: chestUpper
@@ -1560,8 +1542,7 @@ ModelImporter:
     - name: neckUpper
       parentName: neckLower
       position: {x: -1.3322676e-17, y: 0.03526703, z: 0.02235095}
-      rotation: {x: 0.000000005820766, y: 0.0000000059117156, z: -0.0000000039790393,
-        w: 1}
+      rotation: {x: 0.000000005820766, y: 0.0000000059117156, z: -0.0000000039790393, w: 1}
       scale: {x: 0.99999994, y: 1.0000001, z: 1}
     - name: head
       parentName: neckUpper
@@ -1981,15 +1962,9 @@ ModelImporter:
   humanoidOversampling: 1
   avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 0
   remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 297297
-  packageName: Horror Multiplayer Game Template
-  packageVersion: 1.03
-  assetPath: Assets/Horror Multiplayer Template by Redicion Studio/Animation/Other/Movement(Old)/run_new4_anim.fbx
-  uploadId: 768075

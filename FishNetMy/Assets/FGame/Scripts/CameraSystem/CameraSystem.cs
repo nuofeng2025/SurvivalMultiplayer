@@ -111,7 +111,7 @@ namespace FGame
             //相机跟随目标
             if (CameraTarget!=null)
             {
-                CameraFollowPointer.transform.position = CameraTarget.transform.position + CurCameraConfig.CameraPointOffest;
+                CameraFollowPointer.transform.position = CalculateRightShoulderPosition();
             }
 
         }
@@ -213,7 +213,41 @@ namespace FGame
 
 
 
+        public Vector3 CalculateRightShoulderPosition()
+        {
 
+            // 获取相机跟随点的前向和右向向量（基于相机旋转）
+            Vector3 cameraForward = CameraFollowPointer.forward;
+            Vector3 cameraRight = CameraFollowPointer.right;
+
+            // 获取角色的上方向（通常是世界Y轴，但为了更准确，使用角色的上方向）
+            Vector3 characterUp = CameraTarget.up;
+
+            // 计算偏移方向：基于相机旋转的右侧，同时投影到水平面以防止倾斜
+            Vector3 horizontalRight = Vector3.ProjectOnPlane(cameraRight, characterUp).normalized;
+            Vector3 horizontalForward = Vector3.ProjectOnPlane(cameraForward, characterUp).normalized;
+
+            // 如果水平方向向量太小，使用默认值
+            if (horizontalRight.magnitude < 0.01f)
+                horizontalRight = CameraTarget.right;
+            if (horizontalForward.magnitude < 0.01f)
+                horizontalForward = CameraTarget.forward;
+
+            // 计算右肩偏移（基于相机旋转）
+            Vector3 offset = horizontalRight * CurCameraConfig.CameraPointOffest.x;
+
+            // 添加高度偏移（在世界Y轴上）
+            offset += Vector3.up * CurCameraConfig.CameraPointOffest.y;
+
+           /* // 可选：添加向前的偏移，使相机跟随点略微在角色前方
+            if (CurCameraConfig.ForwardOffset > 0)
+            {
+                offset += horizontalForward * CurCameraConfig.ForwardOffset;
+            }*/
+
+            // 返回角色位置加上计算出的偏移
+            return CameraTarget.position + offset;
+        }
 
 
 

@@ -54,12 +54,14 @@ namespace FGame
 
 
 
-        [BoxGroup("基础状态")]
+        [FoldoutGroup("基础状态")]
         [SerializeField]
-        [LabelText("在地面")]
         private bool IsGround;
+        [SerializeField]
         private bool IsMove;
+        [SerializeField]
         private bool IsRun;
+        [SerializeField]
         private bool IsWalk;
 
 
@@ -175,13 +177,21 @@ namespace FGame
 
                 float speedCurve = accelerationCurve.Evaluate(Mathf.Clamp01(playerInput.MoveDir.magnitude));
                 CurMoveSpeed = Mathf.Lerp(CurMoveSpeed, TargetSpeed * speedCurve, Time.deltaTime * 8f);
-
-
+                if (CurMoveSpeed > 0)
+                {
+                    IsMove = true;
+                }
                 characterMovement.MoveCharacter(characterController, targetAngle, RotateSmooth, CurMoveSpeed);
             }
             else
             {
                 CurMoveSpeed = Mathf.Lerp(CurMoveSpeed, 0, Time.deltaTime * 10f);
+                // 当速度足够小时，直接设为 0
+                if (CurMoveSpeed < 0.01f)
+                {
+                    CurMoveSpeed = 0;
+                    IsMove = false;
+                }
             }
 
             if (Input.GetKey(KeyCode.Space))
@@ -231,6 +241,9 @@ namespace FGame
         /// </summary>
         public void UpdateAnimator()
         {
+            characterAnimator.UpdateBaseMovePar(CurMoveSpeed,IsGround, IsMove);
+
+
 
         }
 
