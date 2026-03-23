@@ -12,6 +12,11 @@ namespace FGame
 
         #region 参数
 
+        [LabelText("库存大小")]
+        [ShowInInspector]
+        public readonly SyncVar<float> InventorySize = new SyncVar<float>();
+
+
         private int nextInstanceId = 1;
         private int secretKey = 0;  // 服务器启动时随机生成
 
@@ -33,7 +38,14 @@ namespace FGame
 
         #region 生命周期
 
+        public override void OnStartServer()
+        {
+            base.OnStartServer();
 
+
+
+
+        }
 
 
 
