@@ -21,19 +21,14 @@ namespace FGame
         private float CameraSmooth =1;
 
         [SerializeField]
-        [LabelText("相机速度")]
-        private float CameraSpeed;
-
-
-        [SerializeField]
         [LabelText("水平灵敏度（度/秒）")]
-        [Range(50f, 500f)]
-        private float horizontalSensitivity = 200f;
+        [Range(1f, 20f)]
+        private float horizontalSensitivity = 1f;
 
         [SerializeField]
         [LabelText("垂直灵敏度（度/秒）")]
-        [Range(30f, 300f)]
-        private float verticalSensitivity = 150f;
+        [Range(1f, 20f)]
+        private float verticalSensitivity = 1f;
 
         [SerializeField]
         [LabelText("最大旋转速度（度/秒）")]
@@ -169,8 +164,8 @@ namespace FGame
         public void SetCameraRotate(Vector2 CameraDelta)
         {      
             Vector3 currentEuler = CameraFollowPointer.transform.eulerAngles;
-            float YawDelta = CameraDelta.x * horizontalSensitivity * Time.deltaTime;
-            float PitchDelta = CameraDelta.y * verticalSensitivity * Time.deltaTime;
+            float YawDelta = CameraDelta.x * horizontalSensitivity ;
+            float PitchDelta = CameraDelta.y * verticalSensitivity ;
 
             YawDelta = Mathf.Clamp(YawDelta,-maxRotationSpeed, maxRotationSpeed);
             PitchDelta = Mathf.Clamp(PitchDelta, -maxRotationSpeed, maxRotationSpeed);

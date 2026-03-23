@@ -22,6 +22,12 @@ namespace FGame
         [SerializeField]
         private bool _isSpring;
 
+
+        public Vector2 MoveDir { get => _moveDir; }
+        public Vector2 LookDir { get => _lookDir; }
+        public bool IsSpring { get => _isSpring; }
+
+
         //public static MainInput mainInput;
         #endregion
 
@@ -29,9 +35,6 @@ namespace FGame
         #region ×é¼þ
 
 
-        public Vector2 MoveDir { get => _moveDir;}
-        public Vector2 LookDir { get => _lookDir;}
-        public bool IsSpring { get => _isSpring;}
 
 
         #endregion

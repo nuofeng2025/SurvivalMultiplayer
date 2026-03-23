@@ -63,7 +63,7 @@ namespace FGame
         private bool IsRun;
         [SerializeField]
         private bool IsWalk;
-
+        public bool _IsOwner;
 
 
 
@@ -122,15 +122,14 @@ namespace FGame
         {
             if (IsOwner)
             {
+
                 CheckGround();//地面检测
 
                 Move();//控制移动
 
                 UpdateAnimator();//更新动画
             }
-         
-
-
+          
         }
 
 

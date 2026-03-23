@@ -9,6 +9,10 @@ namespace FGame
     public class LootContainer : InventoryBase
     {
         #region 参数
+
+
+
+        [TitleGroup("物资生成")]
         [LabelText("生成类型")]
         [SerializeField] private LootGenerationType generationType = LootGenerationType.OnOpen;
 
@@ -21,6 +25,8 @@ namespace FGame
         /// <summary>
         /// 已生成
         /// </summary>
+        [SerializeField]
+        [LabelText("已生成")]
         private bool isLootGenerated = false;
 
         private float lastLootTime = 0;
@@ -94,4 +100,7 @@ namespace FGame
         [LabelText("打开时生成")]
         OnOpen          // 打开时生成（普通箱子、尸体）
     }
+
+    
+
 }

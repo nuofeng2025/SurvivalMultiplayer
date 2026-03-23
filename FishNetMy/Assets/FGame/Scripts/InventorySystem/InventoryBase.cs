@@ -12,9 +12,23 @@ namespace FGame
 
         #region 参数
 
+        [TitleGroup("库存基础设置")]
+        [LabelText("仓库名")]
+        public string InventoryName;
+
         [LabelText("库存大小")]
+        [SerializeField]
+        private int InventorySize;
+
+
+        [TitleGroup("同步数据")]
         [ShowInInspector]
-        public readonly SyncVar<float> InventorySize = new SyncVar<float>();
+        [LabelText("当前库存大小")]
+        private readonly SyncVar<int> InventorySize_SyncVar = new SyncVar<int>();
+
+        [LabelText("当前库存")]
+        [ShowInInspector]
+        private readonly SyncList<InventoryItem> InventoryItems_SyncVar = new();
 
 
         private int nextInstanceId = 1;
@@ -41,8 +55,7 @@ namespace FGame
         public override void OnStartServer()
         {
             base.OnStartServer();
-
-
+            InventorySize_SyncVar.Value = InventorySize;
 
 
         }
@@ -56,6 +69,23 @@ namespace FGame
 
 
         #region API
+
+
+
+        [ServerRpc]
+        public void AddItemServerRpc(InventoryItem item)
+        {
+
+
+
+        }
+
+
+
+
+
+
+
 
 
         #endregion

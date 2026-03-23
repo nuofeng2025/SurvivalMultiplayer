@@ -3095,6 +3095,7 @@ GameObject:
   - component: {fileID: 4398512387068531474}
   - component: {fileID: 8519148496570054305}
   - component: {fileID: 6257132069983251445}
+  - component: {fileID: 1424376168270349662}
   m_Layer: 6
   m_Name: Character1
   m_TagString: Player
@@ -3259,7 +3260,7 @@ MonoBehaviour:
   _initializeOrder: 0
   _preventDespawnOnDisconnect: 0
   _defaultDespawnType: 0
-  _initializedTimestamp: -8584273633792776167
+  _initializedTimestamp: -8584273239000624062
   NetworkObserver: {fileID: 0}
   _enablePrediction: 0
   _predictionType: 0
@@ -3282,7 +3283,7 @@ MonoBehaviour:
   SerializedTransformProperties:
     Position: {x: 2.0908303, y: 0.00000011920929, z: -2.911976}
     Rotation: {x: 0, y: 0, z: 0, w: 1}
-    Scale: {x: 1, y: 1, z: 1}
+    Scale: {x: 0.9, y: 0.9, z: 0.9}
     IsValid: 1
 --- !u!114 &256166714138970280
 MonoBehaviour:
@@ -3503,6 +3504,24 @@ MonoBehaviour:
   MoveSpeed_ParName: MoveSpeed
   IsGround_ParName: IsGround
   IsMove_ParName: IsMove
+--- !u!114 &1424376168270349662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3463584080839994185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67afe403e712b2842a23dff29f103fab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractionMask:
+    serializedVersion: 2
+    m_Bits: 512
+  ScreenCenterRayDistance: 4
+  CurInteractiveType: 0
+  OpenDrawUi: 0
 --- !u!1 &3556391095594025498
 GameObject:
   m_ObjectHideFlags: 0
