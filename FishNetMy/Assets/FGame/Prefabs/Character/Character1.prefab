@@ -3260,7 +3260,7 @@ MonoBehaviour:
   _initializeOrder: 0
   _preventDespawnOnDisconnect: 0
   _defaultDespawnType: 0
-  _initializedTimestamp: -8584273239000624062
+  _initializedTimestamp: -8584272371349470641
   NetworkObserver: {fileID: 0}
   _enablePrediction: 0
   _predictionType: 0
@@ -3431,6 +3431,7 @@ MonoBehaviour:
   IsMove: 0
   IsRun: 0
   IsWalk: 0
+  _IsOwner: 0
   OpenDrawUi: 1
 --- !u!114 &2793910071967818514
 MonoBehaviour:
@@ -3518,7 +3519,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   InteractionMask:
     serializedVersion: 2
-    m_Bits: 512
+    m_Bits: 513
   ScreenCenterRayDistance: 4
   CurInteractiveType: 0
   OpenDrawUi: 0

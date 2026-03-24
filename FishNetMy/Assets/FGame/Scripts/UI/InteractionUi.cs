@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
-using UnityGameFramework.Runtime;
+
 namespace FGame
 {
-    public class InteractionUi : UIFormLogic
+    public class InteractionUi : MonoBehaviour
     {
         public Image SearchUi;
 
@@ -20,31 +20,58 @@ namespace FGame
             
         }
 
-        protected override void OnInit(object userData)
+        private void Start()
         {
-            base.OnInit(userData);
-
-            Debug.Log("Interaction_Init");
             HideSearchUi();
         }
 
-        protected override void OnOpen(object userData)
+        public void Init()
         {
-            base.OnOpen(userData);
-        }
-
-        protected override void OnClose(bool isShutdown, object userData)
-        {
-            base.OnClose(isShutdown, userData);
+            EventController.InteractionCenterEnter.AddListener(ShowInteractionUi);
+            EventController.InteractionCenterLeave.AddListener(HideInteractionUi);
 
 
         }
 
-       
+
+
+        public void ShowInteractionUi(IInteractive interactive)
+        {
+            switch (interactive.Type)
+            {
+                case InteractiveType.SearchContainer:
+                    ShowSearchUi();
+                    break;
+            
+            }
+
+
+        
+        
+        }
+
+
+        public void HideInteractionUi(IInteractive interactive)
+        {
+            switch (interactive.Type)
+            {
+                case InteractiveType.SearchContainer:
+                    HideSearchUi();
+                    break;
+
+            }
+
+
+
+
+        }
+
+
         public void ShowSearchUi()
         {
             SearchUi.fillAmount = 0;
             SearchUi.gameObject.SetActive(true);
+            //GameManager.Instance.uiSystem.crosshair.SetActive(false);
         }
 
         public void HideSearchUi()
@@ -56,6 +83,7 @@ namespace FGame
             }
           
             SearchUi.gameObject.SetActive(false);
+            //GameManager.Instance.uiSystem.crosshair.SetActive(true);
         }
 
 
@@ -84,7 +112,11 @@ namespace FGame
                 });
         }
 
-
+        private void OnDestroy()
+        {
+            EventController.InteractionCenterEnter.RemoveListener(ShowInteractionUi);
+            EventController.InteractionCenterLeave.RemoveListener(HideInteractionUi);
+        }
 
     }
 

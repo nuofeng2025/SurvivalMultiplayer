@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Sirenix.OdinInspector;
-using UnityGameFramework.Runtime;
+using UnityEngine.Events;
 namespace FGame
 {
     public class CharacterInteraction : MonoBehaviour
@@ -27,13 +27,13 @@ namespace FGame
         [LabelText("当前交互物类型")]
         private InteractiveType CurInteractiveType;
 
-
         [TitleGroup("调试")]
         [SerializeField]
         [LabelText("开启调试Ui")]
         private bool OpenDrawUi;
 
         private RaycastHit ScreenCenterRayHitInfo;
+        private IInteractive LastRayCastInteractive;//最后检测到的交互物，用于显示
         #endregion
 
 
@@ -71,25 +71,72 @@ namespace FGame
 
             if (Physics.Raycast(ray, out ScreenCenterRayHitInfo, ScreenCenterRayDistance, InteractionMask))
             {
-                CurInteractive = ScreenCenterRayHitInfo.collider.GetComponent<IInteractive>();
-                
-                if (CurInteractive!=null)
+                var CurRayCastInteractive = ScreenCenterRayHitInfo.collider.GetComponent<IInteractive>();
+
+                //确保只执行一次
+                if (CurRayCastInteractive != null)
                 {
-                    switch (CurInteractive.Type)
+
+                    if (LastRayCastInteractive != null && LastRayCastInteractive!= CurRayCastInteractive)
                     {
-                        case InteractiveType.SearchContainer:
-                            CurInteractiveType = CurInteractive.Type;
 
-
-                            break;
-
+                       
+                        LastRayCastInteractive = CurRayCastInteractive;
+                        EventController.InteractionCenterEnter?.Invoke(LastRayCastInteractive);
+                        InitCurInteractive(LastRayCastInteractive);
 
                     }
+                    else
+                    {
+                        LastRayCastInteractive = CurRayCastInteractive;
+                        EventController.InteractionCenterEnter?.Invoke(LastRayCastInteractive);
+                        InitCurInteractive(LastRayCastInteractive);
+                    }                
                 }
-              
+                else
+                {
+                    //清空数据
+                    if (LastRayCastInteractive != null)
+                    {
+                        EventController.InteractionCenterLeave?.Invoke(LastRayCastInteractive);
+                        LastRayCastInteractive = null;
+                    }
+                }
+            }
+            else
+            {
+                //清空数据
+                if (LastRayCastInteractive!=null)
+                {
+                    EventController.InteractionCenterLeave?.Invoke(LastRayCastInteractive);
+                    LastRayCastInteractive = null;
+                }
+            }
+
+
+        }
+
+
+
+        public void InitCurInteractive(IInteractive CurRayCastInteractive)
+        {
+            switch (CurRayCastInteractive.Type)
+            {
+                case InteractiveType.SearchContainer:
+
+
+
+                    break;
+
 
             }
+
+
+
         }
+
+
+
 
 
         private void OnDrawGizmos()

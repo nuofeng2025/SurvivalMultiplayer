@@ -7,11 +7,15 @@ namespace FGame
     public class UiSystem : MonoBehaviour,ISystem
     {
         public InteractionUi interactionUi;
+        public GameObject crosshair;
+
+
 
         public void Init()
         {
-            
+            interactionUi.Init();
 
+     
 
 
 
@@ -19,9 +23,7 @@ namespace FGame
 
 
 
-
-
-        // Start is called before the first frame update
+            // Start is called before the first frame update
         void Start()
         {
 
@@ -29,17 +31,16 @@ namespace FGame
 
 
 
+        public void OnDestroy()
+        {
+            
+        }
 
 
 
 
 
 
-
-
-
-
-      
     }
 
 }

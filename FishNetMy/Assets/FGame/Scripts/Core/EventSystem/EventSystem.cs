@@ -2,21 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using UnityEngine.Events;
 namespace FGame
 {
-    public class EventController : IController
+    public static class EventController 
     {
-        public void Init()
-        {
-
-        }
 
 
-        //GameEvent
+
+        //中心交互检测事件
+
+        public static UnityEvent<IInteractive> InteractionCenterEnter = new UnityEvent<IInteractive>();//进入到检测
 
 
-        //Ui交互
-        public Action<IInteractive> InteractiveUi;
+        public static UnityEvent<IInteractive> InteractionCenterLeave = new UnityEvent<IInteractive>();//离开检测
 
 
 
