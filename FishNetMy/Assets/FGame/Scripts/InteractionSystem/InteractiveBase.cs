@@ -2,9 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Sirenix.OdinInspector;
+using FishNet.Object;
 namespace FGame
 {
-    public class InteractiveBase : MonoBehaviour, IInteractive
+    public class InteractiveBase : NetworkBehaviour, IInteractive
     {
 
         #region 参数
@@ -14,10 +15,36 @@ namespace FGame
         private InteractiveType interactiveType;
 
         [SerializeField]
-        [LabelText("交互者")]
+        [LabelText("交互时间(为0瞬间完成交互)")]
+        private float InteractionTime;
+
+        [SerializeField]
+        [LabelText("能否交互")]
+        private bool OpenInteraction;
+
+
+        [TitleGroup("交互状态")]
+        [SerializeField]
+        [LabelText("当前交互者")]
         private GameObject CurInteractionObj;
 
+        [SerializeField]
+        [LabelText("剩余交互时间")]
+        private float RemainInteractionTime;
+
+
+
         InteractiveType IInteractive.Type => interactiveType;
+
+        public virtual  void Interaction(GameObject obj)
+        {
+            
+
+
+
+        }
+
+
 
         #endregion
 
@@ -33,13 +60,7 @@ namespace FGame
 
 
         #region API
-        public  virtual void Interaction(GameObject obj)
-        {
-            CurInteractionObj = obj;
 
-
-
-        }
 
 
 

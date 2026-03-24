@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Sirenix.OdinInspector;
-
+using UnityGameFramework.Runtime;
 namespace FGame
 {
     public class GameManager : MonoBehaviour
@@ -39,7 +39,12 @@ namespace FGame
 
 
 
+        private void Start()
+        {
 
+            GameEntry.GetComponent<UIComponent>().OpenUIForm("UiName","Bottom");
+
+        }
 
 
 
@@ -64,8 +69,7 @@ namespace FGame
          
             cameraSystem.Init();
             inputSystem.Init();
-
-
+            
 
 
         }

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Sirenix.OdinInspector;
-
+using UnityGameFramework.Runtime;
 namespace FGame
 {
     public class CharacterInteraction : MonoBehaviour
@@ -72,13 +72,15 @@ namespace FGame
             if (Physics.Raycast(ray, out ScreenCenterRayHitInfo, ScreenCenterRayDistance, InteractionMask))
             {
                 CurInteractive = ScreenCenterRayHitInfo.collider.GetComponent<IInteractive>();
-
+                
                 if (CurInteractive!=null)
                 {
                     switch (CurInteractive.Type)
                     {
-                        case InteractiveType.Table:
-                            CurInteractiveType = InteractiveType.Table;
+                        case InteractiveType.SearchContainer:
+                            CurInteractiveType = CurInteractive.Type;
+
+
                             break;
 
 

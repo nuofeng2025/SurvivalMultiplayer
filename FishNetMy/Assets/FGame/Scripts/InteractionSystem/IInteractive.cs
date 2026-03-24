@@ -25,6 +25,13 @@ namespace FGame
         [LabelText("ÎÞ")]
         NUll,
 
+
+        /// <summary>
+        /// ¿ÉËÑË÷ÈÝÆ÷
+        /// </summary>
+        [LabelText("¿ÉËÑË÷ÈÝÆ÷")]
+        SearchContainer,
+
         /// <summary>
         /// ×À×Ó
         /// </summary>
