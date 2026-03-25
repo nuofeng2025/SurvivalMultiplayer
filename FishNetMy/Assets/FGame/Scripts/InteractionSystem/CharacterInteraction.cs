@@ -78,18 +78,16 @@ namespace FGame
                 {
 
                     if (LastRayCastInteractive != null && LastRayCastInteractive!= CurRayCastInteractive)
-                    {
-
-                       
+                    {                      
                         LastRayCastInteractive = CurRayCastInteractive;
-                        EventController.InteractionCenterEnter?.Invoke(LastRayCastInteractive);
+                        FGFramework.Ins.GetCtr<EventController>().InteractionCenterEnter?.Invoke(LastRayCastInteractive);
                         InitCurInteractive(LastRayCastInteractive);
 
                     }
                     else
                     {
                         LastRayCastInteractive = CurRayCastInteractive;
-                        EventController.InteractionCenterEnter?.Invoke(LastRayCastInteractive);
+                        FGFramework.Ins.GetCtr<EventController>().InteractionCenterEnter?.Invoke(LastRayCastInteractive);
                         InitCurInteractive(LastRayCastInteractive);
                     }                
                 }
@@ -98,7 +96,7 @@ namespace FGame
                     //清空数据
                     if (LastRayCastInteractive != null)
                     {
-                        EventController.InteractionCenterLeave?.Invoke(LastRayCastInteractive);
+                        FGFramework.Ins.GetCtr<EventController>().InteractionCenterLeave?.Invoke(LastRayCastInteractive);
                         LastRayCastInteractive = null;
                     }
                 }
@@ -108,7 +106,7 @@ namespace FGame
                 //清空数据
                 if (LastRayCastInteractive!=null)
                 {
-                    EventController.InteractionCenterLeave?.Invoke(LastRayCastInteractive);
+                    FGFramework.Ins.GetCtr<EventController>().InteractionCenterLeave?.Invoke(LastRayCastInteractive);
                     LastRayCastInteractive = null;
                 }
             }

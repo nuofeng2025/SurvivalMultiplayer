@@ -1,0 +1,218 @@
+[
+  {
+    "ID": 1,
+    "DoSkill": 623,
+    "Name": "刺客信条",
+    "Quality": 5,
+    "Icon": "cikexintiao",
+    "SkillNum": 4,
+    "SkillChild": "508+502+521+523+182+185+112"
+  },
+  {
+    "ID": 2,
+    "DoSkill": 607,
+    "Name": "射手之魂",
+    "Quality": 5,
+    "Icon": "sheshouzhihun",
+    "SkillNum": 4,
+    "SkillChild": "212+191+192+193+194+195"
+  },
+  {
+    "ID": 3,
+    "DoSkill": 614,
+    "Name": "光速剑",
+    "Quality": 5,
+    "Icon": "guangsujian",
+    "SkillNum": 4,
+    "SkillChild": "514+103+149+147+181+565"
+  },
+  {
+    "ID": 4,
+    "DoSkill": 612,
+    "Name": "成长法师",
+    "Quality": 5,
+    "Icon": "wuxianlan",
+    "SkillNum": 4,
+    "SkillChild": "101+524+130+210+566+520+569"
+  },
+  {
+    "ID": 5,
+    "DoSkill": 606,
+    "Name": "战神",
+    "Quality": 5,
+    "Icon": "zhanshen",
+    "SkillNum": 4,
+    "SkillChild": "511+526+108+152+214+102"
+  },
+  {
+    "ID": 6,
+    "DoSkill": 609,
+    "Name": "屠龙者",
+    "Quality": 5,
+    "Icon": "tulongzhe",
+    "SkillNum": 4,
+    "SkillChild": "501+518+504+105+125+128+519"
+  },
+  {
+    "ID": 7,
+    "DoSkill": 617,
+    "Name": "地形大师",
+    "Quality": 4,
+    "Icon": "dixingdashi",
+    "SkillNum": 3,
+    "SkillChild": "123+169+571+170+562"
+  },
+  {
+    "ID": 8,
+    "DoSkill": 603,
+    "Name": "黑之统帅",
+    "Quality": 4,
+    "Icon": "heizhitongshuai",
+    "SkillNum": 4,
+    "SkillChild": "529+179+190+160+121+141"
+  },
+  {
+    "ID": 9,
+    "DoSkill": 605,
+    "Name": "大统帅",
+    "Quality": 4,
+    "Icon": "datongshuai",
+    "SkillNum": 4,
+    "SkillChild": "183+184+186+188+189+506"
+  },
+  {
+    "ID": 10,
+    "DoSkill": 618,
+    "Name": "战法",
+    "Quality": 4,
+    "Icon": "zhanfa",
+    "SkillNum": 4,
+    "SkillChild": "133+135+572+119+510+901"
+  },
+  {
+    "ID": 11,
+    "DoSkill": 610,
+    "Name": "收割者",
+    "Quality": 4,
+    "Icon": "shougezhe",
+    "SkillNum": 4,
+    "SkillChild": "165+167+560+512+163+126"
+  },
+  {
+    "ID": 12,
+    "DoSkill": 611,
+    "Name": "刷新",
+    "Quality": 4,
+    "Icon": "shuaxin",
+    "SkillNum": 4,
+    "SkillChild": "166+168+180+503+150+153"
+  },
+  {
+    "ID": 13,
+    "DoSkill": 613,
+    "Name": "以弱胜强",
+    "Quality": 4,
+    "Icon": "yiruoshengqiang",
+    "SkillNum": 4,
+    "SkillChild": "207+208+209+155+154+161"
+  },
+  {
+    "ID": 14,
+    "DoSkill": 615,
+    "Name": "行者",
+    "Quality": 4,
+    "Icon": "xingzhe",
+    "SkillNum": 4,
+    "SkillChild": "522+120+173+187+162+525"
+  },
+  {
+    "ID": 15,
+    "DoSkill": 602,
+    "Name": "大召唤师",
+    "Quality": 4,
+    "Icon": "dazhaohuanshi",
+    "SkillNum": 4,
+    "SkillChild": "905+142+143+527+528+906"
+  },
+  {
+    "ID": 16,
+    "DoSkill": 902,
+    "Name": "天使之约",
+    "Quality": 4,
+    "Icon": "tianshizhiyue",
+    "SkillNum": 4,
+    "SkillChild": "113+509+122+115+118+549+563"
+  },
+  {
+    "ID": 17,
+    "DoSkill": 622,
+    "Name": "恶魔部队",
+    "Quality": 4,
+    "Icon": "emobudui",
+    "SkillNum": 4,
+    "SkillChild": "567+570+505+196+197+198+199"
+  },
+  {
+    "ID": 18,
+    "DoSkill": 616,
+    "Name": "异灵克星",
+    "Quality": 3,
+    "Icon": "wanglingkexing",
+    "SkillNum": 3,
+    "SkillChild": "172+124+507+106+564"
+  },
+  {
+    "ID": 19,
+    "DoSkill": 619,
+    "Name": "攻城大师",
+    "Quality": 3,
+    "Icon": "gongchengdashi",
+    "SkillNum": 4,
+    "SkillChild": "145+146+157+127+104+107+517"
+  },
+  {
+    "ID": 20,
+    "DoSkill": 608,
+    "Name": "核爆",
+    "Quality": 3,
+    "Icon": "hebao",
+    "SkillNum": 3,
+    "SkillChild": "171+134+211+215+216"
+  },
+  {
+    "ID": 21,
+    "DoSkill": 601,
+    "Name": "大魔法书",
+    "Quality": 3,
+    "Icon": "damofashu",
+    "SkillNum": 4,
+    "SkillChild": "129+131+110+111+116+117+144"
+  },
+  {
+    "ID": 22,
+    "DoSkill": 604,
+    "Name": "骑士长",
+    "Quality": 3,
+    "Icon": "qishizhang",
+    "SkillNum": 4,
+    "SkillChild": "148+158+151+156+114+515+159"
+  },
+  {
+    "ID": 23,
+    "DoSkill": 621,
+    "Name": "魔法之源",
+    "Quality": 3,
+    "Icon": "mofazhiyuan",
+    "SkillNum": 3,
+    "SkillChild": "136+137+139+140+568"
+  },
+  {
+    "ID": 24,
+    "DoSkill": 620,
+    "Name": "土系法师",
+    "Quality": 3,
+    "Icon": "tuxifashi",
+    "SkillNum": 3,
+    "SkillChild": "904+138+109+164+907"
+  }
+]

@@ -1,0 +1,1738 @@
+[
+  {
+    "Attributeid": 1,
+    "type": 1,
+    "Desc": "生命",
+    "TypeHero": 0,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 2,
+    "type": 1,
+    "Desc": "攻击",
+    "TypeHero": 0,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 3,
+    "type": 1,
+    "Desc": "物防",
+    "TypeHero": 0,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 4,
+    "type": 1,
+    "Desc": "魔力",
+    "TypeHero": 0,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 5,
+    "type": 1,
+    "Desc": "移速",
+    "TypeHero": 0,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 6,
+    "type": 1,
+    "Desc": "射程",
+    "TypeHero": 0,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 7,
+    "type": 1,
+    "Desc": "攻速",
+    "TypeHero": 0,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 8,
+    "type": 2,
+    "Desc": "物免",
+    "TypeHero": 0,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 9,
+    "type": 2,
+    "Desc": "普攻增伤",
+    "TypeHero": 0,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 10,
+    "type": 2,
+    "Desc": "魔免",
+    "TypeHero": 0,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 11,
+    "type": 2,
+    "Desc": "法术增伤",
+    "TypeHero": 0,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 12,
+    "type": 2,
+    "Desc": "暴击",
+    "TypeHero": 0,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 13,
+    "type": 2,
+    "Desc": "暴伤",
+    "TypeHero": 0,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 14,
+    "type": 1,
+    "Desc": "吸血",
+    "TypeHero": 0,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 15,
+    "type": 1,
+    "Desc": "物穿",
+    "TypeHero": 0,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 16,
+    "type": 1,
+    "Desc": "韧性",
+    "TypeHero": 0,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 17,
+    "type": 1,
+    "Desc": "魔穿",
+    "TypeHero": 0,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 18,
+    "type": 2,
+    "Desc": "闪避",
+    "TypeHero": 0,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 19,
+    "type": 2,
+    "Desc": "命中",
+    "TypeHero": 0,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 20,
+    "type": 1,
+    "Desc": "反伤",
+    "TypeHero": 0,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 21,
+    "type": 1,
+    "Desc": "真实伤害",
+    "TypeHero": 0,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 22,
+    "type": 1,
+    "Desc": "士兵生命",
+    "TypeHero": 0,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 23,
+    "type": 1,
+    "Desc": "士兵攻击",
+    "TypeHero": 0,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 24,
+    "type": 1,
+    "Desc": "士兵物防",
+    "TypeHero": 0,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 25,
+    "type": 1,
+    "Desc": "英雄生命恢复",
+    "TypeHero": 0,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 26,
+    "type": 1,
+    "Desc": "士兵生命恢复",
+    "TypeHero": 0,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 27,
+    "type": 1,
+    "Desc": "魔防",
+    "TypeHero": 0,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 28,
+    "type": 1,
+    "Desc": "技巧",
+    "TypeHero": 0,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 29,
+    "type": 1,
+    "Desc": "士兵魔攻",
+    "TypeHero": 0,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 30,
+    "type": 1,
+    "Desc": "士兵魔防",
+    "TypeHero": 0,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 31,
+    "type": 2,
+    "Desc": "生命",
+    "TypeHero": 0,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 32,
+    "type": 2,
+    "Desc": "物攻",
+    "TypeHero": 0,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 33,
+    "type": 2,
+    "Desc": "物防",
+    "TypeHero": 0,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 34,
+    "type": 2,
+    "Desc": "魔攻",
+    "TypeHero": 0,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 35,
+    "type": 2,
+    "Desc": "魔防",
+    "TypeHero": 0,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 36,
+    "type": 2,
+    "Desc": "士兵生命百分比",
+    "TypeHero": 0,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 37,
+    "type": 2,
+    "Desc": "士兵攻击百分比",
+    "TypeHero": 0,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 38,
+    "type": 2,
+    "Desc": "士兵防御百分比",
+    "TypeHero": 0,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 39,
+    "type": 2,
+    "Desc": "士兵魔防百分比",
+    "TypeHero": 0,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 40,
+    "type": 2,
+    "Desc": "士兵魔力百分比",
+    "TypeHero": 0,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 101,
+    "type": 1,
+    "Desc": "步兵生命",
+    "TypeHero": 1,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 102,
+    "type": 1,
+    "Desc": "步兵攻击",
+    "TypeHero": 1,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 103,
+    "type": 1,
+    "Desc": "步兵防御",
+    "TypeHero": 1,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 104,
+    "type": 1,
+    "Desc": "步兵魔防",
+    "TypeHero": 1,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 105,
+    "type": 1,
+    "Desc": "步兵魔力",
+    "TypeHero": 1,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 106,
+    "type": 2,
+    "Desc": "步兵生命百分比",
+    "TypeHero": 1,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 107,
+    "type": 2,
+    "Desc": "步兵攻击百分比",
+    "TypeHero": 1,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 108,
+    "type": 2,
+    "Desc": "步兵防御百分比",
+    "TypeHero": 1,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 109,
+    "type": 2,
+    "Desc": "步兵魔防百分比",
+    "TypeHero": 1,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 110,
+    "type": 1,
+    "Desc": "步兵魔力百分比",
+    "TypeHero": 1,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 111,
+    "type": 1,
+    "Desc": "骑兵生命",
+    "TypeHero": 2,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 112,
+    "type": 1,
+    "Desc": "骑兵攻击",
+    "TypeHero": 2,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 113,
+    "type": 1,
+    "Desc": "骑兵防御",
+    "TypeHero": 2,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 114,
+    "type": 1,
+    "Desc": "骑兵魔防",
+    "TypeHero": 2,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 115,
+    "type": 1,
+    "Desc": "骑兵魔力",
+    "TypeHero": 2,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 116,
+    "type": 2,
+    "Desc": "骑兵生命百分比",
+    "TypeHero": 2,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 117,
+    "type": 2,
+    "Desc": "骑兵攻击百分比",
+    "TypeHero": 2,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 118,
+    "type": 2,
+    "Desc": "骑兵防御百分比",
+    "TypeHero": 2,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 119,
+    "type": 2,
+    "Desc": "骑兵魔防百分比",
+    "TypeHero": 2,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 120,
+    "type": 2,
+    "Desc": "骑兵魔力百分比",
+    "TypeHero": 2,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 121,
+    "type": 1,
+    "Desc": "弓兵生命",
+    "TypeHero": 3,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 122,
+    "type": 1,
+    "Desc": "弓兵攻击",
+    "TypeHero": 3,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 123,
+    "type": 1,
+    "Desc": "弓兵防御",
+    "TypeHero": 3,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 124,
+    "type": 1,
+    "Desc": "弓兵魔防",
+    "TypeHero": 3,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 125,
+    "type": 1,
+    "Desc": "弓兵魔力",
+    "TypeHero": 3,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 126,
+    "type": 2,
+    "Desc": "弓兵生命百分比",
+    "TypeHero": 3,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 127,
+    "type": 2,
+    "Desc": "弓兵攻击百分比",
+    "TypeHero": 3,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 128,
+    "type": 2,
+    "Desc": "弓兵防御百分比",
+    "TypeHero": 3,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 129,
+    "type": 2,
+    "Desc": "弓兵魔防百分比",
+    "TypeHero": 3,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 130,
+    "type": 2,
+    "Desc": "弓兵魔力百分比",
+    "TypeHero": 3,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 131,
+    "type": 1,
+    "Desc": "飞兵生命",
+    "TypeHero": 4,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 132,
+    "type": 1,
+    "Desc": "飞兵攻击",
+    "TypeHero": 4,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 133,
+    "type": 1,
+    "Desc": "飞兵防御",
+    "TypeHero": 4,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 134,
+    "type": 1,
+    "Desc": "飞兵魔防",
+    "TypeHero": 4,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 135,
+    "type": 1,
+    "Desc": "飞兵魔力",
+    "TypeHero": 4,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 136,
+    "type": 2,
+    "Desc": "飞兵生命百分比",
+    "TypeHero": 4,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 137,
+    "type": 2,
+    "Desc": "飞兵攻击百分比",
+    "TypeHero": 4,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 138,
+    "type": 2,
+    "Desc": "飞兵防御百分比",
+    "TypeHero": 4,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 139,
+    "type": 2,
+    "Desc": "飞兵魔防百分比",
+    "TypeHero": 4,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 140,
+    "type": 2,
+    "Desc": "飞兵魔力百分比",
+    "TypeHero": 4,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 141,
+    "type": 1,
+    "Desc": "牧师生命",
+    "TypeHero": 6,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 142,
+    "type": 1,
+    "Desc": "牧师攻击",
+    "TypeHero": 6,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 143,
+    "type": 1,
+    "Desc": "牧师防御",
+    "TypeHero": 6,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 144,
+    "type": 1,
+    "Desc": "牧师魔防",
+    "TypeHero": 6,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 145,
+    "type": 1,
+    "Desc": "牧师魔力",
+    "TypeHero": 6,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 146,
+    "type": 2,
+    "Desc": "牧师生命百分比",
+    "TypeHero": 6,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 147,
+    "type": 2,
+    "Desc": "牧师攻击百分比",
+    "TypeHero": 6,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 148,
+    "type": 2,
+    "Desc": "牧师防御百分比",
+    "TypeHero": 6,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 149,
+    "type": 2,
+    "Desc": "牧师魔防百分比",
+    "TypeHero": 6,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 150,
+    "type": 2,
+    "Desc": "牧师魔力百分比",
+    "TypeHero": 6,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 151,
+    "type": 1,
+    "Desc": "法师生命",
+    "TypeHero": 5,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 152,
+    "type": 1,
+    "Desc": "法师攻击",
+    "TypeHero": 5,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 153,
+    "type": 1,
+    "Desc": "法师防御",
+    "TypeHero": 5,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 154,
+    "type": 1,
+    "Desc": "法师魔防",
+    "TypeHero": 5,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 155,
+    "type": 1,
+    "Desc": "法师魔力",
+    "TypeHero": 5,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 156,
+    "type": 2,
+    "Desc": "法师生命百分比",
+    "TypeHero": 5,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 157,
+    "type": 2,
+    "Desc": "法师攻击百分比",
+    "TypeHero": 5,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 158,
+    "type": 2,
+    "Desc": "法师防御百分比",
+    "TypeHero": 5,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 159,
+    "type": 2,
+    "Desc": "法师魔防百分比",
+    "TypeHero": 5,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 160,
+    "type": 2,
+    "Desc": "法师魔力百分比",
+    "TypeHero": 5,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 161,
+    "type": 1,
+    "Desc": "野兽生命",
+    "TypeHero": 8,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 162,
+    "type": 1,
+    "Desc": "野兽攻击",
+    "TypeHero": 8,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 163,
+    "type": 1,
+    "Desc": "野兽防御",
+    "TypeHero": 8,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 164,
+    "type": 1,
+    "Desc": "野兽魔防",
+    "TypeHero": 8,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 165,
+    "type": 1,
+    "Desc": "野兽魔力",
+    "TypeHero": 8,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 166,
+    "type": 2,
+    "Desc": "野兽生命百分比",
+    "TypeHero": 8,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 167,
+    "type": 2,
+    "Desc": "野兽攻击百分比",
+    "TypeHero": 8,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 168,
+    "type": 2,
+    "Desc": "野兽防御百分比",
+    "TypeHero": 8,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 169,
+    "type": 2,
+    "Desc": "野兽魔防百分比",
+    "TypeHero": 8,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 170,
+    "type": 2,
+    "Desc": "野兽魔力百分比",
+    "TypeHero": 8,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 171,
+    "type": 1,
+    "Desc": "魔物生命",
+    "TypeHero": 7,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 172,
+    "type": 1,
+    "Desc": "魔物攻击",
+    "TypeHero": 7,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 173,
+    "type": 1,
+    "Desc": "魔物防御",
+    "TypeHero": 7,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 174,
+    "type": 1,
+    "Desc": "魔物魔防",
+    "TypeHero": 7,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 175,
+    "type": 1,
+    "Desc": "魔物魔力",
+    "TypeHero": 7,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 176,
+    "type": 2,
+    "Desc": "魔物生命百分比",
+    "TypeHero": 7,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 177,
+    "type": 2,
+    "Desc": "魔物攻击百分比",
+    "TypeHero": 7,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 178,
+    "type": 2,
+    "Desc": "魔物防御百分比",
+    "TypeHero": 7,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 179,
+    "type": 2,
+    "Desc": "魔物魔防百分比",
+    "TypeHero": 7,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 180,
+    "type": 2,
+    "Desc": "魔物魔力百分比",
+    "TypeHero": 7,
+    "SoldierId": 0,
+    "type1": 0
+  },
+  {
+    "Attributeid": 1001,
+    "type": 2,
+    "Desc": "皇室禁卫生命百分比",
+    "TypeHero": 0,
+    "SoldierId": 131001,
+    "type1": 5
+  },
+  {
+    "Attributeid": 1002,
+    "type": 2,
+    "Desc": "刀锋战士全属性百分比",
+    "TypeHero": 0,
+    "SoldierId": 131002,
+    "type1": 5
+  },
+  {
+    "Attributeid": 1003,
+    "type": 2,
+    "Desc": "格斗专家全属性百分比",
+    "TypeHero": 0,
+    "SoldierId": 131003,
+    "type1": 5
+  },
+  {
+    "Attributeid": 1004,
+    "type": 2,
+    "Desc": "将军全属性百分比",
+    "TypeHero": 0,
+    "SoldierId": 131004,
+    "type1": 5
+  },
+  {
+    "Attributeid": 1005,
+    "type": 2,
+    "Desc": "皇家骑士全属性百分比",
+    "TypeHero": 0,
+    "SoldierId": 231001,
+    "type1": 5
+  },
+  {
+    "Attributeid": 1006,
+    "type": 2,
+    "Desc": "黑暗骑士全属性百分比",
+    "TypeHero": 0,
+    "SoldierId": 231002,
+    "type1": 5
+  },
+  {
+    "Attributeid": 1007,
+    "type": 2,
+    "Desc": "守护骑士全属性百分比",
+    "TypeHero": 0,
+    "SoldierId": 231003,
+    "type1": 5
+  },
+  {
+    "Attributeid": 1008,
+    "type": 2,
+    "Desc": "幻影射手全属性百分比",
+    "TypeHero": 0,
+    "SoldierId": 331001,
+    "type1": 5
+  },
+  {
+    "Attributeid": 1009,
+    "type": 2,
+    "Desc": "巡游射手全属性百分比",
+    "TypeHero": 0,
+    "SoldierId": 331002,
+    "type1": 5
+  },
+  {
+    "Attributeid": 1010,
+    "type": 2,
+    "Desc": "影全属性百分比",
+    "TypeHero": 0,
+    "SoldierId": 331003,
+    "type1": 5
+  },
+  {
+    "Attributeid": 1011,
+    "type": 2,
+    "Desc": "圣天马骑士全属性百分比",
+    "TypeHero": 0,
+    "SoldierId": 431001,
+    "type1": 5
+  },
+  {
+    "Attributeid": 1012,
+    "type": 2,
+    "Desc": "飞龙骑士全属性百分比",
+    "TypeHero": 0,
+    "SoldierId": 431002,
+    "type1": 5
+  },
+  {
+    "Attributeid": 1013,
+    "type": 2,
+    "Desc": "格里芬骑士全属性百分比",
+    "TypeHero": 0,
+    "SoldierId": 431003,
+    "type1": 5
+  },
+  {
+    "Attributeid": 1014,
+    "type": 2,
+    "Desc": "大魔法师全属性百分比",
+    "TypeHero": 0,
+    "SoldierId": 531001,
+    "type1": 5
+  },
+  {
+    "Attributeid": 1015,
+    "type": 2,
+    "Desc": "烈焰之灵全属性百分比",
+    "TypeHero": 0,
+    "SoldierId": 531002,
+    "type1": 5
+  },
+  {
+    "Attributeid": 1016,
+    "type": 2,
+    "Desc": "符文师全属性百分比",
+    "TypeHero": 0,
+    "SoldierId": 531003,
+    "type1": 5
+  },
+  {
+    "Attributeid": 1017,
+    "type": 2,
+    "Desc": "大祭司全属性百分比",
+    "TypeHero": 0,
+    "SoldierId": 631001,
+    "type1": 5
+  },
+  {
+    "Attributeid": 1018,
+    "type": 2,
+    "Desc": "占卜师全属性百分比",
+    "TypeHero": 0,
+    "SoldierId": 631002,
+    "type1": 5
+  },
+  {
+    "Attributeid": 1019,
+    "type": 2,
+    "Desc": "守护星灵全属性百分比",
+    "TypeHero": 0,
+    "SoldierId": 631003,
+    "type1": 5
+  },
+  {
+    "Attributeid": 1020,
+    "type": 2,
+    "Desc": "亡灵骑士全属性百分比",
+    "TypeHero": 0,
+    "SoldierId": 731001,
+    "type1": 5
+  },
+  {
+    "Attributeid": 1021,
+    "type": 2,
+    "Desc": "伯爵全属性百分比",
+    "TypeHero": 0,
+    "SoldierId": 731002,
+    "type1": 5
+  },
+  {
+    "Attributeid": 1022,
+    "type": 2,
+    "Desc": "死灵法师全属性百分比",
+    "TypeHero": 0,
+    "SoldierId": 731003,
+    "type1": 5
+  },
+  {
+    "Attributeid": 1023,
+    "type": 2,
+    "Desc": "狼王全属性百分比",
+    "TypeHero": 0,
+    "SoldierId": 831001,
+    "type1": 5
+  },
+  {
+    "Attributeid": 1024,
+    "type": 2,
+    "Desc": "王蜥猎手全属性百分比",
+    "TypeHero": 0,
+    "SoldierId": 831002,
+    "type1": 5
+  },
+  {
+    "Attributeid": 1025,
+    "type": 2,
+    "Desc": "雪原巨人全属性百分比",
+    "TypeHero": 0,
+    "SoldierId": 831003,
+    "type1": 5
+  },
+  {
+    "Attributeid": 10001,
+    "type": 2,
+    "Desc": "皇室禁卫防御百分比",
+    "TypeHero": 0,
+    "SoldierId": 131001,
+    "type1": 2
+  },
+  {
+    "Attributeid": 10002,
+    "type": 2,
+    "Desc": "皇室禁卫攻击百分比",
+    "TypeHero": 0,
+    "SoldierId": 131001,
+    "type1": 1
+  },
+  {
+    "Attributeid": 10003,
+    "type": 2,
+    "Desc": "皇室禁卫魔防百分比",
+    "TypeHero": 0,
+    "SoldierId": 131001,
+    "type1": 3
+  },
+  {
+    "Attributeid": 10004,
+    "type": 2,
+    "Desc": "刀锋战士防御百分比",
+    "TypeHero": 0,
+    "SoldierId": 131002,
+    "type1": 2
+  },
+  {
+    "Attributeid": 10005,
+    "type": 2,
+    "Desc": "刀锋战士攻击百分比",
+    "TypeHero": 0,
+    "SoldierId": 131002,
+    "type1": 1
+  },
+  {
+    "Attributeid": 10006,
+    "type": 2,
+    "Desc": "刀锋战士魔防百分比",
+    "TypeHero": 0,
+    "SoldierId": 131002,
+    "type1": 3
+  },
+  {
+    "Attributeid": 10007,
+    "type": 2,
+    "Desc": "格斗专家防御百分比",
+    "TypeHero": 0,
+    "SoldierId": 131003,
+    "type1": 2
+  },
+  {
+    "Attributeid": 10008,
+    "type": 2,
+    "Desc": "格斗专家攻击百分比",
+    "TypeHero": 0,
+    "SoldierId": 131003,
+    "type1": 1
+  },
+  {
+    "Attributeid": 10009,
+    "type": 2,
+    "Desc": "格斗专家魔防百分比",
+    "TypeHero": 0,
+    "SoldierId": 131003,
+    "type1": 3
+  },
+  {
+    "Attributeid": 10010,
+    "type": 2,
+    "Desc": "将军防御百分比",
+    "TypeHero": 0,
+    "SoldierId": 131004,
+    "type1": 2
+  },
+  {
+    "Attributeid": 10011,
+    "type": 2,
+    "Desc": "将军攻击百分比",
+    "TypeHero": 0,
+    "SoldierId": 131004,
+    "type1": 1
+  },
+  {
+    "Attributeid": 10012,
+    "type": 2,
+    "Desc": "将军魔防百分比",
+    "TypeHero": 0,
+    "SoldierId": 131004,
+    "type1": 3
+  },
+  {
+    "Attributeid": 10013,
+    "type": 2,
+    "Desc": "皇家骑士防御百分比",
+    "TypeHero": 0,
+    "SoldierId": 231001,
+    "type1": 2
+  },
+  {
+    "Attributeid": 10014,
+    "type": 2,
+    "Desc": "皇家骑士攻击百分比",
+    "TypeHero": 0,
+    "SoldierId": 231001,
+    "type1": 1
+  },
+  {
+    "Attributeid": 10015,
+    "type": 2,
+    "Desc": "皇家骑士魔防百分比",
+    "TypeHero": 0,
+    "SoldierId": 231001,
+    "type1": 3
+  },
+  {
+    "Attributeid": 10016,
+    "type": 2,
+    "Desc": "黑暗骑士防御百分比",
+    "TypeHero": 0,
+    "SoldierId": 231002,
+    "type1": 2
+  },
+  {
+    "Attributeid": 10017,
+    "type": 2,
+    "Desc": "黑暗骑士攻击百分比",
+    "TypeHero": 0,
+    "SoldierId": 231002,
+    "type1": 1
+  },
+  {
+    "Attributeid": 10018,
+    "type": 2,
+    "Desc": "黑暗骑士魔防百分比",
+    "TypeHero": 0,
+    "SoldierId": 231002,
+    "type1": 3
+  },
+  {
+    "Attributeid": 10019,
+    "type": 2,
+    "Desc": "守护骑士防御百分比",
+    "TypeHero": 0,
+    "SoldierId": 231003,
+    "type1": 2
+  },
+  {
+    "Attributeid": 10020,
+    "type": 2,
+    "Desc": "守护骑士攻击百分比",
+    "TypeHero": 0,
+    "SoldierId": 231003,
+    "type1": 1
+  },
+  {
+    "Attributeid": 10021,
+    "type": 2,
+    "Desc": "守护骑士魔防百分比",
+    "TypeHero": 0,
+    "SoldierId": 231003,
+    "type1": 3
+  },
+  {
+    "Attributeid": 10022,
+    "type": 2,
+    "Desc": "幻影射手防御百分比",
+    "TypeHero": 0,
+    "SoldierId": 331001,
+    "type1": 2
+  },
+  {
+    "Attributeid": 10023,
+    "type": 2,
+    "Desc": "幻影射手攻击百分比",
+    "TypeHero": 0,
+    "SoldierId": 331001,
+    "type1": 1
+  },
+  {
+    "Attributeid": 10024,
+    "type": 2,
+    "Desc": "幻影射手魔防百分比",
+    "TypeHero": 0,
+    "SoldierId": 331001,
+    "type1": 3
+  },
+  {
+    "Attributeid": 10025,
+    "type": 2,
+    "Desc": "巡游射手防御百分比",
+    "TypeHero": 0,
+    "SoldierId": 331002,
+    "type1": 2
+  },
+  {
+    "Attributeid": 10026,
+    "type": 2,
+    "Desc": "巡游射手攻击百分比",
+    "TypeHero": 0,
+    "SoldierId": 331002,
+    "type1": 1
+  },
+  {
+    "Attributeid": 10027,
+    "type": 2,
+    "Desc": "巡游射手魔防百分比",
+    "TypeHero": 0,
+    "SoldierId": 331002,
+    "type1": 3
+  },
+  {
+    "Attributeid": 10028,
+    "type": 2,
+    "Desc": "影防御百分比",
+    "TypeHero": 0,
+    "SoldierId": 331003,
+    "type1": 2
+  },
+  {
+    "Attributeid": 10029,
+    "type": 2,
+    "Desc": "影攻击百分比",
+    "TypeHero": 0,
+    "SoldierId": 331003,
+    "type1": 1
+  },
+  {
+    "Attributeid": 10030,
+    "type": 2,
+    "Desc": "影魔防百分比",
+    "TypeHero": 0,
+    "SoldierId": 331003,
+    "type1": 3
+  },
+  {
+    "Attributeid": 10031,
+    "type": 2,
+    "Desc": "圣天马骑士防御百分比",
+    "TypeHero": 0,
+    "SoldierId": 431001,
+    "type1": 2
+  },
+  {
+    "Attributeid": 10032,
+    "type": 2,
+    "Desc": "圣天马骑士攻击百分比",
+    "TypeHero": 0,
+    "SoldierId": 431001,
+    "type1": 1
+  },
+  {
+    "Attributeid": 10033,
+    "type": 2,
+    "Desc": "圣天马骑士魔防百分比",
+    "TypeHero": 0,
+    "SoldierId": 431001,
+    "type1": 3
+  },
+  {
+    "Attributeid": 10034,
+    "type": 2,
+    "Desc": "飞龙骑士防御百分比",
+    "TypeHero": 0,
+    "SoldierId": 431002,
+    "type1": 2
+  },
+  {
+    "Attributeid": 10035,
+    "type": 2,
+    "Desc": "飞龙骑士攻击百分比",
+    "TypeHero": 0,
+    "SoldierId": 431002,
+    "type1": 1
+  },
+  {
+    "Attributeid": 10036,
+    "type": 2,
+    "Desc": "飞龙骑士魔防百分比",
+    "TypeHero": 0,
+    "SoldierId": 431002,
+    "type1": 3
+  },
+  {
+    "Attributeid": 10037,
+    "type": 2,
+    "Desc": "格里芬骑士防御百分比",
+    "TypeHero": 0,
+    "SoldierId": 431003,
+    "type1": 2
+  },
+  {
+    "Attributeid": 10038,
+    "type": 2,
+    "Desc": "格里芬骑士攻击百分比",
+    "TypeHero": 0,
+    "SoldierId": 431003,
+    "type1": 1
+  },
+  {
+    "Attributeid": 10039,
+    "type": 2,
+    "Desc": "格里芬骑士魔防百分比",
+    "TypeHero": 0,
+    "SoldierId": 431003,
+    "type1": 3
+  },
+  {
+    "Attributeid": 10040,
+    "type": 2,
+    "Desc": "大魔法师防御百分比",
+    "TypeHero": 0,
+    "SoldierId": 531001,
+    "type1": 2
+  },
+  {
+    "Attributeid": 10041,
+    "type": 2,
+    "Desc": "大魔法师攻击百分比",
+    "TypeHero": 0,
+    "SoldierId": 531001,
+    "type1": 1
+  },
+  {
+    "Attributeid": 10042,
+    "type": 2,
+    "Desc": "大魔法师魔防百分比",
+    "TypeHero": 0,
+    "SoldierId": 531001,
+    "type1": 3
+  },
+  {
+    "Attributeid": 10043,
+    "type": 2,
+    "Desc": "烈焰之灵防御百分比",
+    "TypeHero": 0,
+    "SoldierId": 531002,
+    "type1": 2
+  },
+  {
+    "Attributeid": 10044,
+    "type": 2,
+    "Desc": "烈焰之灵攻击百分比",
+    "TypeHero": 0,
+    "SoldierId": 531002,
+    "type1": 1
+  },
+  {
+    "Attributeid": 10045,
+    "type": 2,
+    "Desc": "烈焰之灵魔防百分比",
+    "TypeHero": 0,
+    "SoldierId": 531002,
+    "type1": 3
+  },
+  {
+    "Attributeid": 10046,
+    "type": 2,
+    "Desc": "符文师防御百分比",
+    "TypeHero": 0,
+    "SoldierId": 531003,
+    "type1": 2
+  },
+  {
+    "Attributeid": 10047,
+    "type": 2,
+    "Desc": "符文师攻击百分比",
+    "TypeHero": 0,
+    "SoldierId": 531003,
+    "type1": 1
+  },
+  {
+    "Attributeid": 10048,
+    "type": 2,
+    "Desc": "符文师魔防百分比",
+    "TypeHero": 0,
+    "SoldierId": 531003,
+    "type1": 3
+  },
+  {
+    "Attributeid": 10049,
+    "type": 2,
+    "Desc": "大祭司防御百分比",
+    "TypeHero": 0,
+    "SoldierId": 631001,
+    "type1": 2
+  },
+  {
+    "Attributeid": 10050,
+    "type": 2,
+    "Desc": "大祭司攻击百分比",
+    "TypeHero": 0,
+    "SoldierId": 631001,
+    "type1": 1
+  },
+  {
+    "Attributeid": 10051,
+    "type": 2,
+    "Desc": "大祭司魔防百分比",
+    "TypeHero": 0,
+    "SoldierId": 631001,
+    "type1": 3
+  },
+  {
+    "Attributeid": 10052,
+    "type": 2,
+    "Desc": "占卜师防御百分比",
+    "TypeHero": 0,
+    "SoldierId": 631002,
+    "type1": 2
+  },
+  {
+    "Attributeid": 10053,
+    "type": 2,
+    "Desc": "占卜师攻击百分比",
+    "TypeHero": 0,
+    "SoldierId": 631002,
+    "type1": 1
+  },
+  {
+    "Attributeid": 10054,
+    "type": 2,
+    "Desc": "占卜师魔防百分比",
+    "TypeHero": 0,
+    "SoldierId": 631002,
+    "type1": 3
+  },
+  {
+    "Attributeid": 10055,
+    "type": 2,
+    "Desc": "守护星灵防御百分比",
+    "TypeHero": 0,
+    "SoldierId": 631003,
+    "type1": 2
+  },
+  {
+    "Attributeid": 10056,
+    "type": 2,
+    "Desc": "守护星灵攻击百分比",
+    "TypeHero": 0,
+    "SoldierId": 631003,
+    "type1": 1
+  },
+  {
+    "Attributeid": 10057,
+    "type": 2,
+    "Desc": "守护星灵魔防百分比",
+    "TypeHero": 0,
+    "SoldierId": 631003,
+    "type1": 3
+  },
+  {
+    "Attributeid": 10058,
+    "type": 2,
+    "Desc": "伯爵防御百分比",
+    "TypeHero": 0,
+    "SoldierId": 731001,
+    "type1": 2
+  },
+  {
+    "Attributeid": 10059,
+    "type": 2,
+    "Desc": "伯爵攻击百分比",
+    "TypeHero": 0,
+    "SoldierId": 731001,
+    "type1": 1
+  },
+  {
+    "Attributeid": 10060,
+    "type": 2,
+    "Desc": "伯爵魔防百分比",
+    "TypeHero": 0,
+    "SoldierId": 731001,
+    "type1": 3
+  },
+  {
+    "Attributeid": 10061,
+    "type": 2,
+    "Desc": "死灵法师防御百分比",
+    "TypeHero": 0,
+    "SoldierId": 731002,
+    "type1": 2
+  },
+  {
+    "Attributeid": 10062,
+    "type": 2,
+    "Desc": "死灵法师攻击百分比",
+    "TypeHero": 0,
+    "SoldierId": 731002,
+    "type1": 1
+  },
+  {
+    "Attributeid": 10063,
+    "type": 2,
+    "Desc": "死灵法师魔防百分比",
+    "TypeHero": 0,
+    "SoldierId": 731002,
+    "type1": 3
+  },
+  {
+    "Attributeid": 10064,
+    "type": 2,
+    "Desc": "狼王防御百分比",
+    "TypeHero": 0,
+    "SoldierId": 831001,
+    "type1": 2
+  },
+  {
+    "Attributeid": 10065,
+    "type": 2,
+    "Desc": "狼王攻击百分比",
+    "TypeHero": 0,
+    "SoldierId": 831001,
+    "type1": 1
+  },
+  {
+    "Attributeid": 10066,
+    "type": 2,
+    "Desc": "狼王魔防百分比",
+    "TypeHero": 0,
+    "SoldierId": 831001,
+    "type1": 3
+  },
+  {
+    "Attributeid": 10067,
+    "type": 2,
+    "Desc": "王蜥猎手防御百分比",
+    "TypeHero": 0,
+    "SoldierId": 831002,
+    "type1": 2
+  },
+  {
+    "Attributeid": 10068,
+    "type": 2,
+    "Desc": "王蜥猎手攻击百分比",
+    "TypeHero": 0,
+    "SoldierId": 831002,
+    "type1": 1
+  },
+  {
+    "Attributeid": 10069,
+    "type": 2,
+    "Desc": "王蜥猎手魔防百分比",
+    "TypeHero": 0,
+    "SoldierId": 831002,
+    "type1": 3
+  },
+  {
+    "Attributeid": 10070,
+    "type": 2,
+    "Desc": "雪原巨人防御百分比",
+    "TypeHero": 0,
+    "SoldierId": 831003,
+    "type1": 2
+  },
+  {
+    "Attributeid": 10071,
+    "type": 2,
+    "Desc": "雪原巨人攻击百分比",
+    "TypeHero": 0,
+    "SoldierId": 831003,
+    "type1": 1
+  },
+  {
+    "Attributeid": 10072,
+    "type": 2,
+    "Desc": "雪原巨人魔防百分比",
+    "TypeHero": 0,
+    "SoldierId": 831003,
+    "type1": 3
+  }
+]

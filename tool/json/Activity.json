@@ -1,0 +1,16 @@
+[
+  {
+    "ActivityID": 1001,
+    "Activitytype": 2,
+    "Name": "七日目标",
+    "Startday": 1,
+    "Time": 192,
+    "nextID": 1002,
+    "Type": 1,
+    "StartTime": 0,
+    "EndTime": 0,
+    "Target": 1,
+    "Reward": "1:1001:300",
+    "ChapterText": "通关第1个章节"
+  }
+]

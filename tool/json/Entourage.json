@@ -1,0 +1,83 @@
+[
+  {
+    "SuiChongId": 1,
+    "Name": "凯兰崔尔温",
+    "Icon": "suicong_1",
+    "Camp": "精灵族",
+    "BuffByLevel": 544,
+    "Story": "刚刚成年的精灵少女好奇心强盛，喜欢冒险，有丰富丛林作战经验。",
+    "UnLock": 0
+  },
+  {
+    "SuiChongId": 2,
+    "Name": "艾文娜任氏",
+    "Icon": "suicong_2",
+    "Camp": "兽人族",
+    "BuffByLevel": 547,
+    "Story": "崇拜强者，在族群中不停的挑战后成为族群中的首领。",
+    "UnLock": 21
+  },
+  {
+    "SuiChongId": 3,
+    "Name": "德林戴西娜",
+    "Icon": "suicong_3",
+    "Camp": "人族",
+    "BuffByLevel": 543,
+    "Story": "林德公爵的女儿，十分聪明，喜欢读书。",
+    "UnLock": 31
+  },
+  {
+    "SuiChongId": 4,
+    "Name": "温妮玛德琳",
+    "Icon": "suicong_4",
+    "Camp": "神秘族",
+    "BuffByLevel": 542,
+    "Story": "糖果王国的女儿，受到人民的敬爱，善待人民。活泼可爱。",
+    "UnLock": 41
+  },
+  {
+    "SuiChongId": 5,
+    "Name": "梅丽莎",
+    "Icon": "suicong_5",
+    "Camp": "地狱族",
+    "BuffByLevel": 538,
+    "Story": "亡灵世界的幽灵公主能力解除失控的亡灵君主，其他都不祥。",
+    "UnLock": 51
+  },
+  {
+    "SuiChongId": 6,
+    "Name": "丽兹",
+    "Icon": "suicong_6",
+    "Camp": "亡灵族",
+    "BuffByLevel": 541,
+    "Story": "地狱族的魅魔女王的公主，被她看中了，你是逃不掉的。",
+    "UnLock": 61
+  },
+  {
+    "SuiChongId": 7,
+    "Name": "　百雅史卓莎",
+    "Icon": "suicong_7",
+    "Camp": "龙族",
+    "BuffByLevel": 545,
+    "Story": "龙族百年之约，比武招亲，男主获得胜利并赢取了龙族公主。",
+    "UnLock": 71
+  },
+  {
+    "SuiChongId": 8,
+    "Name": "洛吉里安娜",
+    "Icon": "suicong_8",
+    "Camp": "神秘族",
+    "BuffByLevel": 546,
+    "Story": "喜欢探寻魔法，研究魔法的真谛。",
+    "UnLock": 81
+  },
+  {
+    "SuiChongId": 9,
+    "Name": "罗莉亚德琳",
+    "Icon": "suicong_9",
+    "Camp": "人族",
+    "BuffByLevel": 501,
+    "Story": "帝国最强者，精通剑术，希望得到守护和爱情。",
+    "UnLock": 91
+  }
+]

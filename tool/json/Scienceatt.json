@@ -1,0 +1,177 @@
+[
+  {
+    "Attributeid": 101,
+    "type": 1,
+    "Desc": "初始金币增加"
+  },
+  {
+    "Attributeid": 102,
+    "type": 1,
+    "Desc": "每秒金币增加"
+  },
+  {
+    "Attributeid": 103,
+    "type": 2,
+    "Desc": "建造速度增加%"
+  },
+  {
+    "Attributeid": 104,
+    "type": 1,
+    "Desc": "建造消费减少"
+  },
+  {
+    "Attributeid": 105,
+    "type": 1,
+    "Desc": "每存活一个英雄，每秒金币增加"
+  },
+  {
+    "Attributeid": 106,
+    "type": 1,
+    "Desc": "基地物防增加"
+  },
+  {
+    "Attributeid": 107,
+    "type": 1,
+    "Desc": "基地减少固定受伤"
+  },
+  {
+    "Attributeid": 108,
+    "type": 2,
+    "Desc": "基地减少百分比受伤"
+  },
+  {
+    "Attributeid": 109,
+    "type": 1,
+    "Desc": "基地血量增加"
+  },
+  {
+    "Attributeid": 110,
+    "type": 1,
+    "Desc": "基地回血增加"
+  },
+  {
+    "Attributeid": 111,
+    "type": 1,
+    "Desc": "士兵购买消费减少"
+  },
+  {
+    "Attributeid": 112,
+    "type": 2,
+    "Desc": "士兵复活时间减少"
+  },
+  {
+    "Attributeid": 113,
+    "type": 2,
+    "Desc": "士兵魔防增加%"
+  },
+  {
+    "Attributeid": 114,
+    "type": 2,
+    "Desc": "士兵物防增加%"
+  },
+  {
+    "Attributeid": 115,
+    "type": 2,
+    "Desc": "士兵双防增加%"
+  },
+  {
+    "Attributeid": 116,
+    "type": 1,
+    "Desc": "士兵生命增加"
+  },
+  {
+    "Attributeid": 117,
+    "type": 1,
+    "Desc": "士兵回血增加"
+  },
+  {
+    "Attributeid": 118,
+    "type": 2,
+    "Desc": "士兵攻击增加%"
+  },
+  {
+    "Attributeid": 119,
+    "type": 2,
+    "Desc": "士兵造成伤害增加%"
+  },
+  {
+    "Attributeid": 120,
+    "type": 1,
+    "Desc": "英雄初始携带士兵上限增加"
+  },
+  {
+    "Attributeid": 121,
+    "type": 1,
+    "Desc": "英雄攻击增加"
+  },
+  {
+    "Attributeid": 122,
+    "type": 1,
+    "Desc": "英雄生命增加"
+  },
+  {
+    "Attributeid": 123,
+    "type": 1,
+    "Desc": "英雄物防增加"
+  },
+  {
+    "Attributeid": 124,
+    "type": 1,
+    "Desc": "英雄魔防增加"
+  },
+  {
+    "Attributeid": 125,
+    "type": 1,
+    "Desc": "英雄初始携带士兵数量增加"
+  },
+  {
+    "Attributeid": 126,
+    "type": 1,
+    "Desc": "英雄双防，攻击增加"
+  },
+  {
+    "Attributeid": 127,
+    "type": 1,
+    "Desc": "英雄回血增加"
+  },
+  {
+    "Attributeid": 128,
+    "type": 2,
+    "Desc": "英雄移速增加"
+  },
+  {
+    "Attributeid": 129,
+    "type": 2,
+    "Desc": "英雄攻速增加"
+  },
+  {
+    "Attributeid": 130,
+    "type": 2,
+    "Desc": "英雄死亡时概率立刻复活"
+  },
+  {
+    "Attributeid": 131,
+    "type": 1,
+    "Desc": "击杀怪物额外获得金矿"
+  },
+  {
+    "Attributeid": 132,
+    "type": 1,
+    "Desc": "士兵增加固定攻击力"
+  },
+  {
+    "Attributeid": 133,
+    "type": 1,
+    "Desc": "士兵增加固定物防"
+  },
+  {
+    "Attributeid": 134,
+    "type": 1,
+    "Desc": "士兵增加固定魔防"
+  },
+  {
+    "Attributeid": 135,
+    "type": 1,
+    "Desc": "英雄增加固定攻击与魔防"
+  }
+]

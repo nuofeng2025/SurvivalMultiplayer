@@ -1,0 +1,806 @@
+[
+  {
+    "Keyid": "Version_error",
+    "Zhcn": "版本号过低,请在taptap下载最新版的游戏，或者加入QQ群和我们交流游戏最新进展。5群：562603384 4群：142164097",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "Login_error1",
+    "Zhcn": "账号密码不能为空",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "Login_error2",
+    "Zhcn": "昵称不能为空",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "Login_error3",
+    "Zhcn": "两次密码不一致",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "Login_error4",
+    "Zhcn": "出现不可用词汇",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "Login_error5",
+    "Zhcn": "昵称不能超过6个字",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "Register_error1",
+    "Zhcn": "有重复的昵称",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "Tips1",
+    "Zhcn": "利用地形放风筝是个不错的选择。",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "Tips2",
+    "Zhcn": "通常每个角色只能反击一次，可以利用好这一点。",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "Tips3",
+    "Zhcn": "每个英雄都有自己特有的技能，根据其特性搭配会事半功倍。",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "Tips4",
+    "Zhcn": "记得随时保持预备兵的数量，不要等到没有预备兵了再去招兵。",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "Tips5",
+    "Zhcn": "能产出资源的建筑优先升级，发展会迅速。",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "Tips6",
+    "Zhcn": "通常情况下，高阶兵种会更强力。",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "Tips7",
+    "Zhcn": "每天税收不要忘记。",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "Tips8",
+    "Zhcn": "随时关注任务的进度，获得任务奖励。",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "Tips9",
+    "Zhcn": "已经通关的章节可以二次挑战，快速提升英雄等级。",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "Tips10",
+    "Zhcn": "主动技能不是越多越好，得根据英雄的魔法值合理搭配。",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "HeroSkillLockCondition_error",
+    "Zhcn": "英雄到达{0}级自动解锁",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "HeroLvNot_Error",
+    "Zhcn": "等级不足",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "Exit_Game",
+    "Zhcn": "是否退出游戏",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "Refresh_Error",
+    "Zhcn": "是否花费{0}钻石刷新",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "NetworkError",
+    "Zhcn": "网络异常",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "LockLevel",
+    "Zhcn": "第{0}章解锁",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "Immunity",
+    "Zhcn": "<color=#5cacee>免疫</color>",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "ImmunityNormalAtk",
+    "Zhcn": "<color=#5cacee>普攻免疫</color>",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "ImmunitySkill",
+    "Zhcn": "<color=#5cacee>法术免疫</color>",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "AtkMiss",
+    "Zhcn": "<color=#5cacee>未命中</color>",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "HeroToUp",
+    "Zhcn": "英雄进阶",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "HeroSkillUnlock",
+    "Zhcn": "{0}级解锁",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "HeroSkillUnlock2",
+    "Zhcn": "{0}星解锁",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "HeroNot_Error",
+    "Zhcn": "当前英雄未拥有",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "HeroPointXiDianOk_Error",
+    "Zhcn": "是否花费{0}钻石洗点",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "Tip",
+    "Zhcn": "提示",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "HerorefreshExpGold",
+    "Zhcn": "普通洗炼会损失30%的经验，是否继续？",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "HerorefreshExpGem",
+    "Zhcn": "洗炼不会损失任何经验，是否进行洗炼？",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "HerorefreshExpGem2",
+    "Zhcn": "洗炼不会损失任何经验，是否进行洗炼？",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "MaxProperty",
+    "Zhcn": "满级属性查看",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "NowSkillProperty",
+    "Zhcn": "当前属性查看",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "LockLevel2",
+    "Zhcn": "通关 {0} 解锁",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "NoFormation_error",
+    "Zhcn": "没有出战部队",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "LackOfMoney_error",
+    "Zhcn": "货币不足",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "CrystalInsufficient_error",
+    "Zhcn": "钻石不足",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "NotEnoughTroops",
+    "Zhcn": "部队卡片不足",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "Chongzhi",
+    "Zhcn": "重置",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "Yiwang",
+    "Zhcn": "遗忘",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "nowSelectSkillNotUp",
+    "Zhcn": "当前技能未升级",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "nowSelectWuJinData_Error",
+    "Zhcn": "当前点击英雄未配置其他信息",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "SkillForget_Error",
+    "Zhcn": "是否遗忘当前选择技能,返还技能点{0}",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "CiPin",
+    "Zhcn": "次品",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "PuTong",
+    "Zhcn": "普通",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "JingLiang",
+    "Zhcn": "精良",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "XiYou",
+    "Zhcn": "稀有",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "ChuanShuo",
+    "Zhcn": "传说",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "ShenJi",
+    "Zhcn": "神级",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "PeiJian",
+    "Zhcn": "戒指",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "XiangLian",
+    "Zhcn": "玉佩",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "WuQi",
+    "Zhcn": "武器",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "FangJu",
+    "Zhcn": "防具",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "XieZi",
+    "Zhcn": "鞋子",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "BaoWu",
+    "Zhcn": "宝物",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "Atk",
+    "Zhcn": "攻击",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "Def",
+    "Zhcn": "防御",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "Ap",
+    "Zhcn": "法强",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "Mp",
+    "Zhcn": "魔法",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "HeroHp",
+    "Zhcn": "生命",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "HeroSpeed",
+    "Zhcn": "移速",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "HeroShecheng",
+    "Zhcn": "射程",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "HeroGongsu",
+    "Zhcn": "攻速",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "HeroJianshang",
+    "Zhcn": "物抗",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "HeroZengshang",
+    "Zhcn": "普攻增伤",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "HeroSkillZengshang",
+    "Zhcn": "法术增伤",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "HeroSkillJianshang",
+    "Zhcn": "魔抗",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "HeroBaoji",
+    "Zhcn": "暴击",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "HeroBaojiShanghai",
+    "Zhcn": "暴击伤害",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "HeroWuliXixue",
+    "Zhcn": "物理吸血",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "HeroJiyun",
+    "Zhcn": "穿透",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "HeroRenXing",
+    "Zhcn": "韧性",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "HeroMoChuang",
+    "Zhcn": "魔穿",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "HeroShanbi",
+    "Zhcn": "闪避",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "HeroMingzhong",
+    "Zhcn": "命中",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "HeroFanshang",
+    "Zhcn": "反伤",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "HeroTrueShanghai",
+    "Zhcn": "真实伤害",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "TroopsAtk",
+    "Zhcn": "部队攻击",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "TroopsHp",
+    "Zhcn": "部队生命",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "TroopsDef",
+    "Zhcn": "部队防御",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "HeroHphuifu",
+    "Zhcn": "生命恢复",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "TroopHphuifu",
+    "Zhcn": "部队生命恢复",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "HeroLeader",
+    "Zhcn": "英雄领导力",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "ExpNotEnough",
+    "Zhcn": "经验书不足",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "PackageFullError",
+    "Zhcn": "背包格已满",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "MainSkill_Error",
+    "Zhcn": "是否重置主技能,返还技能点{0}",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "Energy_Error",
+    "Zhcn": "体力不足",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "SkillPoint_error",
+    "Zhcn": "技能点不足",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "buySkillcailiao",
+    "Zhcn": "是否花费{0}钻石解锁技能",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "buyJinjiecailiao",
+    "Zhcn": "是否花费{0}钻石进阶英雄",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "HeroMax_Error",
+    "Zhcn": "英雄进阶等级已满",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "NotRank_Error",
+    "Zhcn": "未上榜",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "resouceNone",
+    "Zhcn": "扫荡卷不足",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "TiejiangpuNoEquip",
+    "Zhcn": "请放入要打造的装备",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "TiejiangpuNoALLRand",
+    "Zhcn": "无法锁定所有的词条",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "TiejiangpuNoStarMax",
+    "Zhcn": "此装备星级无法在提升",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "Dazaosuccess",
+    "Zhcn": "打造成功",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "StarUpsuccess",
+    "Zhcn": "升星成功",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "NOTimeReady",
+    "Zhcn": "未到可领取奖励时间",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "unlock",
+    "Zhcn": "未锁定",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "locked",
+    "Zhcn": "已锁定",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "GoPoint",
+    "Zhcn": "前往",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "ReceiveAward",
+    "Zhcn": "领取",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "HaveReceiveAward",
+    "Zhcn": "已领取",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "LevelNotAccomplish",
+    "Zhcn": "当前章节任务未完成",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "NotAccomplish",
+    "Zhcn": "未完成",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "NotLevelGuanka",
+    "Zhcn": "通关{0}章{1}关后解锁",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "ExcCodeExchanged",
+    "Zhcn": "{0}的兑换码已兑换过",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "ExcCodeError",
+    "Zhcn": "兑换码格式错误",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "LevelUpSuccess",
+    "Zhcn": "升级成功",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "BuyEnery",
+    "Zhcn": "是否花费100钻石增加3个体力,今日剩余{0}次",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "SignError",
+    "Zhcn": "未到领取时间",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "LevelUpMax",
+    "Zhcn": "英雄等级已达上限值",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "AllMissonWanCheng",
+    "Zhcn": "所有任务已完成",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "BuyEneryError",
+    "Zhcn": "今日购买体力次数已满",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "TiejiangpuEXP",
+    "Zhcn": "铁匠铺经验 +{0}",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "PVPresouceNone",
+    "Zhcn": "竞技场入场券不足",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "MissionLeaderError",
+    "Zhcn": "完成替换技能引导后可升级技能",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "LevelNum",
+    "Zhcn": "第{0}章节",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "BossFight",
+    "Zhcn": "遭遇战",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "AtkFight",
+    "Zhcn": "攻城战",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "HusongFight",
+    "Zhcn": "护送战",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "ShouhuFight",
+    "Zhcn": "守护战",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "JiuyuanFight",
+    "Zhcn": "救援战",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "ChoukajuanError",
+    "Zhcn": "招募卷不足",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "ZhaomuchuEXP",
+    "Zhcn": "招募处经验 +{0}",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "NotEnoughHero",
+    "Zhcn": "英雄卡片不足",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "SkillUpOk",
+    "Zhcn": "技能升级成功",
+    "Zhtw": "",
+    "Eng": ""
+  },
+  {
+    "Keyid": "SHOPBUY",
+    "Zhcn": "是否花费{0}钻石购买商品",
+    "Zhtw": "",
+    "Eng": ""
+  }
+]

@@ -28,9 +28,8 @@ namespace FGame
 
         [LabelText("当前库存")]
         [ShowInInspector]
-        private readonly SyncList<InventoryItem> InventoryItems_SyncVar = new();
-
-
+        private readonly SyncList<Item> InventoryItems_SyncVar = new();
+      
         private int nextInstanceId = 1;
         private int secretKey = 0;  // 服务器启动时随机生成
 
@@ -61,7 +60,10 @@ namespace FGame
         }
 
 
-
+        private void Awake()
+        {
+          
+        }
 
         #endregion
 
@@ -69,11 +71,9 @@ namespace FGame
 
 
         #region API
-
-
-
+     
         [ServerRpc]
-        public void AddItemServerRpc(InventoryItem item)
+        public void AddItemServerRpc(Item item)
         {
 
 

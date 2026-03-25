@@ -1,0 +1,2402 @@
+[
+  {
+    "LevelID": 1,
+    "ShowReward": "1:1001:1|1:1002:5",
+    "BossMonsterNum": 3,
+    "BossMonster": "1001|6001+3+0.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 2,
+    "ShowReward": "1:1001:2|1:1002:10",
+    "BossMonsterNum": 3,
+    "BossMonster": "2001|5001+3+0.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 3,
+    "ShowReward": "1:1001:3|1:1002:15",
+    "BossMonsterNum": 3,
+    "BossMonster": "3001|6001+3+0.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 4,
+    "ShowReward": "1:1001:4|1:1002:20",
+    "BossMonsterNum": 3,
+    "BossMonster": "2001|6001+3+0.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 5,
+    "ShowReward": "1:1001:5|1:1002:25",
+    "BossMonsterNum": 3,
+    "BossMonster": "2001|6001+3+1.6",
+    "BossLib": "5101+3.2",
+    "BossSkill": "168+1|103+1"
+  },
+  {
+    "LevelID": 6,
+    "ShowReward": "1:1001:6|1:1002:30",
+    "BossMonsterNum": 3,
+    "BossMonster": "2001|4001+3+1.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 7,
+    "ShowReward": "1:1001:7|1:1002:35",
+    "BossMonsterNum": 3,
+    "BossMonster": "1001|6001+3+1.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 8,
+    "ShowReward": "1:1001:8|1:1002:40",
+    "BossMonsterNum": 3,
+    "BossMonster": "3001|6001+3+1.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 9,
+    "ShowReward": "1:1001:9|1:1002:45",
+    "BossMonsterNum": 3,
+    "BossMonster": "3001|4001+3+2.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 10,
+    "ShowReward": "1:1001:20|1:1002:100",
+    "BossMonsterNum": 3,
+    "BossMonster": "2001|6001+3+2.6",
+    "BossLib": "3101+5.2",
+    "BossSkill": "116+1|161+1"
+  },
+  {
+    "LevelID": 11,
+    "ShowReward": "1:1001:21|1:1002:105",
+    "BossMonsterNum": 3,
+    "BossMonster": "1001|6001+3+2.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 12,
+    "ShowReward": "1:1001:22|1:1002:110",
+    "BossMonsterNum": 3,
+    "BossMonster": "3001|4001+3+2.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 13,
+    "ShowReward": "1:1001:23|1:1002:115",
+    "BossMonsterNum": 3,
+    "BossMonster": "2001|5001+3+3.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 14,
+    "ShowReward": "1:1001:24|1:1002:120",
+    "BossMonsterNum": 3,
+    "BossMonster": "2001|6001+3+3.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 15,
+    "ShowReward": "1:1001:25|1:1002:125",
+    "BossMonsterNum": 3,
+    "BossMonster": "2001|5001+3+3.6",
+    "BossLib": "2101+7.2",
+    "BossSkill": "116+1|198+1"
+  },
+  {
+    "LevelID": 16,
+    "ShowReward": "1:1001:26|1:1002:130",
+    "BossMonsterNum": 3,
+    "BossMonster": "1001|5001+3+3.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 17,
+    "ShowReward": "1:1001:27|1:1002:135",
+    "BossMonsterNum": 3,
+    "BossMonster": "1001|4001+3+4.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 18,
+    "ShowReward": "1:1001:28|1:1002:140",
+    "BossMonsterNum": 3,
+    "BossMonster": "3001|6001+3+4.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 19,
+    "ShowReward": "1:1001:29|1:1002:145",
+    "BossMonsterNum": 3,
+    "BossMonster": "3002|6002+3+4.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 20,
+    "ShowReward": "1:1001:40|1:1002:200",
+    "BossMonsterNum": 3,
+    "BossMonster": "1002|5002+3+4.6",
+    "BossLib": "1102+9.2",
+    "BossSkill": "122+1|182+1"
+  },
+  {
+    "LevelID": 21,
+    "ShowReward": "1:1001:41|1:1002:205",
+    "BossMonsterNum": 3,
+    "BossMonster": "2002|5002+3+5.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 22,
+    "ShowReward": "1:1001:42|1:1002:210",
+    "BossMonsterNum": 3,
+    "BossMonster": "2002|4002+3+5.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 23,
+    "ShowReward": "1:1001:43|1:1002:215",
+    "BossMonsterNum": 3,
+    "BossMonster": "2002|4002+3+5.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 24,
+    "ShowReward": "1:1001:44|1:1002:220",
+    "BossMonsterNum": 3,
+    "BossMonster": "1002|6002+3+5.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 25,
+    "ShowReward": "1:1001:45|1:1002:225",
+    "BossMonsterNum": 3,
+    "BossMonster": "2002|5002+3+6.6",
+    "BossLib": "2102+13.2",
+    "BossSkill": "123+1|216+1"
+  },
+  {
+    "LevelID": 26,
+    "ShowReward": "1:1001:46|1:1002:230",
+    "BossMonsterNum": 3,
+    "BossMonster": "3002|5002+3+6.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 27,
+    "ShowReward": "1:1001:47|1:1002:235",
+    "BossMonsterNum": 3,
+    "BossMonster": "2002|6002+3+6.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 28,
+    "ShowReward": "1:1001:48|1:1002:240",
+    "BossMonsterNum": 3,
+    "BossMonster": "2002|6002+3+6.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 29,
+    "ShowReward": "1:1001:49|1:1002:245",
+    "BossMonsterNum": 3,
+    "BossMonster": "1002|6002+3+7.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 30,
+    "ShowReward": "1:1001:60|1:1002:300",
+    "BossMonsterNum": 3,
+    "BossMonster": "1002|6002+3+7.6",
+    "BossLib": "6102+15.2",
+    "BossSkill": "123+1|162+1"
+  },
+  {
+    "LevelID": 31,
+    "ShowReward": "1:1001:61|1:1002:305",
+    "BossMonsterNum": 3,
+    "BossMonster": "2002|6002+4+7.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 32,
+    "ShowReward": "1:1001:62|1:1002:310",
+    "BossMonsterNum": 3,
+    "BossMonster": "1002|4002+4+7.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 33,
+    "ShowReward": "1:1001:63|1:1002:315",
+    "BossMonsterNum": 3,
+    "BossMonster": "3002|4002+4+8.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 34,
+    "ShowReward": "1:1001:64|1:1002:320",
+    "BossMonsterNum": 3,
+    "BossMonster": "1002|5002+4+8.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 35,
+    "ShowReward": "1:1001:65|1:1002:325",
+    "BossMonsterNum": 3,
+    "BossMonster": "2002|5002+4+8.6",
+    "BossLib": "5102+17.2",
+    "BossSkill": "127+1|187+1"
+  },
+  {
+    "LevelID": 36,
+    "ShowReward": "1:1001:66|1:1002:330",
+    "BossMonsterNum": 3,
+    "BossMonster": "3002|5002+4+8.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 37,
+    "ShowReward": "1:1001:67|1:1002:335",
+    "BossMonsterNum": 3,
+    "BossMonster": "3003|5003+4+9.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 38,
+    "ShowReward": "1:1001:68|1:1002:340",
+    "BossMonsterNum": 3,
+    "BossMonster": "1003|4003+4+9.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 39,
+    "ShowReward": "1:1001:69|1:1002:345",
+    "BossMonsterNum": 3,
+    "BossMonster": "1003|4003+4+9.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 40,
+    "ShowReward": "1:1001:80|1:1002:400",
+    "BossMonsterNum": 3,
+    "BossMonster": "1003|4003+4+9.6",
+    "BossLib": "3103+19.2",
+    "BossSkill": "125+1|156+1"
+  },
+  {
+    "LevelID": 41,
+    "ShowReward": "1:1001:81|1:1002:405",
+    "BossMonsterNum": 3,
+    "BossMonster": "3003|5003+4+10.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 42,
+    "ShowReward": "1:1001:82|1:1002:410",
+    "BossMonsterNum": 3,
+    "BossMonster": "3003|4003+4+10.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 43,
+    "ShowReward": "1:1001:83|1:1002:415",
+    "BossMonsterNum": 3,
+    "BossMonster": "2003|5003+4+10.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 44,
+    "ShowReward": "1:1001:84|1:1002:420",
+    "BossMonsterNum": 3,
+    "BossMonster": "2003|6003+4+10.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 45,
+    "ShowReward": "1:1001:85|1:1002:425",
+    "BossMonsterNum": 3,
+    "BossMonster": "3003|5003+4+11.6",
+    "BossLib": "4103+23.2",
+    "BossSkill": "122+1|181+1|216+1"
+  },
+  {
+    "LevelID": 46,
+    "ShowReward": "1:1001:86|1:1002:430",
+    "BossMonsterNum": 3,
+    "BossMonster": "3003|6003+4+11.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 47,
+    "ShowReward": "1:1001:87|1:1002:435",
+    "BossMonsterNum": 3,
+    "BossMonster": "3003|6003+4+11.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 48,
+    "ShowReward": "1:1001:88|1:1002:440",
+    "BossMonsterNum": 3,
+    "BossMonster": "1003|5003+4+11.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 49,
+    "ShowReward": "1:1001:89|1:1002:445",
+    "BossMonsterNum": 3,
+    "BossMonster": "2003|6003+4+12.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 50,
+    "ShowReward": "1:1001:100|1:1002:500",
+    "BossMonsterNum": 3,
+    "BossMonster": "2003|5003+4+12.6",
+    "BossLib": "1103+25.2",
+    "BossSkill": "105+1|188+1|184+1|173+3|901+1"
+  },
+  {
+    "LevelID": 51,
+    "ShowReward": "1:1001:101|1:1002:505",
+    "BossMonsterNum": 3,
+    "BossMonster": "3003|6003+4+12.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 52,
+    "ShowReward": "1:1001:102|1:1002:510",
+    "BossMonsterNum": 3,
+    "BossMonster": "3003|4003+4+12.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 53,
+    "ShowReward": "1:1001:103|1:1002:515",
+    "BossMonsterNum": 3,
+    "BossMonster": "1003|4003+4+13.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 54,
+    "ShowReward": "1:1001:104|1:1002:520",
+    "BossMonsterNum": 3,
+    "BossMonster": "2003|5003+4+13.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 55,
+    "ShowReward": "1:1001:105|1:1002:525",
+    "BossMonsterNum": 3,
+    "BossMonster": "2004|5004+4+13.6",
+    "BossLib": "1104+27.2",
+    "BossSkill": "124+1|159+1|184+1"
+  },
+  {
+    "LevelID": 56,
+    "ShowReward": "1:1001:106|1:1002:530",
+    "BossMonsterNum": 3,
+    "BossMonster": "1004|5004+4+13.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 57,
+    "ShowReward": "1:1001:107|1:1002:535",
+    "BossMonsterNum": 3,
+    "BossMonster": "2004|4004+4+14.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 58,
+    "ShowReward": "1:1001:108|1:1002:540",
+    "BossMonsterNum": 3,
+    "BossMonster": "2004|5004+4+14.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 59,
+    "ShowReward": "1:1001:109|1:1002:545",
+    "BossMonsterNum": 3,
+    "BossMonster": "2004|4004+4+14.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 60,
+    "ShowReward": "1:1001:120|1:1002:600",
+    "BossMonsterNum": 3,
+    "BossMonster": "2004|4004+4+14.6",
+    "BossLib": "4104+29.2",
+    "BossSkill": "153+1|126+1|181+1|173+3|901+1"
+  },
+  {
+    "LevelID": 61,
+    "ShowReward": "1:1001:121|1:1002:605",
+    "BossMonsterNum": 3,
+    "BossMonster": "1004|4004+5+15.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 62,
+    "ShowReward": "1:1001:122|1:1002:610",
+    "BossMonsterNum": 3,
+    "BossMonster": "1004|5004+5+15.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 63,
+    "ShowReward": "1:1001:123|1:1002:615",
+    "BossMonsterNum": 3,
+    "BossMonster": "2004|5004+5+15.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 64,
+    "ShowReward": "1:1001:124|1:1002:620",
+    "BossMonsterNum": 3,
+    "BossMonster": "2004|6004+5+15.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 65,
+    "ShowReward": "1:1001:125|1:1002:625",
+    "BossMonsterNum": 3,
+    "BossMonster": "2004|5004+5+16.6",
+    "BossLib": "6104+33.2",
+    "BossSkill": "106+1|215+1|163+1"
+  },
+  {
+    "LevelID": 66,
+    "ShowReward": "1:1001:126|1:1002:630",
+    "BossMonsterNum": 3,
+    "BossMonster": "1004|5004+5+16.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 67,
+    "ShowReward": "1:1001:127|1:1002:635",
+    "BossMonsterNum": 3,
+    "BossMonster": "3004|6004+5+16.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 68,
+    "ShowReward": "1:1001:128|1:1002:640",
+    "BossMonsterNum": 3,
+    "BossMonster": "3004|6004+5+16.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 69,
+    "ShowReward": "1:1001:129|1:1002:645",
+    "BossMonsterNum": 3,
+    "BossMonster": "1004|6004+5+17.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 70,
+    "ShowReward": "1:1001:140|1:1002:700",
+    "BossMonsterNum": 3,
+    "BossMonster": "3004|5004+5+17.6",
+    "BossLib": "1104+35.2",
+    "BossSkill": "105+1|188+1|184+1|173+3|901+1"
+  },
+  {
+    "LevelID": 71,
+    "ShowReward": "1:1001:141|1:1002:705",
+    "BossMonsterNum": 3,
+    "BossMonster": "3004|4004+5+17.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 72,
+    "ShowReward": "1:1001:142|1:1002:710",
+    "BossMonsterNum": 3,
+    "BossMonster": "2004|5004+5+17.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 73,
+    "ShowReward": "1:1001:143|1:1002:715",
+    "BossMonsterNum": 3,
+    "BossMonster": "3005|6005+5+18.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 74,
+    "ShowReward": "1:1001:144|1:1002:720",
+    "BossMonsterNum": 3,
+    "BossMonster": "2005|5005+5+18.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 75,
+    "ShowReward": "1:1001:145|1:1002:725",
+    "BossMonsterNum": 3,
+    "BossMonster": "3005|6005+5+18.6",
+    "BossLib": "6105+37.2",
+    "BossSkill": "127+1|182+1|118+1|902+1"
+  },
+  {
+    "LevelID": 76,
+    "ShowReward": "1:1001:146|1:1002:730",
+    "BossMonsterNum": 3,
+    "BossMonster": "1005|5005+5+18.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 77,
+    "ShowReward": "1:1001:147|1:1002:735",
+    "BossMonsterNum": 3,
+    "BossMonster": "3005|6005+5+19.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 78,
+    "ShowReward": "1:1001:148|1:1002:740",
+    "BossMonsterNum": 3,
+    "BossMonster": "3005|5005+5+19.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 79,
+    "ShowReward": "1:1001:149|1:1002:745",
+    "BossMonsterNum": 3,
+    "BossMonster": "3005|4005+5+19.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 80,
+    "ShowReward": "1:1001:160|1:1002:800",
+    "BossMonsterNum": 3,
+    "BossMonster": "3005|5005+5+19.6",
+    "BossLib": "3105+39.2",
+    "BossSkill": "105+1|183+1|207+1|902+1"
+  },
+  {
+    "LevelID": 81,
+    "ShowReward": "1:1001:161|1:1002:805",
+    "BossMonsterNum": 3,
+    "BossMonster": "1005|4005+5+20.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 82,
+    "ShowReward": "1:1001:162|1:1002:810",
+    "BossMonsterNum": 3,
+    "BossMonster": "3005|4005+5+20.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 83,
+    "ShowReward": "1:1001:163|1:1002:815",
+    "BossMonsterNum": 3,
+    "BossMonster": "2005|6005+5+20.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 84,
+    "ShowReward": "1:1001:164|1:1002:820",
+    "BossMonsterNum": 3,
+    "BossMonster": "3005|6005+5+20.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 85,
+    "ShowReward": "1:1001:165|1:1002:825",
+    "BossMonsterNum": 3,
+    "BossMonster": "3005|6005+5+21.6",
+    "BossLib": "3105+43.2",
+    "BossSkill": "116+1|902+3|182+1|181+1|903+1"
+  },
+  {
+    "LevelID": 86,
+    "ShowReward": "1:1001:166|1:1002:830",
+    "BossMonsterNum": 3,
+    "BossMonster": "2005|4005+5+21.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 87,
+    "ShowReward": "1:1001:167|1:1002:835",
+    "BossMonsterNum": 3,
+    "BossMonster": "1005|6005+5+21.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 88,
+    "ShowReward": "1:1001:168|1:1002:840",
+    "BossMonsterNum": 3,
+    "BossMonster": "2005|5005+5+21.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 89,
+    "ShowReward": "1:1001:169|1:1002:845",
+    "BossMonsterNum": 3,
+    "BossMonster": "1005|6005+5+22.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 90,
+    "ShowReward": "1:1001:180|1:1002:900",
+    "BossMonsterNum": 3,
+    "BossMonster": "2005|4005+5+22.6",
+    "BossLib": "6105+45.2",
+    "BossSkill": "105+1|907+3|183+1|207+1|903+1"
+  },
+  {
+    "LevelID": 91,
+    "ShowReward": "1:1001:181|1:1002:905",
+    "BossMonsterNum": 3,
+    "BossMonster": "1006|5006+5+22.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 92,
+    "ShowReward": "1:1001:182|1:1002:910",
+    "BossMonsterNum": 3,
+    "BossMonster": "1006|4006+5+22.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 93,
+    "ShowReward": "1:1001:183|1:1002:915",
+    "BossMonsterNum": 3,
+    "BossMonster": "3006|5006+5+23.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 94,
+    "ShowReward": "1:1001:184|1:1002:920",
+    "BossMonsterNum": 3,
+    "BossMonster": "2006|4006+5+23.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 95,
+    "ShowReward": "1:1001:185|1:1002:925",
+    "BossMonsterNum": 3,
+    "BossMonster": "1006|5006+5+23.6",
+    "BossLib": "5106+47.2",
+    "BossSkill": "170+1|905+3|173+1|128+1|906+1"
+  },
+  {
+    "LevelID": 96,
+    "ShowReward": "1:1001:186|1:1002:930",
+    "BossMonsterNum": 3,
+    "BossMonster": "3006|4006+5+23.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 97,
+    "ShowReward": "1:1001:187|1:1002:935",
+    "BossMonsterNum": 3,
+    "BossMonster": "1006|6006+5+24.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 98,
+    "ShowReward": "1:1001:188|1:1002:940",
+    "BossMonsterNum": 3,
+    "BossMonster": "2006|5006+5+24.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 99,
+    "ShowReward": "1:1001:189|1:1002:945",
+    "BossMonsterNum": 3,
+    "BossMonster": "1006|5006+5+24.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 100,
+    "ShowReward": "1:1001:300|1:1002:1500",
+    "BossMonsterNum": 3,
+    "BossMonster": "2006|5006+5+24.6",
+    "BossLib": "5106+49.2",
+    "BossSkill": "170+1|905+3|173+1|128+1|906+1"
+  },
+  {
+    "LevelID": 101,
+    "ShowReward": "1:1001:301|1:1002:1505",
+    "BossMonsterNum": 3,
+    "BossMonster": "2006|6006+5+25.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 102,
+    "ShowReward": "1:1001:302|1:1002:1510",
+    "BossMonsterNum": 3,
+    "BossMonster": "3006|5006+5+25.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 103,
+    "ShowReward": "1:1001:303|1:1002:1515",
+    "BossMonsterNum": 3,
+    "BossMonster": "1006|4006+5+25.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 104,
+    "ShowReward": "1:1001:304|1:1002:1520",
+    "BossMonsterNum": 3,
+    "BossMonster": "3006|6006+5+25.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 105,
+    "ShowReward": "1:1001:305|1:1002:1525",
+    "BossMonsterNum": 3,
+    "BossMonster": "3006|6006+5+26.6",
+    "BossLib": "6206+53.2",
+    "BossSkill": "105+1|907+3|161+1|181+1|907+1"
+  },
+  {
+    "LevelID": 106,
+    "ShowReward": "1:1001:306|1:1002:1530",
+    "BossMonsterNum": 3,
+    "BossMonster": "2006|5006+5+26.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 107,
+    "ShowReward": "1:1001:307|1:1002:1535",
+    "BossMonsterNum": 3,
+    "BossMonster": "3006|6006+5+26.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 108,
+    "ShowReward": "1:1001:308|1:1002:1540",
+    "BossMonsterNum": 3,
+    "BossMonster": "2006|6006+5+26.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 109,
+    "ShowReward": "1:1001:309|1:1002:1545",
+    "BossMonsterNum": 3,
+    "BossMonster": "3007|6007+5+27.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 110,
+    "ShowReward": "1:1001:320|1:1002:1600",
+    "BossMonsterNum": 3,
+    "BossMonster": "2007|5007+5+27.6",
+    "BossLib": "5207+55.2",
+    "BossSkill": "153+1|902+3|182+1|115+1|173+3"
+  },
+  {
+    "LevelID": 111,
+    "ShowReward": "1:1001:321|1:1002:1605",
+    "BossMonsterNum": 3,
+    "BossMonster": "1007|6007+5+27.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 112,
+    "ShowReward": "1:1001:322|1:1002:1610",
+    "BossMonsterNum": 3,
+    "BossMonster": "1007|4007+5+27.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 113,
+    "ShowReward": "1:1001:323|1:1002:1615",
+    "BossMonsterNum": 3,
+    "BossMonster": "3007|6007+5+28.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 114,
+    "ShowReward": "1:1001:324|1:1002:1620",
+    "BossMonsterNum": 3,
+    "BossMonster": "1007|4007+5+28.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 115,
+    "ShowReward": "1:1001:325|1:1002:1625",
+    "BossMonsterNum": 3,
+    "BossMonster": "1007|6007+5+28.6",
+    "BossLib": "3207+57.2",
+    "BossSkill": "124+1|212+1|159+1|184+1|173+3"
+  },
+  {
+    "LevelID": 116,
+    "ShowReward": "1:1001:326|1:1002:1630",
+    "BossMonsterNum": 3,
+    "BossMonster": "1007|5007+5+28.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 117,
+    "ShowReward": "1:1001:327|1:1002:1635",
+    "BossMonsterNum": 3,
+    "BossMonster": "1007|4007+5+29.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 118,
+    "ShowReward": "1:1001:328|1:1002:1640",
+    "BossMonsterNum": 3,
+    "BossMonster": "2007|4007+5+29.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 119,
+    "ShowReward": "1:1001:329|1:1002:1645",
+    "BossMonsterNum": 3,
+    "BossMonster": "1007|5007+5+29.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 120,
+    "ShowReward": "1:1001:340|1:1002:1700",
+    "BossMonsterNum": 3,
+    "BossMonster": "1007|4007+5+29.6",
+    "BossLib": "3207+59.2",
+    "BossSkill": "105+1|901+3|189+1|172+1|173+3"
+  },
+  {
+    "LevelID": 121,
+    "ShowReward": "1:1001:341|1:1002:1705",
+    "BossMonsterNum": 3,
+    "BossMonster": "1007|5007+5+30.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 122,
+    "ShowReward": "1:1001:342|1:1002:1710",
+    "BossMonsterNum": 3,
+    "BossMonster": "2007|4007+5+30.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 123,
+    "ShowReward": "1:1001:343|1:1002:1715",
+    "BossMonsterNum": 3,
+    "BossMonster": "2007|6007+5+30.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 124,
+    "ShowReward": "1:1001:344|1:1002:1720",
+    "BossMonsterNum": 3,
+    "BossMonster": "1007|5007+5+30.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 125,
+    "ShowReward": "1:1001:345|1:1002:1725",
+    "BossMonsterNum": 3,
+    "BossMonster": "2007|4007+5+31.6",
+    "BossLib": "4207+63.2",
+    "BossSkill": "170+2|905+4|173+2|517+4|538+4|173+2|905+1"
+  },
+  {
+    "LevelID": 126,
+    "ShowReward": "1:1001:346|1:1002:1730",
+    "BossMonsterNum": 3,
+    "BossMonster": "1007|4007+5+31.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 127,
+    "ShowReward": "1:1001:347|1:1002:1735",
+    "BossMonsterNum": 3,
+    "BossMonster": "3008|6008+5+31.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 128,
+    "ShowReward": "1:1001:348|1:1002:1740",
+    "BossMonsterNum": 3,
+    "BossMonster": "3008|4008+5+31.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 129,
+    "ShowReward": "1:1001:349|1:1002:1745",
+    "BossMonsterNum": 3,
+    "BossMonster": "2008|5008+5+32.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 130,
+    "ShowReward": "1:1001:360|1:1002:1800",
+    "BossMonsterNum": 3,
+    "BossMonster": "3008|4008+5+32.6",
+    "BossLib": "6208+65.2",
+    "BossSkill": "122+2|903+4|181+2|517+4|561+2|173+2|905+1"
+  },
+  {
+    "LevelID": 131,
+    "ShowReward": "1:1001:361|1:1002:1805",
+    "BossMonsterNum": 3,
+    "BossMonster": "2008|6008+5+32.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 132,
+    "ShowReward": "1:1001:362|1:1002:1810",
+    "BossMonsterNum": 3,
+    "BossMonster": "2008|5008+5+32.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 133,
+    "ShowReward": "1:1001:363|1:1002:1815",
+    "BossMonsterNum": 3,
+    "BossMonster": "1008|5008+5+33.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 134,
+    "ShowReward": "1:1001:364|1:1002:1820",
+    "BossMonsterNum": 3,
+    "BossMonster": "1008|5008+5+33.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 135,
+    "ShowReward": "1:1001:365|1:1002:1825",
+    "BossMonsterNum": 3,
+    "BossMonster": "1008|5008+5+33.6",
+    "BossLib": "5208+67.2",
+    "BossSkill": "122+2|903+4|181+2|517+4|561+2|173+2|905+1"
+  },
+  {
+    "LevelID": 136,
+    "ShowReward": "1:1001:366|1:1002:1830",
+    "BossMonsterNum": 3,
+    "BossMonster": "1008|5008+5+33.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 137,
+    "ShowReward": "1:1001:367|1:1002:1835",
+    "BossMonsterNum": 3,
+    "BossMonster": "3008|4008+5+34.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 138,
+    "ShowReward": "1:1001:368|1:1002:1840",
+    "BossMonsterNum": 3,
+    "BossMonster": "1008|5008+5+34.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 139,
+    "ShowReward": "1:1001:369|1:1002:1845",
+    "BossMonsterNum": 3,
+    "BossMonster": "1008|4008+5+34.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 140,
+    "ShowReward": "1:1001:380|1:1002:1900",
+    "BossMonsterNum": 3,
+    "BossMonster": "3008|5008+5+34.6",
+    "BossLib": "5208+69.2",
+    "BossSkill": "120+2|905+4|187+2|513+4|517+4|173+2|906+1"
+  },
+  {
+    "LevelID": 141,
+    "ShowReward": "1:1001:381|1:1002:1905",
+    "BossMonsterNum": 3,
+    "BossMonster": "1008|5008+5+35.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 142,
+    "ShowReward": "1:1001:382|1:1002:1910",
+    "BossMonsterNum": 3,
+    "BossMonster": "3008|6008+5+35.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 143,
+    "ShowReward": "1:1001:383|1:1002:1915",
+    "BossMonsterNum": 3,
+    "BossMonster": "3008|5008+5+35.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 144,
+    "ShowReward": "1:1001:384|1:1002:1920",
+    "BossMonsterNum": 3,
+    "BossMonster": "3008|4008+5+35.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 145,
+    "ShowReward": "1:1001:385|1:1002:1925",
+    "BossMonsterNum": 3,
+    "BossMonster": "3009|5009+5+36.6",
+    "BossLib": "4209+73.2",
+    "BossSkill": "127+2|503+4|156+2|519+4|510+4|173+2|906+1"
+  },
+  {
+    "LevelID": 146,
+    "ShowReward": "1:1001:386|1:1002:1930",
+    "BossMonsterNum": 3,
+    "BossMonster": "3009|5009+5+36.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 147,
+    "ShowReward": "1:1001:387|1:1002:1935",
+    "BossMonsterNum": 3,
+    "BossMonster": "1009|6009+5+36.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 148,
+    "ShowReward": "1:1001:388|1:1002:1940",
+    "BossMonsterNum": 3,
+    "BossMonster": "1009|4008+5+36.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 149,
+    "ShowReward": "1:1001:389|1:1002:1945",
+    "BossMonsterNum": 3,
+    "BossMonster": "2009|6009+5+37.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 150,
+    "ShowReward": "1:1001:400|1:1002:2000",
+    "BossMonsterNum": 3,
+    "BossMonster": "1009|5009+5+37.6",
+    "BossLib": "2209+75.2",
+    "BossSkill": "120+2|903+4|118+2|501+4|570+4|173+2|906+2"
+  },
+  {
+    "LevelID": 151,
+    "ShowReward": "1:1001:401|1:1002:2005",
+    "BossMonsterNum": 3,
+    "BossMonster": "2009|4008+5+37.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 152,
+    "ShowReward": "1:1001:402|1:1002:2010",
+    "BossMonsterNum": 3,
+    "BossMonster": "1009|4008+5+37.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 153,
+    "ShowReward": "1:1001:403|1:1002:2015",
+    "BossMonsterNum": 3,
+    "BossMonster": "2009|4008+5+38.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 154,
+    "ShowReward": "1:1001:404|1:1002:2020",
+    "BossMonsterNum": 3,
+    "BossMonster": "3009|4008+5+38.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 155,
+    "ShowReward": "1:1001:405|1:1002:2025",
+    "BossMonsterNum": 3,
+    "BossMonster": "1009|5009+5+38.6",
+    "BossLib": "5209+77.2",
+    "BossSkill": "119+2|901+4|134+4|565+4|565+4|173+2|907+2"
+  },
+  {
+    "LevelID": 156,
+    "ShowReward": "1:1001:406|1:1002:2030",
+    "BossMonsterNum": 3,
+    "BossMonster": "1009|6009+5+38.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 157,
+    "ShowReward": "1:1001:407|1:1002:2035",
+    "BossMonsterNum": 3,
+    "BossMonster": "1009|6009+5+39.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 158,
+    "ShowReward": "1:1001:408|1:1002:2040",
+    "BossMonsterNum": 3,
+    "BossMonster": "1009|6009+5+39.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 159,
+    "ShowReward": "1:1001:409|1:1002:2045",
+    "BossMonsterNum": 3,
+    "BossMonster": "1009|6009+5+39.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 160,
+    "ShowReward": "1:1001:420|1:1002:2100",
+    "BossMonsterNum": 3,
+    "BossMonster": "2009|5009+5+39.6",
+    "BossLib": "4209+79.2",
+    "BossSkill": "105+2|907+4|126+2|561+2|504+4|173+2|907+2"
+  },
+  {
+    "LevelID": 161,
+    "ShowReward": "1:1001:421|1:1002:2105",
+    "BossMonsterNum": 3,
+    "BossMonster": "2009|4008+5+40.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 162,
+    "ShowReward": "1:1001:422|1:1002:2110",
+    "BossMonsterNum": 3,
+    "BossMonster": "1009|6009+5+40.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 163,
+    "ShowReward": "1:1001:423|1:1002:2115",
+    "BossMonsterNum": 3,
+    "BossMonster": "3009|6009+5+40.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 164,
+    "ShowReward": "1:1001:424|1:1002:2120",
+    "BossMonsterNum": 3,
+    "BossMonster": "1009|5009+5+40.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 165,
+    "ShowReward": "1:1001:425|1:1002:2125",
+    "BossMonsterNum": 3,
+    "BossMonster": "3009|6009+5+41.6",
+    "BossLib": "4209+83.2",
+    "BossSkill": "170+3|907+5|163+3|114+5|563+3|568+5|173+3|901+3"
+  },
+  {
+    "LevelID": 166,
+    "ShowReward": "1:1001:426|1:1002:2130",
+    "BossMonsterNum": 3,
+    "BossMonster": "3009|5009+5+41.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 167,
+    "ShowReward": "1:1001:427|1:1002:2135",
+    "BossMonsterNum": 3,
+    "BossMonster": "2009|4008+5+41.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 168,
+    "ShowReward": "1:1001:428|1:1002:2140",
+    "BossMonsterNum": 3,
+    "BossMonster": "2009|6009+5+41.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 169,
+    "ShowReward": "1:1001:429|1:1002:2145",
+    "BossMonsterNum": 3,
+    "BossMonster": "1009|4008+5+42.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 170,
+    "ShowReward": "1:1001:440|1:1002:2200",
+    "BossMonsterNum": 3,
+    "BossMonster": "3009|5009+5+42.6",
+    "BossLib": "4209+85.2",
+    "BossSkill": "121+3|901+5|207+3|103+3|572+5|517+5|173+3|901+3"
+  },
+  {
+    "LevelID": 171,
+    "ShowReward": "1:1001:441|1:1002:2205",
+    "BossMonsterNum": 3,
+    "BossMonster": "3009|6009+5+42.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 172,
+    "ShowReward": "1:1001:442|1:1002:2210",
+    "BossMonsterNum": 3,
+    "BossMonster": "2009|6009+5+42.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 173,
+    "ShowReward": "1:1001:443|1:1002:2215",
+    "BossMonsterNum": 3,
+    "BossMonster": "3009|5009+5+43.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 174,
+    "ShowReward": "1:1001:444|1:1002:2220",
+    "BossMonsterNum": 3,
+    "BossMonster": "1009|5009+5+43.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 175,
+    "ShowReward": "1:1001:445|1:1002:2225",
+    "BossMonsterNum": 3,
+    "BossMonster": "2009|5009+5+43.6",
+    "BossLib": "4209+87.2",
+    "BossSkill": "170+3|906+5|207+3|198+3|563+3|568+5|173+3|901+3"
+  },
+  {
+    "LevelID": 176,
+    "ShowReward": "1:1001:446|1:1002:2230",
+    "BossMonsterNum": 3,
+    "BossMonster": "3009|6009+5+43.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 177,
+    "ShowReward": "1:1001:447|1:1002:2235",
+    "BossMonsterNum": 3,
+    "BossMonster": "3009|4008+5+44.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 178,
+    "ShowReward": "1:1001:448|1:1002:2240",
+    "BossMonsterNum": 3,
+    "BossMonster": "2009|6009+5+44.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 179,
+    "ShowReward": "1:1001:449|1:1002:2245",
+    "BossMonsterNum": 3,
+    "BossMonster": "3009|5009+5+44.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 180,
+    "ShowReward": "1:1001:460|1:1002:2300",
+    "BossMonsterNum": 3,
+    "BossMonster": "3009|6009+5+44.6",
+    "BossLib": "3209+89.2",
+    "BossSkill": "124+3|212+3|159+3|184+3|510+5|568+5|173+3|902+3"
+  },
+  {
+    "LevelID": 181,
+    "ShowReward": "1:1001:461|1:1002:2305",
+    "BossMonsterNum": 3,
+    "BossMonster": "2009|6009+5+45.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 182,
+    "ShowReward": "1:1001:462|1:1002:2310",
+    "BossMonsterNum": 3,
+    "BossMonster": "1009|6009+5+45.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 183,
+    "ShowReward": "1:1001:463|1:1002:2315",
+    "BossMonsterNum": 3,
+    "BossMonster": "3009|4008+5+45.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 184,
+    "ShowReward": "1:1001:464|1:1002:2320",
+    "BossMonsterNum": 3,
+    "BossMonster": "1009|5009+5+45.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 185,
+    "ShowReward": "1:1001:465|1:1002:2325",
+    "BossMonsterNum": 3,
+    "BossMonster": "2009|4008+5+46.6",
+    "BossLib": "3209+93.2",
+    "BossSkill": "105+3|907+5|183+3|207+3|561+3|565+5|173+3|902+3"
+  },
+  {
+    "LevelID": 186,
+    "ShowReward": "1:1001:466|1:1002:2330",
+    "BossMonsterNum": 3,
+    "BossMonster": "1009|5009+5+46.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 187,
+    "ShowReward": "1:1001:467|1:1002:2335",
+    "BossMonsterNum": 3,
+    "BossMonster": "1009|6009+5+46.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 188,
+    "ShowReward": "1:1001:468|1:1002:2340",
+    "BossMonsterNum": 3,
+    "BossMonster": "2009|6009+5+46.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 189,
+    "ShowReward": "1:1001:469|1:1002:2345",
+    "BossMonsterNum": 3,
+    "BossMonster": "1009|6009+5+47.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 190,
+    "ShowReward": "1:1001:480|1:1002:2400",
+    "BossMonsterNum": 3,
+    "BossMonster": "2009|5009+5+47.6",
+    "BossLib": "2209+95.2",
+    "BossSkill": "105+3|902+5|188+3|184+3|523+5|515+3|173+3|903+3"
+  },
+  {
+    "LevelID": 191,
+    "ShowReward": "1:1001:481|1:1002:2405",
+    "BossMonsterNum": 3,
+    "BossMonster": "3009|6009+5+47.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 192,
+    "ShowReward": "1:1001:482|1:1002:2410",
+    "BossMonsterNum": 3,
+    "BossMonster": "3009|6009+5+47.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 193,
+    "ShowReward": "1:1001:483|1:1002:2415",
+    "BossMonsterNum": 3,
+    "BossMonster": "3009|5009+5+48.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 194,
+    "ShowReward": "1:1001:484|1:1002:2420",
+    "BossMonsterNum": 3,
+    "BossMonster": "1009|5009+5+48.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 195,
+    "ShowReward": "1:1001:485|1:1002:2425",
+    "BossMonsterNum": 3,
+    "BossMonster": "2009|5009+5+48.6",
+    "BossLib": "5209+97.2",
+    "BossSkill": "106+3|503+5|189+3|183+3|519+5|518+5|173+3|904+3"
+  },
+  {
+    "LevelID": 196,
+    "ShowReward": "1:1001:486|1:1002:2430",
+    "BossMonsterNum": 3,
+    "BossMonster": "2009|4008+5+48.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 197,
+    "ShowReward": "1:1001:487|1:1002:2435",
+    "BossMonsterNum": 3,
+    "BossMonster": "2009|5009+5+49.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 198,
+    "ShowReward": "1:1001:488|1:1002:2440",
+    "BossMonsterNum": 3,
+    "BossMonster": "3009|4008+5+49.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 199,
+    "ShowReward": "1:1001:489|1:1002:2445",
+    "BossMonsterNum": 3,
+    "BossMonster": "3009|6009+5+49.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 200,
+    "ShowReward": "1:1001:600|1:1002:3000",
+    "BossMonsterNum": 3,
+    "BossMonster": "3009|5009+5+49.6",
+    "BossLib": "3209+99.2",
+    "BossSkill": "127+3|907+5|182+3|118+3|513+5|570+5|173+3|904+3"
+  },
+  {
+    "LevelID": 201,
+    "ShowReward": "1:1001:601|1:1002:3005",
+    "BossMonsterNum": 3,
+    "BossMonster": "1109|6109+5+50.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 202,
+    "ShowReward": "1:1001:602|1:1002:3010",
+    "BossMonsterNum": 3,
+    "BossMonster": "1109|6109+5+50.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 203,
+    "ShowReward": "1:1001:603|1:1002:3015",
+    "BossMonsterNum": 3,
+    "BossMonster": "3109|5109+5+50.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 204,
+    "ShowReward": "1:1001:604|1:1002:3020",
+    "BossMonsterNum": 3,
+    "BossMonster": "1109|5109+5+50.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 205,
+    "ShowReward": "1:1001:605|1:1002:3025",
+    "BossMonsterNum": 3,
+    "BossMonster": "2109|6109+5+51.6",
+    "BossLib": "3209+103.2",
+    "BossSkill": "105+3|212+3|198+3|158+3|512+3|517+5|173+3|905+3"
+  },
+  {
+    "LevelID": 206,
+    "ShowReward": "1:1001:606|1:1002:3030",
+    "BossMonsterNum": 3,
+    "BossMonster": "3109|5109+5+51.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 207,
+    "ShowReward": "1:1001:607|1:1002:3035",
+    "BossMonsterNum": 3,
+    "BossMonster": "3109|5109+5+51.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 208,
+    "ShowReward": "1:1001:608|1:1002:3040",
+    "BossMonsterNum": 3,
+    "BossMonster": "2109|6109+5+51.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 209,
+    "ShowReward": "1:1001:609|1:1002:3045",
+    "BossMonsterNum": 3,
+    "BossMonster": "3109|5109+5+52.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 210,
+    "ShowReward": "1:1001:620|1:1002:3100",
+    "BossMonsterNum": 3,
+    "BossMonster": "3109|6109+5+52.6",
+    "BossLib": "5209+105.2",
+    "BossSkill": "121+3|901+5|207+3|103+3|572+5|517+5|173+3|905+3"
+  },
+  {
+    "LevelID": 211,
+    "ShowReward": "1:1001:621|1:1002:3105",
+    "BossMonsterNum": 3,
+    "BossMonster": "1109|5109+5+52.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 212,
+    "ShowReward": "1:1001:622|1:1002:3110",
+    "BossMonsterNum": 3,
+    "BossMonster": "2109|4108+5+52.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 213,
+    "ShowReward": "1:1001:623|1:1002:3115",
+    "BossMonsterNum": 3,
+    "BossMonster": "2109|6109+5+53.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 214,
+    "ShowReward": "1:1001:624|1:1002:3120",
+    "BossMonsterNum": 3,
+    "BossMonster": "1109|6109+5+53.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 215,
+    "ShowReward": "1:1001:625|1:1002:3125",
+    "BossMonsterNum": 3,
+    "BossMonster": "1109|5109+5+53.6",
+    "BossLib": "2209+107.2",
+    "BossSkill": "153+3|905+5|173+3|185+3|570+5|517+5|173+3|906+3"
+  },
+  {
+    "LevelID": 216,
+    "ShowReward": "1:1001:626|1:1002:3130",
+    "BossMonsterNum": 3,
+    "BossMonster": "3109|4108+5+53.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 217,
+    "ShowReward": "1:1001:627|1:1002:3135",
+    "BossMonsterNum": 3,
+    "BossMonster": "3109|5109+5+54.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 218,
+    "ShowReward": "1:1001:628|1:1002:3140",
+    "BossMonsterNum": 3,
+    "BossMonster": "1109|6109+5+54.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 219,
+    "ShowReward": "1:1001:629|1:1002:3145",
+    "BossMonsterNum": 3,
+    "BossMonster": "1109|4108+5+54.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 220,
+    "ShowReward": "1:1001:640|1:1002:3200",
+    "BossMonsterNum": 3,
+    "BossMonster": "1109|5109+5+54.6",
+    "BossLib": "2209+109.2",
+    "BossSkill": "106+3|503+5|215+3|163+3|568+5|513+5|173+3|907+3"
+  },
+  {
+    "LevelID": 221,
+    "ShowReward": "1:1001:641|1:1002:3205",
+    "BossMonsterNum": 3,
+    "BossMonster": "3109|4108+5+55.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 222,
+    "ShowReward": "1:1001:642|1:1002:3210",
+    "BossMonsterNum": 3,
+    "BossMonster": "2109|5109+5+55.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 223,
+    "ShowReward": "1:1001:643|1:1002:3215",
+    "BossMonsterNum": 3,
+    "BossMonster": "2109|6109+5+55.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 224,
+    "ShowReward": "1:1001:644|1:1002:3220",
+    "BossMonsterNum": 3,
+    "BossMonster": "2109|5109+5+55.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 225,
+    "ShowReward": "1:1001:645|1:1002:3225",
+    "BossMonsterNum": 3,
+    "BossMonster": "3109|4108+5+56.6",
+    "BossLib": "3209+113.2",
+    "BossSkill": "125+3|503+5|162+3|172+3|561+3|513+5|173+3|901+3"
+  },
+  {
+    "LevelID": 226,
+    "ShowReward": "1:1001:646|1:1002:3230",
+    "BossMonsterNum": 3,
+    "BossMonster": "2109|4108+5+56.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 227,
+    "ShowReward": "1:1001:647|1:1002:3235",
+    "BossMonsterNum": 3,
+    "BossMonster": "3109|6109+5+56.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 228,
+    "ShowReward": "1:1001:648|1:1002:3240",
+    "BossMonsterNum": 3,
+    "BossMonster": "3109|6109+5+56.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 229,
+    "ShowReward": "1:1001:649|1:1002:3245",
+    "BossMonsterNum": 3,
+    "BossMonster": "2109|4108+5+57.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 230,
+    "ShowReward": "1:1001:660|1:1002:3300",
+    "BossMonsterNum": 3,
+    "BossMonster": "1109|6109+5+57.6",
+    "BossLib": "4209+115.2",
+    "BossSkill": "153+3|503+5|126+3|181+3|538+5|504+5|173+3|901+3"
+  },
+  {
+    "LevelID": 231,
+    "ShowReward": "1:1001:661|1:1002:3305",
+    "BossMonsterNum": 3,
+    "BossMonster": "2109|6109+5+57.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 232,
+    "ShowReward": "1:1001:662|1:1002:3310",
+    "BossMonsterNum": 3,
+    "BossMonster": "1109|5109+5+57.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 233,
+    "ShowReward": "1:1001:663|1:1002:3315",
+    "BossMonsterNum": 3,
+    "BossMonster": "3109|6109+5+58.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 234,
+    "ShowReward": "1:1001:664|1:1002:3320",
+    "BossMonsterNum": 3,
+    "BossMonster": "1109|5109+5+58.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 235,
+    "ShowReward": "1:1001:665|1:1002:3325",
+    "BossMonsterNum": 3,
+    "BossMonster": "3109|6109+5+58.6",
+    "BossLib": "5209+117.2",
+    "BossSkill": "119+3|902+5|161+3|155+3|505+5|568+5|173+3|901+3"
+  },
+  {
+    "LevelID": 236,
+    "ShowReward": "1:1001:666|1:1002:3330",
+    "BossMonsterNum": 3,
+    "BossMonster": "1109|4108+5+58.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 237,
+    "ShowReward": "1:1001:667|1:1002:3335",
+    "BossMonsterNum": 3,
+    "BossMonster": "3109|4108+5+59.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 238,
+    "ShowReward": "1:1001:668|1:1002:3340",
+    "BossMonsterNum": 3,
+    "BossMonster": "3109|6109+5+59.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 239,
+    "ShowReward": "1:1001:669|1:1002:3345",
+    "BossMonsterNum": 3,
+    "BossMonster": "2109|6109+5+59.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 240,
+    "ShowReward": "1:1001:680|1:1002:3400",
+    "BossMonsterNum": 3,
+    "BossMonster": "1109|5109+5+59.6",
+    "BossLib": "4209+119.2",
+    "BossSkill": "119+3|902+5|161+3|155+3|505+5|568+5|173+3|901+3"
+  },
+  {
+    "LevelID": 241,
+    "ShowReward": "1:1001:681|1:1002:3405",
+    "BossMonsterNum": 3,
+    "BossMonster": "2109|5109+5+60.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 242,
+    "ShowReward": "1:1001:682|1:1002:3410",
+    "BossMonsterNum": 3,
+    "BossMonster": "3109|4108+5+60.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 243,
+    "ShowReward": "1:1001:683|1:1002:3415",
+    "BossMonsterNum": 3,
+    "BossMonster": "1109|4108+5+60.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 244,
+    "ShowReward": "1:1001:684|1:1002:3420",
+    "BossMonsterNum": 3,
+    "BossMonster": "1109|5109+5+60.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 245,
+    "ShowReward": "1:1001:685|1:1002:3425",
+    "BossMonsterNum": 3,
+    "BossMonster": "3109|5109+5+61.6",
+    "BossLib": "4209+123.2",
+    "BossSkill": "131+3|903+5|162+3|113+3|504+5|512+3|173+3|609+1"
+  },
+  {
+    "LevelID": 246,
+    "ShowReward": "1:1001:686|1:1002:3430",
+    "BossMonsterNum": 3,
+    "BossMonster": "1109|5109+5+61.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 247,
+    "ShowReward": "1:1001:687|1:1002:3435",
+    "BossMonsterNum": 3,
+    "BossMonster": "2109|4108+5+61.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 248,
+    "ShowReward": "1:1001:688|1:1002:3440",
+    "BossMonsterNum": 3,
+    "BossMonster": "3109|4108+5+61.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 249,
+    "ShowReward": "1:1001:689|1:1002:3445",
+    "BossMonsterNum": 3,
+    "BossMonster": "2109|4108+5+62.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 250,
+    "ShowReward": "1:1001:700|1:1002:3500",
+    "BossMonsterNum": 3,
+    "BossMonster": "3109|5109+5+62.6",
+    "BossLib": "5209+125.2",
+    "BossSkill": "168+3|901+5|160+3|186+3|538+5|570+5|173+3|614+1"
+  },
+  {
+    "LevelID": 251,
+    "ShowReward": "1:1001:701|1:1002:3505",
+    "BossMonsterNum": 3,
+    "BossMonster": "2109|4108+5+62.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 252,
+    "ShowReward": "1:1001:702|1:1002:3510",
+    "BossMonsterNum": 3,
+    "BossMonster": "1109|4108+5+62.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 253,
+    "ShowReward": "1:1001:703|1:1002:3515",
+    "BossMonsterNum": 3,
+    "BossMonster": "2109|5109+5+63.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 254,
+    "ShowReward": "1:1001:704|1:1002:3520",
+    "BossMonsterNum": 3,
+    "BossMonster": "3109|4108+5+63.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 255,
+    "ShowReward": "1:1001:705|1:1002:3525",
+    "BossMonsterNum": 3,
+    "BossMonster": "1109|4108+5+63.6",
+    "BossLib": "3209+127.2",
+    "BossSkill": "168+3|906+5|186+3|188+3|512+3|517+5|173+3|614+1"
+  },
+  {
+    "LevelID": 256,
+    "ShowReward": "1:1001:706|1:1002:3530",
+    "BossMonsterNum": 3,
+    "BossMonster": "1109|4108+5+63.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 257,
+    "ShowReward": "1:1001:707|1:1002:3535",
+    "BossMonsterNum": 3,
+    "BossMonster": "2109|5109+5+64.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 258,
+    "ShowReward": "1:1001:708|1:1002:3540",
+    "BossMonsterNum": 3,
+    "BossMonster": "3109|6109+5+64.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 259,
+    "ShowReward": "1:1001:709|1:1002:3545",
+    "BossMonsterNum": 3,
+    "BossMonster": "3109|5109+5+64.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 260,
+    "ShowReward": "1:1001:720|1:1002:3600",
+    "BossMonsterNum": 3,
+    "BossMonster": "2109|4108+5+64.6",
+    "BossLib": "3209+129.2",
+    "BossSkill": "105+3|907+5|183+3|207+3|561+3|565+5|173+3|609+1|511+5"
+  },
+  {
+    "LevelID": 261,
+    "ShowReward": "1:1001:721|1:1002:3605",
+    "BossMonsterNum": 3,
+    "BossMonster": "1109|4108+5+65.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 262,
+    "ShowReward": "1:1001:722|1:1002:3610",
+    "BossMonsterNum": 3,
+    "BossMonster": "2109|6109+5+65.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 263,
+    "ShowReward": "1:1001:723|1:1002:3615",
+    "BossMonsterNum": 3,
+    "BossMonster": "2109|6109+5+65.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 264,
+    "ShowReward": "1:1001:724|1:1002:3620",
+    "BossMonsterNum": 3,
+    "BossMonster": "3109|5109+5+65.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 265,
+    "ShowReward": "1:1001:725|1:1002:3625",
+    "BossMonsterNum": 3,
+    "BossMonster": "3109|6109+5+66.6",
+    "BossLib": "3209+133.2",
+    "BossSkill": "119+3|901+5|134+5|126+3|565+5|568+5|173+3|609+1|511+5"
+  },
+  {
+    "LevelID": 266,
+    "ShowReward": "1:1001:726|1:1002:3630",
+    "BossMonsterNum": 3,
+    "BossMonster": "1109|6109+5+66.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 267,
+    "ShowReward": "1:1001:727|1:1002:3635",
+    "BossMonsterNum": 3,
+    "BossMonster": "2109|4108+5+66.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 268,
+    "ShowReward": "1:1001:728|1:1002:3640",
+    "BossMonsterNum": 3,
+    "BossMonster": "2109|5109+5+66.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 269,
+    "ShowReward": "1:1001:729|1:1002:3645",
+    "BossMonsterNum": 3,
+    "BossMonster": "3109|6109+5+67.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 270,
+    "ShowReward": "1:1001:740|1:1002:3700",
+    "BossMonsterNum": 3,
+    "BossMonster": "2109|6109+5+67.6",
+    "BossLib": "1209+135.2",
+    "BossSkill": "127+3|902+5|158+3|158+3|519+5|505+5|173+3|614+1|511+5"
+  },
+  {
+    "LevelID": 271,
+    "ShowReward": "1:1001:741|1:1002:3705",
+    "BossMonsterNum": 3,
+    "BossMonster": "1109|5109+5+67.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 272,
+    "ShowReward": "1:1001:742|1:1002:3710",
+    "BossMonsterNum": 3,
+    "BossMonster": "2109|5109+5+67.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 273,
+    "ShowReward": "1:1001:743|1:1002:3715",
+    "BossMonsterNum": 3,
+    "BossMonster": "1109|6109+5+68.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 274,
+    "ShowReward": "1:1001:744|1:1002:3720",
+    "BossMonsterNum": 3,
+    "BossMonster": "3109|6109+5+68.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 275,
+    "ShowReward": "1:1001:745|1:1002:3725",
+    "BossMonsterNum": 3,
+    "BossMonster": "2109|5109+5+68.6",
+    "BossLib": "4209+137.2",
+    "BossSkill": "153+3|905+5|173+3|185+3|570+5|517+5|173+3|614+1|511+5"
+  },
+  {
+    "LevelID": 276,
+    "ShowReward": "1:1001:746|1:1002:3730",
+    "BossMonsterNum": 3,
+    "BossMonster": "1109|6109+5+68.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 277,
+    "ShowReward": "1:1001:747|1:1002:3735",
+    "BossMonsterNum": 3,
+    "BossMonster": "3109|4108+5+69.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 278,
+    "ShowReward": "1:1001:748|1:1002:3740",
+    "BossMonsterNum": 3,
+    "BossMonster": "1109|4108+5+69.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 279,
+    "ShowReward": "1:1001:749|1:1002:3745",
+    "BossMonsterNum": 3,
+    "BossMonster": "3109|4108+5+69.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 280,
+    "ShowReward": "1:1001:760|1:1002:3800",
+    "BossMonsterNum": 3,
+    "BossMonster": "2109|5109+5+69.6",
+    "BossLib": "1209+139.2",
+    "BossSkill": "106+3|503+5|189+3|183+3|519+5|518+5|173+3|614+1|511+5"
+  },
+  {
+    "LevelID": 281,
+    "ShowReward": "1:1001:761|1:1002:3805",
+    "BossMonsterNum": 3,
+    "BossMonster": "1109|5109+5+70.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 282,
+    "ShowReward": "1:1001:762|1:1002:3810",
+    "BossMonsterNum": 3,
+    "BossMonster": "2109|4108+5+70.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 283,
+    "ShowReward": "1:1001:763|1:1002:3815",
+    "BossMonsterNum": 3,
+    "BossMonster": "3109|5109+5+70.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 284,
+    "ShowReward": "1:1001:764|1:1002:3820",
+    "BossMonsterNum": 3,
+    "BossMonster": "2109|5109+5+70.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 285,
+    "ShowReward": "1:1001:765|1:1002:3825",
+    "BossMonsterNum": 3,
+    "BossMonster": "1109|6109+5+71.6",
+    "BossLib": "2209+143.2",
+    "BossSkill": "127+3|907+5|182+3|118+3|513+5|570+5|173+3|609+1|511+5"
+  },
+  {
+    "LevelID": 286,
+    "ShowReward": "1:1001:766|1:1002:3830",
+    "BossMonsterNum": 3,
+    "BossMonster": "2109|6109+5+71.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 287,
+    "ShowReward": "1:1001:767|1:1002:3835",
+    "BossMonsterNum": 3,
+    "BossMonster": "1109|4108+5+71.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 288,
+    "ShowReward": "1:1001:768|1:1002:3840",
+    "BossMonsterNum": 3,
+    "BossMonster": "1109|4108+5+71.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 289,
+    "ShowReward": "1:1001:769|1:1002:3845",
+    "BossMonsterNum": 3,
+    "BossMonster": "1109|6109+5+72.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 290,
+    "ShowReward": "1:1001:780|1:1002:3900",
+    "BossMonsterNum": 3,
+    "BossMonster": "3109|6109+5+72.6",
+    "BossLib": "5209+145.2",
+    "BossSkill": "105+3|503+5|159+3|182+3|512+3|538+5|173+3|614+1|511+5|901+5"
+  },
+  {
+    "LevelID": 291,
+    "ShowReward": "1:1001:781|1:1002:3905",
+    "BossMonsterNum": 3,
+    "BossMonster": "3109|5109+5+72.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 292,
+    "ShowReward": "1:1001:782|1:1002:3910",
+    "BossMonsterNum": 3,
+    "BossMonster": "1109|6109+5+72.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 293,
+    "ShowReward": "1:1001:783|1:1002:3915",
+    "BossMonsterNum": 3,
+    "BossMonster": "2109|4108+5+73.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 294,
+    "ShowReward": "1:1001:784|1:1002:3920",
+    "BossMonsterNum": 3,
+    "BossMonster": "2109|4108+5+73.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 295,
+    "ShowReward": "1:1001:785|1:1002:3925",
+    "BossMonsterNum": 3,
+    "BossMonster": "2109|6109+5+73.6",
+    "BossLib": "1209+147.2",
+    "BossSkill": "153+3|905+5|173+3|185+3|570+5|517+5|173+3|609+1|511+5|901+5"
+  },
+  {
+    "LevelID": 296,
+    "ShowReward": "1:1001:786|1:1002:3930",
+    "BossMonsterNum": 3,
+    "BossMonster": "3109|6109+5+73.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 297,
+    "ShowReward": "1:1001:787|1:1002:3935",
+    "BossMonsterNum": 3,
+    "BossMonster": "1109|5109+5+74.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 298,
+    "ShowReward": "1:1001:788|1:1002:3940",
+    "BossMonsterNum": 3,
+    "BossMonster": "2109|6109+5+74.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 299,
+    "ShowReward": "1:1001:789|1:1002:3945",
+    "BossMonsterNum": 3,
+    "BossMonster": "2109|6109+5+74.6",
+    "BossLib": "0",
+    "BossSkill": 0
+  },
+  {
+    "LevelID": 300,
+    "ShowReward": "1:1001:900|1:1002:4500",
+    "BossMonsterNum": 3,
+    "BossMonster": "2109|6109+5+74.6",
+    "BossLib": "3209+149.2",
+    "BossSkill": "124+3|212+3|159+3|184+3|510+5|568+5|173+3|614+1|511+5|901+5"
+  }
+]

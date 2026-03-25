@@ -1,0 +1,74 @@
+[
+  {
+    "TouXiangId": 1,
+    "Name": "智慧之王",
+    "Icon": "zhujue",
+    "Price": 0
+  },
+  {
+    "TouXiangId": 2,
+    "Name": "航海家",
+    "Icon": "hanghaijia",
+    "Price": 200
+  },
+  {
+    "TouXiangId": 3,
+    "Name": "战争之王",
+    "Icon": "zhanzhengzhiwang",
+    "Price": 200
+  },
+  {
+    "TouXiangId": 4,
+    "Name": "国王骑士",
+    "Icon": "kingqishi",
+    "Price": 200
+  },
+  {
+    "TouXiangId": 5,
+    "Name": "女将军",
+    "Icon": "nvjiangjun",
+    "Price": 200
+  },
+  {
+    "TouXiangId": 6,
+    "Name": "公爵",
+    "Icon": "huaiguizu",
+    "Price": 300
+  },
+  {
+    "TouXiangId": 7,
+    "Name": "伯爵",
+    "Icon": "haoguizu",
+    "Price": 300
+  },
+  {
+    "TouXiangId": 8,
+    "Name": "商人",
+    "Icon": "shangren",
+    "Price": 300
+  },
+  {
+    "TouXiangId": 9,
+    "Name": "糖果国王",
+    "Icon": "tangguoguowang",
+    "Price": 500
+  },
+  {
+    "TouXiangId": 10,
+    "Name": "幽灵君主",
+    "Icon": "youlingqunzhu",
+    "Price": 500
+  },
+  {
+    "TouXiangId": 11,
+    "Name": "恶魔领主",
+    "Icon": "diyulingzhu",
+    "Price": -1
+  },
+  {
+    "TouXiangId": 12,
+    "Name": "恶魔斗士",
+    "Icon": "duoluoemo",
+    "Price": -2
+  }
+]

@@ -1,0 +1,191 @@
+[
+  {
+    "ID": 10000,
+    "Type": 1,
+    "Lv": 0,
+    "Icon": "Keji01",
+    "Effice": 0,
+    "Effice_1": 0,
+    "Text": "增加一个农民，获取金币速度加快"
+  },
+  {
+    "ID": 10001,
+    "Type": 1,
+    "Lv": 1,
+    "Icon": "Keji01",
+    "Effice": 100,
+    "Effice_1": "{2:20}",
+    "Text": "增加一个农民，获取金币速度加快"
+  },
+  {
+    "ID": 10002,
+    "Type": 1,
+    "Lv": 2,
+    "Icon": "Keji01",
+    "Effice": 200,
+    "Effice_1": "{3:30}",
+    "Text": "增加一个农民，获取金币速度加快"
+  },
+  {
+    "ID": 10003,
+    "Type": 1,
+    "Lv": 3,
+    "Icon": "Keji01",
+    "Effice": 300,
+    "Effice_1": "{4:40}",
+    "Text": "增加一个农民，获取金币速度加快"
+  },
+  {
+    "ID": 10004,
+    "Type": 1,
+    "Lv": 4,
+    "Icon": "Keji01",
+    "Effice": 400,
+    "Effice_1": "{5:50}",
+    "Text": "增加一个农民，获取金币速度加快"
+  },
+  {
+    "ID": 10005,
+    "Type": 1,
+    "Lv": 5,
+    "Icon": "Keji01",
+    "Effice": 500,
+    "Effice_1": "{6:60}",
+    "Text": "增加一个农民，获取金币速度加快"
+  },
+  {
+    "ID": 20000,
+    "Type": 2,
+    "Lv": 0,
+    "Icon": "Keji02",
+    "Effice": 0,
+    "Effice_1": 0,
+    "Text": "所有英雄士兵上限+1"
+  },
+  {
+    "ID": 20001,
+    "Type": 2,
+    "Lv": 1,
+    "Icon": "Keji02",
+    "Effice": 100,
+    "Effice_1": 1,
+    "Text": "所有英雄士兵上限+1"
+  },
+  {
+    "ID": 20002,
+    "Type": 2,
+    "Lv": 2,
+    "Icon": "Keji02",
+    "Effice": 200,
+    "Effice_1": 2,
+    "Text": "所有英雄士兵上限+1"
+  },
+  {
+    "ID": 20003,
+    "Type": 2,
+    "Lv": 3,
+    "Icon": "Keji02",
+    "Effice": 300,
+    "Effice_1": 3,
+    "Text": "所有英雄士兵上限+1"
+  },
+  {
+    "ID": 20004,
+    "Type": 2,
+    "Lv": 4,
+    "Icon": "Keji02",
+    "Effice": 400,
+    "Effice_1": 4,
+    "Text": "所有英雄士兵上限+1"
+  },
+  {
+    "ID": 20005,
+    "Type": 2,
+    "Lv": 5,
+    "Icon": "Keji02",
+    "Effice": 500,
+    "Effice_1": 5,
+    "Text": "所有英雄士兵上限+1"
+  },
+  {
+    "ID": 30000,
+    "Type": 3,
+    "Lv": 0,
+    "Icon": "Keji03",
+    "Effice": 0,
+    "Effice_1": 0,
+    "Text": "增加士兵双攻双防"
+  },
+  {
+    "ID": 30001,
+    "Type": 3,
+    "Lv": 1,
+    "Icon": "Keji03",
+    "Effice": 100,
+    "Effice_1": " {20:10}",
+    "Text": "增加士兵双攻双防"
+  },
+  {
+    "ID": 30002,
+    "Type": 3,
+    "Lv": 2,
+    "Icon": "Keji03",
+    "Effice": 200,
+    "Effice_1": " {30:15}",
+    "Text": "增加士兵双攻双防"
+  },
+  {
+    "ID": 30003,
+    "Type": 3,
+    "Lv": 3,
+    "Icon": "Keji03",
+    "Effice": 300,
+    "Effice_1": " {40:20}",
+    "Text": "增加士兵双攻双防"
+  },
+  {
+    "ID": 30004,
+    "Type": 3,
+    "Lv": 4,
+    "Icon": "Keji03",
+    "Effice": 400,
+    "Effice_1": " {50:25}",
+    "Text": "增加士兵双攻双防"
+  },
+  {
+    "ID": 30005,
+    "Type": 3,
+    "Lv": 5,
+    "Icon": "Keji03",
+    "Effice": 500,
+    "Effice_1": " {60:30}",
+    "Text": "增加士兵双攻双防"
+  },
+  {
+    "ID": 40001,
+    "Type": 4,
+    "Lv": 1,
+    "Icon": "Jidi01",
+    "Effice": 0,
+    "Effice_1": 1,
+    "Text": "可以出战1个英雄，基地属性提升"
+  },
+  {
+    "ID": 40002,
+    "Type": 4,
+    "Lv": 2,
+    "Icon": "Jidi02",
+    "Effice": 300,
+    "Effice_1": 2,
+    "Text": "可以出战2个英雄，基地属性提升"
+  },
+  {
+    "ID": 40003,
+    "Type": 4,
+    "Lv": 3,
+    "Icon": "Jidi03",
+    "Effice": 500,
+    "Effice_1": 3,
+    "Text": "可以出战3个英雄，基地属性提升"
+  }
+]

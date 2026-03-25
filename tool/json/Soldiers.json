@@ -1,0 +1,57 @@
+[
+  {
+    "Id": 1001,
+    "Nextid": 1002,
+    "type": 1,
+    "Content": 99999,
+    "Attup": 20,
+    "Attdesc": "20%",
+    "Title": "男爵",
+    "Badge": "juewei1",
+    "Desc": "招募士兵{0}/{1}即可获取士兵技能"
+  },
+  {
+    "Id": 1002,
+    "Nextid": 1003,
+    "type": 1,
+    "Content": 99999,
+    "Attup": 20,
+    "Attdesc": "40%",
+    "Title": "子爵",
+    "Badge": "juewei2",
+    "Desc": "招募士兵{0}/{1}即可获取士兵技能"
+  },
+  {
+    "Id": 1003,
+    "Nextid": 1004,
+    "type": 1,
+    "Content": 99999,
+    "Attup": 20,
+    "Attdesc": "60%",
+    "Title": "伯爵",
+    "Badge": "juewei3",
+    "Desc": "招募士兵{0}/{1}即可获取士兵技能"
+  },
+  {
+    "Id": 1004,
+    "Nextid": 1005,
+    "type": 1,
+    "Content": 99999,
+    "Attup": 20,
+    "Attdesc": "80%",
+    "Title": "侯爵",
+    "Badge": "juewei4",
+    "Desc": "招募士兵{0}/{1}即可获取士兵技能"
+  },
+  {
+    "Id": 1005,
+    "Nextid": 0,
+    "type": 1,
+    "Content": 99999,
+    "Attup": 20,
+    "Attdesc": "100%",
+    "Title": "公爵",
+    "Badge": "juewei5",
+    "Desc": "招募士兵{0}/{1}即可获取士兵技能"
+  }
+]

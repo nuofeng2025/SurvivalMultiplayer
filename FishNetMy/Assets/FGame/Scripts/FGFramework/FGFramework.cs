@@ -8,7 +8,7 @@ namespace FGame
     public class FGFramework
     {
         private static FGFramework _instance;
-        public static FGFramework Instance
+        public static FGFramework Ins
         {
             get
             {
@@ -34,11 +34,13 @@ namespace FGame
         /// </summary>
         public void Init()
         {
+            Debug.Log("FG框架已初始化");
             // 方案A：手动注册（推荐）
 
             _controllers.Add(new ResourceController());
-
-
+            _controllers.Add(new ConfigController());
+            _controllers.Add(new EventController());
+           
             foreach (var c in _controllers)
             {
                 c.Init();
@@ -47,8 +49,12 @@ namespace FGame
 
         }
 
-
-        public T GetController<T>() where T : class,IController
+        /// <summary>
+        /// 获取系统
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <returns></returns>
+        public T GetCtr<T>() where T : class,IController
         {
             foreach (var c in _controllers)
             {

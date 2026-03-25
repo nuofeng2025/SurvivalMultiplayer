@@ -1,0 +1,162 @@
+[
+  {
+    "BoxId": 1,
+    "boxName": "Lv.1",
+    "Icon": "BOX1",
+    "Price": 100,
+    "BoxPercent": 10,
+    "EquipPercent": "70|20|10|0|0|0",
+    "StarPercent": "70|20|10|0|0|0",
+    "BoxExp": 4
+  },
+  {
+    "BoxId": 2,
+    "boxName": "Lv.2",
+    "Icon": "BOX1",
+    "Price": 200,
+    "BoxPercent": 10,
+    "EquipPercent": "60|20|20|0|0|0",
+    "StarPercent": "60|20|20|0|0|0",
+    "BoxExp": 8
+  },
+  {
+    "BoxId": 3,
+    "boxName": "Lv.3",
+    "Icon": "BOX2",
+    "Price": 400,
+    "BoxPercent": 10,
+    "EquipPercent": "50|30|20|0|0|0",
+    "StarPercent": "50|30|20|0|0|0",
+    "BoxExp": 12
+  },
+  {
+    "BoxId": 4,
+    "boxName": "Lv.4",
+    "Icon": "BOX2",
+    "Price": 800,
+    "BoxPercent": 10,
+    "EquipPercent": "40|40|30|0|0|0",
+    "StarPercent": "40|40|30|0|0|0",
+    "BoxExp": 16
+  },
+  {
+    "BoxId": 5,
+    "boxName": "Lv.5",
+    "Icon": "BOX2",
+    "Price": 1200,
+    "BoxPercent": 10,
+    "EquipPercent": "0|50|40|10|0|0",
+    "StarPercent": "0|50|40|10|0|0",
+    "BoxExp": 20
+  },
+  {
+    "BoxId": 6,
+    "boxName": "Lv.6",
+    "Icon": "BOX3",
+    "Price": 1600,
+    "BoxPercent": 10,
+    "EquipPercent": "0|50|30|20|0|0",
+    "StarPercent": "0|50|30|20|0|0",
+    "BoxExp": 24
+  },
+  {
+    "BoxId": 7,
+    "boxName": "Lv.7",
+    "Icon": "BOX3",
+    "Price": 2000,
+    "BoxPercent": 10,
+    "EquipPercent": "0|40|40|20|0|0",
+    "StarPercent": "0|40|40|20|0|0",
+    "BoxExp": 28
+  },
+  {
+    "BoxId": 8,
+    "boxName": "Lv.8",
+    "Icon": "BOX4",
+    "Price": 2400,
+    "BoxPercent": 10,
+    "EquipPercent": "0|30|50|20|0|0",
+    "StarPercent": "0|30|50|20|0|0",
+    "BoxExp": 32
+  },
+  {
+    "BoxId": 9,
+    "boxName": "Lv.9",
+    "Icon": "BOX4",
+    "Price": 2800,
+    "BoxPercent": 10,
+    "EquipPercent": "0|20|50|30|0|0",
+    "StarPercent": "0|20|50|30|0|0",
+    "BoxExp": 36
+  },
+  {
+    "BoxId": 10,
+    "boxName": "Lv.10",
+    "Icon": "BOX4",
+    "Price": 3200,
+    "BoxPercent": 10,
+    "EquipPercent": "0|0|60|30|10|0",
+    "StarPercent": "0|0|60|30|10|0",
+    "BoxExp": 40
+  },
+  {
+    "BoxId": 11,
+    "boxName": "Lv.11",
+    "Icon": "BOX5",
+    "Price": 3600,
+    "BoxPercent": 10,
+    "EquipPercent": "0|0|50|40|10|0",
+    "StarPercent": "0|0|50|40|10|0",
+    "BoxExp": 44
+  },
+  {
+    "BoxId": 12,
+    "boxName": "Lv.12",
+    "Icon": "BOX5",
+    "Price": 4000,
+    "BoxPercent": 10,
+    "EquipPercent": "0|0|40|40|20|0",
+    "StarPercent": "0|0|40|40|20|0",
+    "BoxExp": 48
+  },
+  {
+    "BoxId": 13,
+    "boxName": "Lv.13",
+    "Icon": "BOX5",
+    "Price": 4400,
+    "BoxPercent": 10,
+    "EquipPercent": "0|0|30|50|20|0",
+    "StarPercent": "0|0|30|50|20|0",
+    "BoxExp": 52
+  },
+  {
+    "BoxId": 14,
+    "boxName": "Lv.14",
+    "Icon": "BOX6",
+    "Price": 4800,
+    "BoxPercent": 10,
+    "EquipPercent": "0|0|0|60|30|10",
+    "StarPercent": "0|0|0|60|30|10",
+    "BoxExp": 56
+  },
+  {
+    "BoxId": 15,
+    "boxName": "Lv.15",
+    "Icon": "BOX6",
+    "Price": 5200,
+    "BoxPercent": 10,
+    "EquipPercent": "0|0|0|50|40|10",
+    "StarPercent": "0|0|0|50|40|10",
+    "BoxExp": 60
+  },
+  {
+    "BoxId": 16,
+    "boxName": "Lv.16",
+    "Icon": "BOX6",
+    "Price": 5600,
+    "BoxPercent": 10,
+    "EquipPercent": "0|0|0|40|40|20",
+    "StarPercent": "0|0|0|40|40|20",
+    "BoxExp": 64
+  }
+]

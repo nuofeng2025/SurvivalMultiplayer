@@ -41,6 +41,8 @@ namespace FGame
         private void Start()
         {
            
+
+
            
         }
 

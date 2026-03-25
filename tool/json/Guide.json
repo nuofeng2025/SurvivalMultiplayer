@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "pic": "GuideIcon1",
+    "type": 1,
+    "language": 0
+  },
+  {
+    "id": 2,
+    "pic": "GuideIcon1",
+    "type": 2,
+    "language": 0
+  },
+  {
+    "id": 3,
+    "pic": "GuideIcon1",
+    "type": 2,
+    "language": 0
+  },
+  {
+    "id": 4,
+    "pic": "GuideIcon2",
+    "type": 3,
+    "language": 0
+  },
+  {
+    "id": 5,
+    "pic": "GuideIcon2",
+    "type": 2,
+    "language": 0
+  },
+  {
+    "id": 6,
+    "pic": "GuideIcon3",
+    "type": 3,
+    "language": 0
+  },
+  {
+    "id": 7,
+    "pic": "GuideIcon3",
+    "type": 2,
+    "language": 0
+  },
+  {
+    "id": 8,
+    "pic": "GuideIcon3",
+    "type": 4,
+    "language": 0
+  },
+  {
+    "id": 9,
+    "pic": 0,
+    "type": 0,
+    "language": "来配置跟多英雄吧\\n<color=#478d61>（点击布阵）</color>"
+  },
+  {
+    "id": 10,
+    "pic": 0,
+    "type": 0,
+    "language": "配置英雄可以在战斗中参与战斗\\n<color=#478d61>（点击英雄头像）</color>"
+  },
+  {
+    "id": 11,
+    "pic": 0,
+    "type": 0,
+    "language": 0
+  },
+  {
+    "id": 12,
+    "pic": 0,
+    "type": 0,
+    "language": 0
+  },
+  {
+    "id": 13,
+    "pic": 0,
+    "type": 0,
+    "language": 0
+  },
+  {
+    "id": 14,
+    "pic": 0,
+    "type": 0,
+    "language": 0
+  },
+  {
+    "id": 15,
+    "pic": 0,
+    "type": 0,
+    "language": 0
+  },
+  {
+    "id": 16,
+    "pic": 0,
+    "type": 0,
+    "language": 0
+  },
+  {
+    "id": 17,
+    "pic": 0,
+    "type": 0,
+    "language": 0
+  },
+  {
+    "id": 18,
+    "pic": 0,
+    "type": 0,
+    "language": 0
+  },
+  {
+    "id": 19,
+    "pic": 0,
+    "type": 0,
+    "language": 0
+  },
+  {
+    "id": 20,
+    "pic": 0,
+    "type": 0,
+    "language": 0
+  },
+  {
+    "id": 21,
+    "pic": 0,
+    "type": 0,
+    "language": 0
+  },
+  {
+    "id": 22,
+    "pic": 0,
+    "type": 0,
+    "language": 0
+  },
+  {
+    "id": 23,
+    "pic": 0,
+    "type": 0,
+    "language": 0
+  },
+  {
+    "id": 24,
+    "pic": 0,
+    "type": 0,
+    "language": 0
+  }
+]

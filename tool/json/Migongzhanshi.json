@@ -1,0 +1,332 @@
+[
+  {
+    "ShijianID": 1,
+    "Name": "敌方部队lv.{0}",
+    "ChildID": 1,
+    "BuyPrice": 0,
+    "EventIcon": "Difangbudui",
+    "Music": "Difangbudui",
+    "Close": 0,
+    "Explain": "遭遇敌人。"
+  },
+  {
+    "ShijianID": 2,
+    "Name": "敌方部队lv.{0}",
+    "ChildID": 1,
+    "BuyPrice": 0,
+    "EventIcon": "Difangbudui",
+    "Music": "Difangbudui",
+    "Close": 0,
+    "Explain": "遭遇敌人。"
+  },
+  {
+    "ShijianID": 3,
+    "Name": "神秘古文",
+    "ChildID": 1,
+    "BuyPrice": 10,
+    "EventIcon": "BoxSkill",
+    "Music": "BoxSkill",
+    "Close": 1,
+    "Explain": "远古遗迹，隐约有神秘力量露出(免费获得技能)"
+  },
+  {
+    "ShijianID": 4,
+    "Name": "训练场",
+    "ChildID": 1,
+    "BuyPrice": 20,
+    "EventIcon": "SkillUpShop",
+    "Music": "SkillUpShop",
+    "Close": 1,
+    "Explain": "熟能生巧，似乎里面有很多练习靶子(强化技能)"
+  },
+  {
+    "ShijianID": 5,
+    "Name": "进化神殿",
+    "ChildID": 1,
+    "BuyPrice": 30,
+    "EventIcon": "JinHuaShenDian",
+    "Music": "JinHuaShenDian",
+    "Close": 1,
+    "Explain": "可以选择一个部队进化1次。"
+  },
+  {
+    "ShijianID": 6,
+    "Name": "生命图腾",
+    "ChildID": 1,
+    "BuyPrice": 30,
+    "EventIcon": "AllRecover",
+    "Music": "AllRecover",
+    "Close": 1,
+    "Explain": "救死扶伤，无论你是谁，我都可以帮助你(群体治疗30%)"
+  },
+  {
+    "ShijianID": 7,
+    "Name": "恢复泉水",
+    "ChildID": 1,
+    "BuyPrice": 30,
+    "EventIcon": "SingleRecover",
+    "Music": "SingleRecover",
+    "Close": 1,
+    "Explain": "神秘的泉水(英雄完全恢复)"
+  },
+  {
+    "ShijianID": 8,
+    "Name": "战神雕像",
+    "ChildID": 1,
+    "BuyPrice": 20,
+    "EventIcon": "PowerUpShop",
+    "Music": "PowerUpShop",
+    "Close": 1,
+    "Explain": "来锻炼锻炼吧。"
+  },
+  {
+    "ShijianID": 9,
+    "Name": "知识神殿",
+    "ChildID": 1,
+    "BuyPrice": 20,
+    "EventIcon": "SkillShop",
+    "Music": "SkillShop",
+    "Close": 1,
+    "Explain": "看到书架，内心总有股抗拒的力量(购买技能三个)"
+  },
+  {
+    "ShijianID": 10,
+    "Name": "遗忘雕像",
+    "ChildID": 1,
+    "BuyPrice": 10,
+    "EventIcon": "ForgetSkill",
+    "Music": "ForgetSkill",
+    "Close": 1,
+    "Explain": "人的记忆是有限的哦。"
+  },
+  {
+    "ShijianID": 11,
+    "Name": "敌方小队",
+    "ChildID": 1,
+    "BuyPrice": 10,
+    "EventIcon": "DiFang",
+    "Music": "DiFang",
+    "Close": 1,
+    "Explain": "怪物部队数量+1"
+  },
+  {
+    "ShijianID": 12,
+    "Name": "敌方小队",
+    "ChildID": 1,
+    "BuyPrice": 20,
+    "EventIcon": "DiFang2",
+    "Music": "DiFang",
+    "Close": 1,
+    "Explain": "怪物部队数量+2"
+  },
+  {
+    "ShijianID": 13,
+    "Name": "敌方小队",
+    "ChildID": 1,
+    "BuyPrice": 30,
+    "EventIcon": "DiFang3",
+    "Music": "DiFang",
+    "Close": 1,
+    "Explain": "怪物部队数量+3"
+  },
+  {
+    "ShijianID": 14,
+    "Name": "魔法恢复",
+    "ChildID": 1,
+    "BuyPrice": 20,
+    "EventIcon": "MpRecover",
+    "Music": "MpRecover",
+    "Close": 1,
+    "Explain": "恢复魔法值"
+  },
+  {
+    "ShijianID": 15,
+    "Name": "雇佣兵营",
+    "ChildID": 1,
+    "BuyPrice": 20,
+    "EventIcon": "BuyTroop",
+    "Music": "BuyTroop",
+    "Close": 1,
+    "Explain": "这些雇佣兵的家园被毁了,救济他们将帮助你"
+  },
+  {
+    "ShijianID": 16,
+    "Name": "时间沙漏",
+    "ChildID": 1,
+    "BuyPrice": 50,
+    "EventIcon": "TimeBack",
+    "Music": "TimeBack",
+    "Close": 1,
+    "Explain": "时间还能倒流？不可思议~！"
+  },
+  {
+    "ShijianID": 17,
+    "Name": "特殊挑战",
+    "ChildID": 1,
+    "BuyPrice": 0,
+    "EventIcon": "SpecialPk",
+    "Music": "SpecialPk",
+    "Close": 1,
+    "Explain": "随机挑战事件,并获得大量奖励"
+  },
+  {
+    "ShijianID": 18,
+    "Name": "英雄镜像",
+    "ChildID": 1,
+    "BuyPrice": 0,
+    "EventIcon": "MirrorPk",
+    "Music": "MirrorPk",
+    "Close": 1,
+    "Explain": "挑战成功获得40%属性提升"
+  },
+  {
+    "ShijianID": 19,
+    "Name": "复活天神",
+    "ChildID": 1,
+    "BuyPrice": 30,
+    "EventIcon": "FuHuoGod",
+    "Music": "FuHuoGod",
+    "Close": 1,
+    "Explain": "消耗水晶复活军队"
+  },
+  {
+    "ShijianID": 20,
+    "Name": "变化商店",
+    "ChildID": 1,
+    "BuyPrice": 20,
+    "EventIcon": "BianHuaShop",
+    "Music": "BianHuaShop",
+    "Close": 1,
+    "Explain": "购买随机变化技能"
+  },
+  {
+    "ShijianID": 21,
+    "Name": "宝箱",
+    "ChildID": 1,
+    "BuyPrice": 30,
+    "EventIcon": "TreasureBox",
+    "Music": "TreasureBox",
+    "Close": 1,
+    "Explain": "获得一个额外的宝箱"
+  },
+  {
+    "ShijianID": 22,
+    "Name": "援兵",
+    "ChildID": 1,
+    "BuyPrice": 20,
+    "EventIcon": "MoreTroop",
+    "Music": "MoreTroop",
+    "Close": 1,
+    "Explain": "获得一些额外的士兵"
+  },
+  {
+    "ShijianID": 23,
+    "Name": "难度提升",
+    "ChildID": 1,
+    "BuyPrice": 20,
+    "EventIcon": "GuaiWuUp",
+    "Music": "GuaiWuUp",
+    "Close": 1,
+    "Explain": "难度提升2倍,符石奖励提升2倍"
+  },
+  {
+    "ShijianID": 24,
+    "Name": "贤者神殿",
+    "ChildID": 1,
+    "BuyPrice": 20,
+    "EventIcon": "MoreSkillShop",
+    "Music": "MoreSkillShop",
+    "Close": 1,
+    "Explain": "可以购买超级多技能"
+  },
+  {
+    "ShijianID": 25,
+    "Name": "精英怪",
+    "ChildID": 1,
+    "BuyPrice": 20,
+    "EventIcon": "JingYingGuai",
+    "Music": "JingYingGuai",
+    "Close": 1,
+    "Explain": "打败后必定获得高级装备"
+  },
+  {
+    "ShijianID": 51,
+    "Name": "<color=#FF0002>终极敌人</color>",
+    "ChildID": 1,
+    "BuyPrice": 0,
+    "EventIcon": "Difanglingzhu",
+    "Music": "Difanglingzhu",
+    "Close": 0,
+    "Explain": "堂堂正正的决斗吧。遭遇最终对手。"
+  },
+  {
+    "ShijianID": 52,
+    "Name": "<color=#FF00D3>攻城战</color>",
+    "ChildID": 1,
+    "BuyPrice": 0,
+    "EventIcon": "GongCheng",
+    "Music": "GongCheng",
+    "Close": 1,
+    "Explain": "攻占城池"
+  },
+  {
+    "ShijianID": 53,
+    "Name": "<color=#FF00D3>守城战</color>",
+    "ChildID": 1,
+    "BuyPrice": 0,
+    "EventIcon": "ShouCheng",
+    "Music": "ShouCheng",
+    "Close": 1,
+    "Explain": "守护城池"
+  },
+  {
+    "ShijianID": 54,
+    "Name": "<color=#FF00D3>拯救友军</color>",
+    "ChildID": 1,
+    "BuyPrice": 0,
+    "EventIcon": "SaveFriend",
+    "Music": "SaveFriend",
+    "Close": 1,
+    "Explain": "拯救友军"
+  },
+  {
+    "ShijianID": 55,
+    "Name": "<color=#FF00D3>护送友军</color>",
+    "ChildID": 1,
+    "BuyPrice": 0,
+    "EventIcon": "ProtectFriend",
+    "Music": "ProtectFriend",
+    "Close": 1,
+    "Explain": "护送友军"
+  },
+  {
+    "ShijianID": 99,
+    "Name": "传送门",
+    "ChildID": 1,
+    "BuyPrice": 0,
+    "EventIcon": "Portal",
+    "Music": "Portal",
+    "Close": 1,
+    "Explain": "传送到下一关"
+  },
+  {
+    "ShijianID": 101,
+    "Name": "引导事件",
+    "ChildID": 1,
+    "BuyPrice": 0,
+    "EventIcon": "YinDao",
+    "Music": "YinDao",
+    "Close": 1,
+    "Explain": "操作提示"
+  },
+  {
+    "ShijianID": 102,
+    "Name": "提示事件",
+    "ChildID": 2,
+    "BuyPrice": 0,
+    "EventIcon": "YinDao",
+    "Music": "YinDao",
+    "Close": 1,
+    "Explain": "操作提示"
+  }
+]

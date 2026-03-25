@@ -27,8 +27,8 @@ namespace FGame
 
         public void Init()
         {
-            EventController.InteractionCenterEnter.AddListener(ShowInteractionUi);
-            EventController.InteractionCenterLeave.AddListener(HideInteractionUi);
+            FGFramework.Ins.GetCtr<EventController>().InteractionCenterEnter.AddListener(ShowInteractionUi);
+            FGFramework.Ins.GetCtr<EventController>().InteractionCenterLeave.AddListener(HideInteractionUi);
 
 
         }
@@ -114,8 +114,8 @@ namespace FGame
 
         private void OnDestroy()
         {
-            EventController.InteractionCenterEnter.RemoveListener(ShowInteractionUi);
-            EventController.InteractionCenterLeave.RemoveListener(HideInteractionUi);
+            FGFramework.Ins.GetCtr<EventController>().InteractionCenterEnter.RemoveListener(ShowInteractionUi);
+            FGFramework.Ins.GetCtr<EventController>().InteractionCenterLeave.RemoveListener(HideInteractionUi);
         }
 
     }

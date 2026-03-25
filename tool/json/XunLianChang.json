@@ -1,0 +1,639 @@
+[
+  {
+    "PveId": 11,
+    "Money": 240,
+    "ExpReward": 60,
+    "Gem": 1,
+    "EquipLevel": 1
+  },
+  {
+    "PveId": 12,
+    "Money": 260,
+    "ExpReward": 80,
+    "Gem": 2,
+    "EquipLevel": 1
+  },
+  {
+    "PveId": 13,
+    "Money": 270,
+    "ExpReward": 100,
+    "Gem": 3,
+    "EquipLevel": 1
+  },
+  {
+    "PveId": 14,
+    "Money": 280,
+    "ExpReward": 120,
+    "Gem": 4,
+    "EquipLevel": 2
+  },
+  {
+    "PveId": 15,
+    "Money": 290,
+    "ExpReward": 140,
+    "Gem": 5,
+    "EquipLevel": 2
+  },
+  {
+    "PveId": 16,
+    "Money": 310,
+    "ExpReward": 160,
+    "Gem": 6,
+    "EquipLevel": 2
+  },
+  {
+    "PveId": 21,
+    "Money": 340,
+    "ExpReward": 220,
+    "Gem": 7,
+    "EquipLevel": 3
+  },
+  {
+    "PveId": 22,
+    "Money": 360,
+    "ExpReward": 240,
+    "Gem": 8,
+    "EquipLevel": 3
+  },
+  {
+    "PveId": 23,
+    "Money": 360,
+    "ExpReward": 260,
+    "Gem": 9,
+    "EquipLevel": 3
+  },
+  {
+    "PveId": 24,
+    "Money": 380,
+    "ExpReward": 280,
+    "Gem": 10,
+    "EquipLevel": 4
+  },
+  {
+    "PveId": 25,
+    "Money": 390,
+    "ExpReward": 300,
+    "Gem": 10,
+    "EquipLevel": 4
+  },
+  {
+    "PveId": 26,
+    "Money": 400,
+    "ExpReward": 320,
+    "Gem": 10,
+    "EquipLevel": 4
+  },
+  {
+    "PveId": 31,
+    "Money": 440,
+    "ExpReward": 380,
+    "Gem": 10,
+    "EquipLevel": 5
+  },
+  {
+    "PveId": 32,
+    "Money": 450,
+    "ExpReward": 400,
+    "Gem": 10,
+    "EquipLevel": 5
+  },
+  {
+    "PveId": 33,
+    "Money": 460,
+    "ExpReward": 420,
+    "Gem": 10,
+    "EquipLevel": 5
+  },
+  {
+    "PveId": 34,
+    "Money": 480,
+    "ExpReward": 440,
+    "Gem": 10,
+    "EquipLevel": 6
+  },
+  {
+    "PveId": 35,
+    "Money": 480,
+    "ExpReward": 460,
+    "Gem": 10,
+    "EquipLevel": 6
+  },
+  {
+    "PveId": 36,
+    "Money": 490,
+    "ExpReward": 480,
+    "Gem": 10,
+    "EquipLevel": 6
+  },
+  {
+    "PveId": 41,
+    "Money": 520,
+    "ExpReward": 540,
+    "Gem": 11,
+    "EquipLevel": 7
+  },
+  {
+    "PveId": 42,
+    "Money": 520,
+    "ExpReward": 560,
+    "Gem": 11,
+    "EquipLevel": 7
+  },
+  {
+    "PveId": 43,
+    "Money": 530,
+    "ExpReward": 580,
+    "Gem": 11,
+    "EquipLevel": 8
+  },
+  {
+    "PveId": 44,
+    "Money": 540,
+    "ExpReward": 600,
+    "Gem": 11,
+    "EquipLevel": 8
+  },
+  {
+    "PveId": 45,
+    "Money": 550,
+    "ExpReward": 620,
+    "Gem": 12,
+    "EquipLevel": 8
+  },
+  {
+    "PveId": 46,
+    "Money": 560,
+    "ExpReward": 640,
+    "Gem": 12,
+    "EquipLevel": 9
+  },
+  {
+    "PveId": 51,
+    "Money": 580,
+    "ExpReward": 700,
+    "Gem": 13,
+    "EquipLevel": 9
+  },
+  {
+    "PveId": 52,
+    "Money": 590,
+    "ExpReward": 720,
+    "Gem": 13,
+    "EquipLevel": 10
+  },
+  {
+    "PveId": 53,
+    "Money": 600,
+    "ExpReward": 740,
+    "Gem": 14,
+    "EquipLevel": 10
+  },
+  {
+    "PveId": 54,
+    "Money": 600,
+    "ExpReward": 760,
+    "Gem": 14,
+    "EquipLevel": 10
+  },
+  {
+    "PveId": 55,
+    "Money": 610,
+    "ExpReward": 780,
+    "Gem": 15,
+    "EquipLevel": 11
+  },
+  {
+    "PveId": 56,
+    "Money": 620,
+    "ExpReward": 800,
+    "Gem": 15,
+    "EquipLevel": 11
+  },
+  {
+    "PveId": 61,
+    "Money": 640,
+    "ExpReward": 860,
+    "Gem": 16,
+    "EquipLevel": 12
+  },
+  {
+    "PveId": 62,
+    "Money": 650,
+    "ExpReward": 880,
+    "Gem": 16,
+    "EquipLevel": 12
+  },
+  {
+    "PveId": 63,
+    "Money": 660,
+    "ExpReward": 900,
+    "Gem": 17,
+    "EquipLevel": 12
+  },
+  {
+    "PveId": 64,
+    "Money": 670,
+    "ExpReward": 920,
+    "Gem": 17,
+    "EquipLevel": 13
+  },
+  {
+    "PveId": 65,
+    "Money": 680,
+    "ExpReward": 940,
+    "Gem": 18,
+    "EquipLevel": 13
+  },
+  {
+    "PveId": 66,
+    "Money": 680,
+    "ExpReward": 960,
+    "Gem": 18,
+    "EquipLevel": 14
+  },
+  {
+    "PveId": 71,
+    "Money": 710,
+    "ExpReward": 1020,
+    "Gem": 18,
+    "EquipLevel": 14
+  },
+  {
+    "PveId": 72,
+    "Money": 720,
+    "ExpReward": 1040,
+    "Gem": 19,
+    "EquipLevel": 14
+  },
+  {
+    "PveId": 73,
+    "Money": 720,
+    "ExpReward": 1060,
+    "Gem": 19,
+    "EquipLevel": 15
+  },
+  {
+    "PveId": 74,
+    "Money": 730,
+    "ExpReward": 1080,
+    "Gem": 19,
+    "EquipLevel": 15
+  },
+  {
+    "PveId": 75,
+    "Money": 740,
+    "ExpReward": 1100,
+    "Gem": 20,
+    "EquipLevel": 16
+  },
+  {
+    "PveId": 76,
+    "Money": 750,
+    "ExpReward": 1120,
+    "Gem": 20,
+    "EquipLevel": 16
+  },
+  {
+    "PveId": 81,
+    "Money": 770,
+    "ExpReward": 1180,
+    "Gem": 20,
+    "EquipLevel": 16
+  },
+  {
+    "PveId": 82,
+    "Money": 780,
+    "ExpReward": 1200,
+    "Gem": 21,
+    "EquipLevel": 17
+  },
+  {
+    "PveId": 83,
+    "Money": 790,
+    "ExpReward": 1220,
+    "Gem": 21,
+    "EquipLevel": 17
+  },
+  {
+    "PveId": 84,
+    "Money": 800,
+    "ExpReward": 1240,
+    "Gem": 21,
+    "EquipLevel": 18
+  },
+  {
+    "PveId": 85,
+    "Money": 800,
+    "ExpReward": 1260,
+    "Gem": 22,
+    "EquipLevel": 18
+  },
+  {
+    "PveId": 86,
+    "Money": 810,
+    "ExpReward": 1280,
+    "Gem": 22,
+    "EquipLevel": 18
+  },
+  {
+    "PveId": 91,
+    "Money": 840,
+    "ExpReward": 1340,
+    "Gem": 22,
+    "EquipLevel": 19
+  },
+  {
+    "PveId": 92,
+    "Money": 840,
+    "ExpReward": 1360,
+    "Gem": 23,
+    "EquipLevel": 19
+  },
+  {
+    "PveId": 93,
+    "Money": 850,
+    "ExpReward": 1380,
+    "Gem": 23,
+    "EquipLevel": 20
+  },
+  {
+    "PveId": 94,
+    "Money": 860,
+    "ExpReward": 1400,
+    "Gem": 23,
+    "EquipLevel": 20
+  },
+  {
+    "PveId": 95,
+    "Money": 870,
+    "ExpReward": 1420,
+    "Gem": 24,
+    "EquipLevel": 20
+  },
+  {
+    "PveId": 96,
+    "Money": 880,
+    "ExpReward": 1440,
+    "Gem": 24,
+    "EquipLevel": 21
+  },
+  {
+    "PveId": 101,
+    "Money": 900,
+    "ExpReward": 1500,
+    "Gem": 24,
+    "EquipLevel": 21
+  },
+  {
+    "PveId": 102,
+    "Money": 900,
+    "ExpReward": 1510,
+    "Gem": 25,
+    "EquipLevel": 22
+  },
+  {
+    "PveId": 103,
+    "Money": 900,
+    "ExpReward": 1520,
+    "Gem": 25,
+    "EquipLevel": 22
+  },
+  {
+    "PveId": 104,
+    "Money": 910,
+    "ExpReward": 1530,
+    "Gem": 25,
+    "EquipLevel": 23
+  },
+  {
+    "PveId": 105,
+    "Money": 910,
+    "ExpReward": 1540,
+    "Gem": 26,
+    "EquipLevel": 23
+  },
+  {
+    "PveId": 106,
+    "Money": 920,
+    "ExpReward": 1550,
+    "Gem": 26,
+    "EquipLevel": 24
+  },
+  {
+    "PveId": 111,
+    "Money": 930,
+    "ExpReward": 1580,
+    "Gem": 26,
+    "EquipLevel": 24
+  },
+  {
+    "PveId": 112,
+    "Money": 930,
+    "ExpReward": 1590,
+    "Gem": 27,
+    "EquipLevel": 24
+  },
+  {
+    "PveId": 113,
+    "Money": 940,
+    "ExpReward": 1600,
+    "Gem": 27,
+    "EquipLevel": 25
+  },
+  {
+    "PveId": 114,
+    "Money": 940,
+    "ExpReward": 1610,
+    "Gem": 27,
+    "EquipLevel": 25
+  },
+  {
+    "PveId": 115,
+    "Money": 940,
+    "ExpReward": 1620,
+    "Gem": 28,
+    "EquipLevel": 26
+  },
+  {
+    "PveId": 116,
+    "Money": 950,
+    "ExpReward": 1630,
+    "Gem": 28,
+    "EquipLevel": 26
+  },
+  {
+    "PveId": 121,
+    "Money": 960,
+    "ExpReward": 1660,
+    "Gem": 28,
+    "EquipLevel": 26
+  },
+  {
+    "PveId": 122,
+    "Money": 960,
+    "ExpReward": 1670,
+    "Gem": 29,
+    "EquipLevel": 27
+  },
+  {
+    "PveId": 123,
+    "Money": 970,
+    "ExpReward": 1680,
+    "Gem": 29,
+    "EquipLevel": 27
+  },
+  {
+    "PveId": 124,
+    "Money": 970,
+    "ExpReward": 1690,
+    "Gem": 29,
+    "EquipLevel": 28
+  },
+  {
+    "PveId": 125,
+    "Money": 980,
+    "ExpReward": 1700,
+    "Gem": 30,
+    "EquipLevel": 29
+  },
+  {
+    "PveId": 126,
+    "Money": 980,
+    "ExpReward": 1710,
+    "Gem": 30,
+    "EquipLevel": 30
+  },
+  {
+    "PveId": 131,
+    "Money": 980,
+    "ExpReward": 1740,
+    "Gem": 31,
+    "EquipLevel": 30
+  },
+  {
+    "PveId": 132,
+    "Money": 990,
+    "ExpReward": 1770,
+    "Gem": 32,
+    "EquipLevel": 31
+  },
+  {
+    "PveId": 133,
+    "Money": 990,
+    "ExpReward": 1800,
+    "Gem": 33,
+    "EquipLevel": 31
+  },
+  {
+    "PveId": 134,
+    "Money": 1000,
+    "ExpReward": 1830,
+    "Gem": 34,
+    "EquipLevel": 32
+  },
+  {
+    "PveId": 135,
+    "Money": 1000,
+    "ExpReward": 1860,
+    "Gem": 35,
+    "EquipLevel": 32
+  },
+  {
+    "PveId": 136,
+    "Money": 1000,
+    "ExpReward": 1890,
+    "Gem": 35,
+    "EquipLevel": 33
+  },
+  {
+    "PveId": 141,
+    "Money": 1010,
+    "ExpReward": 1910,
+    "Gem": 36,
+    "EquipLevel": 33
+  },
+  {
+    "PveId": 142,
+    "Money": 1010,
+    "ExpReward": 1930,
+    "Gem": 36,
+    "EquipLevel": 34
+  },
+  {
+    "PveId": 143,
+    "Money": 1020,
+    "ExpReward": 1950,
+    "Gem": 37,
+    "EquipLevel": 35
+  },
+  {
+    "PveId": 144,
+    "Money": 1020,
+    "ExpReward": 1970,
+    "Gem": 37,
+    "EquipLevel": 36
+  },
+  {
+    "PveId": 145,
+    "Money": 1020,
+    "ExpReward": 1990,
+    "Gem": 38,
+    "EquipLevel": 36
+  },
+  {
+    "PveId": 146,
+    "Money": 1030,
+    "ExpReward": 2010,
+    "Gem": 38,
+    "EquipLevel": 37
+  },
+  {
+    "PveId": 151,
+    "Money": 1030,
+    "ExpReward": 2030,
+    "Gem": 39,
+    "EquipLevel": 37
+  },
+  {
+    "PveId": 152,
+    "Money": 1040,
+    "ExpReward": 2050,
+    "Gem": 39,
+    "EquipLevel": 38
+  },
+  {
+    "PveId": 153,
+    "Money": 1040,
+    "ExpReward": 2070,
+    "Gem": 40,
+    "EquipLevel": 38
+  },
+  {
+    "PveId": 154,
+    "Money": 1040,
+    "ExpReward": 2090,
+    "Gem": 40,
+    "EquipLevel": 39
+  },
+  {
+    "PveId": 155,
+    "Money": 1050,
+    "ExpReward": 2110,
+    "Gem": 41,
+    "EquipLevel": 39
+  },
+  {
+    "PveId": 156,
+    "Money": 1050,
+    "ExpReward": 2130,
+    "Gem": 41,
+    "EquipLevel": 40
+  },
+  {
+    "PveId": 161,
+    "Money": 1060,
+    "ExpReward": 2150,
+    "Gem": 41,
+    "EquipLevel": 40
+  }
+]

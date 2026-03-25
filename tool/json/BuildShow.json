@@ -1,0 +1,82 @@
+[
+  {
+    "ID": 1,
+    "Hero": 0,
+    "Soldier": "bubing01_Lv2",
+    "Scale": 1,
+    "Face": 2,
+    "Coordinate": "115|477"
+  },
+  {
+    "ID": 2,
+    "Hero": 0,
+    "Soldier": "bubing01_Lv2",
+    "Scale": 1,
+    "Face": 2,
+    "Coordinate": "-89|470"
+  },
+  {
+    "ID": 3,
+    "Hero": 0,
+    "Soldier": "gongbing01_Lv2",
+    "Scale": 0.8,
+    "Face": 1,
+    "Coordinate": "-103|234"
+  },
+  {
+    "ID": 4,
+    "Hero": 0,
+    "Soldier": "gongbing01_Lv2",
+    "Scale": 0.8,
+    "Face": 1,
+    "Coordinate": "-146|202"
+  },
+  {
+    "ID": 5,
+    "Hero": 0,
+    "Soldier": "gongbing01_Lv2",
+    "Scale": 0.8,
+    "Face": 1,
+    "Coordinate": "-126|136"
+  },
+  {
+    "ID": 6,
+    "Hero": 0,
+    "Soldier": "bubing01_Lv2",
+    "Scale": 1,
+    "Face": 1,
+    "Coordinate": "116|193"
+  },
+  {
+    "ID": 7,
+    "Hero": 0,
+    "Soldier": "bubing01_Lv2",
+    "Scale": 1,
+    "Face": 1,
+    "Coordinate": "162|228"
+  },
+  {
+    "ID": 8,
+    "Hero": 0,
+    "Soldier": "bubing01_Lv2",
+    "Scale": 1,
+    "Face": 1,
+    "Coordinate": "130|130"
+  },
+  {
+    "ID": 9,
+    "Hero": "Eileen.3",
+    "Soldier": 0,
+    "Scale": 0.55,
+    "Face": 1,
+    "Coordinate": "-77|203"
+  },
+  {
+    "ID": 10,
+    "Hero": "Mahlon.3",
+    "Soldier": 0,
+    "Scale": 0.5,
+    "Face": 1,
+    "Coordinate": "172|187"
+  }
+]

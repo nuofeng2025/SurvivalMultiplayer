@@ -1,0 +1,20 @@
+//
+// Auto Generated Code By excel2json
+// https://neil3d.gitee.io/coding/excel2json.html
+// 1. 每个 Sheet 形成一个 Struct 定义, Sheet 的名称作为 Struct 的名称
+// 2. 表格约定：第一行是变量名称，第二行是变量类型，第3行是注释
+
+// Generate From Attdesc.xlsx
+
+public class Attdesc
+{
+	public int Attributeid; // 属性id
+	public int type; // 属性类型
+	public string Desc; // 属性名称
+	public int TypeHero; // 职业
+	public int SoldierId; // 士兵id
+	public int type1; // 3阶士兵类型
+}
+
+
+// End of Auto Generated Code

@@ -1,0 +1,46 @@
+[
+  {
+    "Id": 4,
+    "Ip": "113.31.104.68",
+    "Name": "云中城",
+    "State": 2,
+    "Recommend": 1,
+    "IsNew": 1,
+    "Post": 10002,
+    "PostNum": 1,
+    "CZPost": 8084
+  },
+  {
+    "Id": 3,
+    "Ip": "113.31.104.68",
+    "Name": "龙之国",
+    "State": 2,
+    "Recommend": 1,
+    "IsNew": 0,
+    "Post": 10013,
+    "PostNum": 1,
+    "CZPost": 8083
+  },
+  {
+    "Id": 1,
+    "Ip": "113.31.104.68",
+    "Name": "梦境之国",
+    "State": 2,
+    "Recommend": 0,
+    "IsNew": 0,
+    "Post": 10011,
+    "PostNum": 1,
+    "CZPost": 8081
+  },
+  {
+    "Id": 2,
+    "Ip": "113.31.104.68",
+    "Name": "糖果秘境",
+    "State": 2,
+    "Recommend": 0,
+    "IsNew": 0,
+    "Post": 10012,
+    "PostNum": 1,
+    "CZPost": 8082
+  }
+]
