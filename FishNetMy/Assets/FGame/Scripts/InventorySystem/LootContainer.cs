@@ -16,6 +16,10 @@ namespace FGame
         [LabelText("生成类型")]
         [SerializeField] private LootGenerationType generationType = LootGenerationType.OnOpen;
 
+        [LabelText("物资表")]
+        [SerializeField] private ItemSpawnList itemSpawnList;
+
+
         [LabelText("能否刷新")]
         [SerializeField] private bool isRespawnable = false;
 
@@ -53,9 +57,10 @@ namespace FGame
         }
 
 
+        #endregion
 
 
-
+        #region API
         /// <summary>
         /// 服务器生成物资
         /// </summary>
@@ -68,8 +73,15 @@ namespace FGame
             // 根据玩家调整（如果适用）
             if (generationType == LootGenerationType.OnOpen)
             {
-                // 获取打开的玩家，调整战利品
-                // AdjustLootByPlayer(currentPlayer);
+                
+
+
+
+
+
+
+
+
             }
 
             /*foreach (var loot in lootItems)
@@ -79,12 +91,38 @@ namespace FGame
         }
 
 
+        /// <summary>
+        /// 生成随机物品
+        /// </summary>
+        /// <returns></returns>
+        [Server]        
+        public List<Item> RandomSpawnItem()
+        {
+            List<Item> SpawnItems = new List<Item>();
+
+            if (itemSpawnList == null)
+            {
+                Debug.LogWarning($"{this.name}物资表为空,无法生成物资!");
+                return null;
+            }
+
+            itemSpawnList.CalWeight();
+
+            //获得随机数量
 
 
-        #endregion
+            //获得随机物品
 
 
-        #region API
+
+
+
+
+
+            return SpawnItems;
+        }
+
+
 
 
         #endregion

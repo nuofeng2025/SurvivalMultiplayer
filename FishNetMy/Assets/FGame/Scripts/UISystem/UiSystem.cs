@@ -27,7 +27,7 @@ namespace FGame
         void Start()
         {
 
-            Invoke("LoadImge", 2f);
+            LoadImge();
         }
 
 

@@ -37,8 +37,8 @@ namespace FGame
         /// </summary>
         private void PreloadAtlases()
         {
-            // item图集
-            LoadAtlas(SpriteType.ItemSprites.ToString());
+     /*       // item图集
+            LoadAtlas(SpriteType.ItemSprites.ToString());*/
             
 
         }
@@ -107,7 +107,6 @@ namespace FGame
                         atlasCache[atlasName] = handle.Result;
                     }
                 }
-                Debug.Log("Re");
                 return atlas;
             }
             catch (Exception ex)
@@ -117,7 +116,7 @@ namespace FGame
             }
             finally
             {
-                Debug.Log("Re2");
+
                 loadingTasks.Remove(atlasName);
                 // 注意：这里不能释放 handle，因为 atlas 被缓存了
                 // 只在加载失败时释放
@@ -137,30 +136,24 @@ namespace FGame
         /// </summary>
         public async Task<Sprite>  GetSpriteFromAtlas(SpriteType atlasType, string spriteName)
         {
-            string AtlasKey = atlasType.ToString();
-            SpriteAtlas atlas;
-            Sprite sprite = null;
-            //未加载图集
-            if (!atlasCache.ContainsKey(AtlasKey))
-            {
-                atlas = await AsyncLoadAtlas(AtlasKey);
-                sprite = atlas.GetSprite(spriteName);
-                if (sprite == null) Debug.LogWarning($"在图集 {atlasType.ToString()} 中未找到图片: {spriteName}");
-                return sprite;
-            }
+            string atlasKey = atlasType.ToString();
 
-            if (atlasCache.TryGetValue(AtlasKey, out atlas))
+            if (atlasCache.TryGetValue(atlasKey, out SpriteAtlas atlas))
             {
-                sprite = atlas.GetSprite(spriteName);
+                Sprite sprite = atlas.GetSprite(spriteName);
                 if (sprite == null)
-                {
-                    Debug.Log($"在图集 {atlasType.ToString()} 中未找到图片: {spriteName}");
-                }
-                Debug.Log(sprite==null);
+                    Debug.LogWarning($"在图集 {atlasType} 中未找到图片: {spriteName}");
                 return sprite;
             }
 
-            return sprite;
+            // 未加载的情况
+            atlas = await AsyncLoadAtlas(atlasKey);
+            atlasCache[atlasKey] = atlas;
+
+            Sprite result = atlas.GetSprite(spriteName);
+            if (result == null)
+                Debug.LogWarning($"在图集 {atlasType} 中未找到图片: {spriteName}");
+            return result;
         }
 
 

@@ -32,6 +32,9 @@ namespace FGame
                 Destroy(this.gameObject);
             }
 
+
+            FGFramework.Ins.Init();//³õÊ¼»¯¿ò¼Ü
+
             Init();
 
         }
