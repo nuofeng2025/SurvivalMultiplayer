@@ -4,7 +4,7 @@ using UnityEngine;
 using Sirenix.OdinInspector;
 namespace FGame
 {
-    public class ItemData 
+    public struct ItemData 
     {
 
         public int ID;
@@ -19,7 +19,7 @@ namespace FGame
 
         public int MaxStackCount;
 
-        public Vector2 InventorySize;
+        public Vector2Int SlotSize;
 
 
 

@@ -12,7 +12,8 @@ namespace FGame
     {
         // ItemData
         private Dictionary<int, ItemData> ItemDataDict = new Dictionary<int, ItemData>();
-
+        // ItemData
+        private List<ItemData> ItemDatas;
 
         public void Init()
         {
@@ -32,6 +33,7 @@ namespace FGame
             {
                 var list = JsonConvert.DeserializeObject<ItemData[]>(TextAsset.Result.text);
                 ItemDataDict = list.ToDictionary(item => item.ID);
+                ItemDatas = ItemDataDict.Values.ToList();
                 TextAsset.Release();
             };
         }
@@ -39,12 +41,15 @@ namespace FGame
                                        
         public ItemData  GetItemData(int ID)
         {
-            ItemData itemData = null;
+            ItemData itemData = new ItemData();
             ItemDataDict.TryGetValue(ID,out itemData);
             return itemData;
         }
 
-
+        public ItemData GetItemData(string Name)
+        {
+            return ItemDatas.Where(item => item.Name == Name).FirstOrDefault();
+        }
 
 
 
