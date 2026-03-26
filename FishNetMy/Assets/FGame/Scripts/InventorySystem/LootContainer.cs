@@ -51,7 +51,8 @@ namespace FGame
 
             if (generationType == LootGenerationType.PreGenerated)
             {
-                GenerateLoot();
+                Debug.Log("预生产物资");
+                RandomSpawnItem();
                 isLootGenerated = true;
             }
         }
@@ -68,21 +69,9 @@ namespace FGame
         private void GenerateLoot()
         {
             Debug.Log("预生成物资");
-            //var lootItems = lootTable.GenerateLoot();
-
-            // 根据玩家调整（如果适用）
-            if (generationType == LootGenerationType.OnOpen)
-            {
-                
 
 
 
-
-
-
-
-
-            }
 
             /*foreach (var loot in lootItems)
             {
@@ -107,7 +96,7 @@ namespace FGame
 
             //获得随机数量
             int randomCount = GetItemRandomCount();
-
+            Debug.Log(randomCount);
             //获得随机物品
             GetRandomItem(randomCount);
 
@@ -140,7 +129,7 @@ namespace FGame
         [Server]
         public void GetRandomItem(int count,bool CanRepeat = true)
         {
-            List<Item> SpawnItems = new List<Item>();
+            if (count == 0) return;
             var RemainCount = count;
 
             int allweight = itemSpawnList.GetSpawnItemsAllWeight();
@@ -149,18 +138,26 @@ namespace FGame
             {
                 while (RemainCount>0)
                 {
+
                     RemainCount--;
                     float randomCount = Random.Range(0, allweight);
+                    Debug.Log(randomCount);
                     int CurWeight = 0;
                     for (int i = 0; i < itemSpawnList.SpawnItems.Count; i++)
                     {
                         CurWeight += itemSpawnList.SpawnItems[i].Weight;
+                        Debug.Log(CurWeight);
                         if (randomCount <= CurWeight)
                         {
                             var curItemName = itemSpawnList.SpawnItems[i].ItemName;
-                            var item =  FGFramework.Ins.GetCtr<ConfigController>().GetItemData(curItemName);
-                            SpawnItems.Add(new Item(item, GlobalItemManager.GenerateId(),1));
+                            if (string.IsNullOrEmpty(curItemName)) continue;
+                            var item =  FGFramework.Ins.GetCtr<ConfigController>().GetItemData(curItemName.Trim());
+                            Debug.Log(curItemName.Trim());
+                            Debug.Log(item.Name);
 
+                            //添加进容器
+                            AddItem(new Item(item, GlobalItemManager.GenerateId(), 1));
+                            break;
                         }
                     }
                     

@@ -46,7 +46,7 @@ namespace FGame
             InstanceId = instanceId;
             CurStack = (ushort)curStack;
             Position = Vector2Int.zero;
-            SlotSize = itemData.SlotSize;
+            SlotSize = new Vector2Int(itemData.SlotSizeX,itemData.SlotSizeY)  ;
            
         }
 

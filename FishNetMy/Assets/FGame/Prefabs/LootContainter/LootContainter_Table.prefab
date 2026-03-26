@@ -161,7 +161,9 @@ MonoBehaviour:
   <ComponentIndex>k__BackingField: 0
   <PredictedSpawn>k__BackingField: {fileID: 0}
   <PredictedOwner>k__BackingField: {fileID: 0}
-  NetworkBehaviours: []
+  NetworkBehaviours:
+  - {fileID: 1972009145389555201}
+  - {fileID: 8737685455875680168}
   InitializedParentNetworkBehaviour: {fileID: 0}
   InitializedNestedNetworkObjects: []
   RuntimeParentNetworkBehaviour: {fileID: 0}
@@ -172,7 +174,7 @@ MonoBehaviour:
   _initializeOrder: 0
   _preventDespawnOnDisconnect: 0
   _defaultDespawnType: 0
-  _initializedTimestamp: 0
+  _initializedTimestamp: -8584270720186781314
   NetworkObserver: {fileID: 0}
   _enablePrediction: 0
   _predictionType: 0
@@ -188,15 +190,15 @@ MonoBehaviour:
   _spectatorInterpolation: 2
   _enableTeleport: 0
   _teleportThreshold: 1
-  <PrefabId>k__BackingField: 65535
+  <PrefabId>k__BackingField: 1
   <SpawnableCollectionId>k__BackingField: 0
   <AssetPathHash>k__BackingField: 3531566750800792992
   SceneId: 0
   SerializedTransformProperties:
     Position: {x: 0, y: 0, z: 0}
-    Rotation: {x: 0, y: 0, z: 0, w: 0}
-    Scale: {x: 0, y: 0, z: 0}
-    IsValid: 0
+    Rotation: {x: 0, y: 0, z: 0, w: 1}
+    Scale: {x: 0.26585004, y: 0.26585, z: 0.32477006}
+    IsValid: 1
 --- !u!114 &1972009145389555201
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -209,11 +211,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fda876406f2917459240e18de1a332e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _componentIndexCache: 255
+  _componentIndexCache: 0
   _addedNetworkObject: {fileID: 8620549571721117792}
-  _networkObjectCache: {fileID: 0}
+  _networkObjectCache: {fileID: 8620549571721117792}
   InventoryName: "\u8336\u51E0"
-  InventorySize: 10
+  InventorySize: {x: 6, y: 4}
   generationType: 0
   itemSpawnList: {fileID: 11400000, guid: c7868471cdc038b4d81b0ec82fddd0e8, type: 2}
   isRespawnable: 0
@@ -231,9 +233,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 994a02ad9109e1044b8ab6b85a6d3aba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _componentIndexCache: 255
+  _componentIndexCache: 1
   _addedNetworkObject: {fileID: 8620549571721117792}
-  _networkObjectCache: {fileID: 0}
+  _networkObjectCache: {fileID: 8620549571721117792}
   interactiveType: 1
   InteractionTime: 3
   OpenInteraction: 1

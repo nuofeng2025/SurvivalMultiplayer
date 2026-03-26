@@ -5,6 +5,9 @@ using FishNet.Object;
 using FishNet.Object.Synchronizing;
 using Sirenix.OdinInspector;
 using System.Linq;
+using System;
+using FishNet.Connection;
+
 namespace FGame
 {
     public class InventoryBase : NetworkBehaviour
@@ -55,13 +58,36 @@ namespace FGame
         {
             base.OnStartServer();
 
+            //初始化格子
+            Debug.Log("初始化格子");
+
+            serverItems = new Item[InventorySize.x * InventorySize.y];
+            for (int i = 0; i < serverItems.Length; i++)
+            {
+                serverItems[i] = new Item(new Vector2Int(i % InventorySize.x, (i / InventorySize.x)));
+            }
+            
+
+
+        }
+
+        public override void OnStartClient()
+        {
+
+            clientItems = new Item[InventorySize.x * InventorySize.y];
+
+            for (int i = 0; i < clientItems.Length; i++)
+            {
+                clientItems[i] = new Item(new Vector2Int(i % InventorySize.x, (i / InventorySize.x)));
+            }
+
 
         }
 
 
         private void Awake()
         {
-            LoaclInit();
+            
         }
 
         #endregion
@@ -71,27 +97,26 @@ namespace FGame
 
         #region API
 
-        public void LoaclInit()
+        public void OpenInventory()
         {
-            //初始化格子
-            serverItems = new Item[InventorySize.x * InventorySize.y];
-            clientItems = new Item[InventorySize.x * InventorySize.y];
+            Debug.Log("打开物品");
+            OpenItemRpc();
 
-            for (int i=0;i< serverItems.Length;i++)
+
+        }
+
+
+        [ServerRpc(RequireOwnership = false)]
+        public void OpenItemRpc(NetworkConnection caller = null)
+        {
+            if (caller == null)
             {
-                serverItems[i] = new Item(new Vector2Int(i % InventorySize.x, (i / InventorySize.x)));
+                Debug.Log("caller is null");
+                return;
             }
 
-            for (int i = 0; i < clientItems.Length; i++)
-            {
-                clientItems[i] = new Item(new Vector2Int(i % InventorySize.x, (i / InventorySize.x)));
-            }
-
-            //如果服务器有存档需要载入存档
-
-
-
-
+            Debug.Log($"ServerRpc called by: {caller.ClientId}");
+            OpenItemTargetConn(caller, serverItems);
         }
 
 
@@ -110,6 +135,7 @@ namespace FGame
 
         }
 
+
         /// <summary>
         /// 默认添加物品到最前面的格子
         /// </summary>
@@ -117,25 +143,37 @@ namespace FGame
         [Server]
         public void AddItem(Item item)
         {
-            NoCheckeSlot.Clear();
-            CheckedSlot.Clear();
-            NoCheckeSlot = serverItems.ToList();
+            /* NoCheckeSlot.Clear();
+             CheckedSlot.Clear();
+             NoCheckeSlot = serverItems.ToList();*/
+            //Debug.Log(item.InstanceId);
+            for (int i =0;i< serverItems.Length;i++)
+            {
+                Debug.Log(item.GetSize().x); Debug.Log(item.GetSize().y);
+                var Rounds = GetRoundSlots(serverItems, serverItems[i], item.GetSize());
+                Debug.Log(Rounds.Count);
+                if (CanPlace(Rounds))
+                {
+                    //Debug.Log("可以放置");
+                    for (int n=0;n< Rounds.Count;n++)
+                    {                     
+                        var position = Rounds[n].GetPosition();
+                        var newItem = item;
+                        newItem.SetPosition(position);
+                        int index = Array.FindIndex(serverItems, item => item.Position == position);
+                        serverItems[index] = newItem;  // 一次完整的替换
+                        
+                    }
+                    return;
+                }
 
-            while (NoCheckeSlot.Count>0)
-            { 
-                
-            
-            
             }
-
-            //serverItems.Add(item);
-
-
+                
         }
 
 
-
-        public List<Item> GetRoundSlots(List<Item> AllItems,Item curItem,Vector2 ItemSize)
+        [Server]
+        public List<Item> GetRoundSlots(Item[] AllItems,Item curItem,Vector2 ItemSize)
         {
             List<Item> items = new List<Item>();
             for (int i=0;i< ItemSize.x; i++)
@@ -144,11 +182,34 @@ namespace FGame
                 {
                     var roundSlot=AllItems.Where(item => item.GetPosition() == 
                     new Vector2Int(curItem.Position.x + i , curItem.Position.y + n)).FirstOrDefault();
+                    items.Add(roundSlot);
                 }            
             }
 
             return items;
         }
+
+        /// <summary>
+        /// 能否放置
+        /// </summary>ound
+        /// <returns></returns>
+        [Server]
+        public bool CanPlace(List<Item> Rounds)
+        {
+            bool CanPlace = true;
+            foreach (var r in Rounds)
+            {
+                if (r.ItemId>0)
+                {
+                    CanPlace = false;
+                }                               
+            }
+
+            return CanPlace;
+        }
+
+
+
 
 
 
@@ -176,6 +237,16 @@ namespace FGame
         }
 
 
+
+        [TargetRpc]
+        public void OpenItemTargetConn(NetworkConnection conn, Item[] items)
+        {
+            Debug.Log($"TargetRpc executed on client: {conn.ClientId}");
+            for (int i=0;i< items.Length;i++)
+            {
+                clientItems[i] = items[i];
+            }
+        }
 
 
 

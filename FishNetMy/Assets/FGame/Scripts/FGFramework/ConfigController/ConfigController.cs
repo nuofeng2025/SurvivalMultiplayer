@@ -34,7 +34,7 @@ namespace FGame
                 var list = JsonConvert.DeserializeObject<ItemData[]>(TextAsset.Result.text);
                 ItemDataDict = list.ToDictionary(item => item.ID);
                 ItemDatas = ItemDataDict.Values.ToList();
-                TextAsset.Release();
+                //TextAsset.Release();
             };
         }
 
@@ -48,6 +48,11 @@ namespace FGame
 
         public ItemData GetItemData(string Name)
         {
+           /* foreach (var i in ItemDatas)
+            {
+                Debug.Log(i.Name);
+            }*/
+
             return ItemDatas.Where(item => item.Name == Name).FirstOrDefault();
         }
 

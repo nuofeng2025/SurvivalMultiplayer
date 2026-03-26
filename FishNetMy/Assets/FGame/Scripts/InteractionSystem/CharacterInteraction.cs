@@ -52,6 +52,14 @@ namespace FGame
         void Update()
         {
             ScreenCenterRayCheck();
+
+            if (Input.GetKeyDown(KeyCode.E) && CurInteractiveType == InteractiveType.SearchContainer && LastRayCastInteractive!=null)
+            {
+                var IntObj = LastRayCastInteractive as InteractiveBase;
+                IntObj.GetComponent<LootContainer>().OpenInventory();
+
+            }
+
         }
         #endregion
 
@@ -98,6 +106,7 @@ namespace FGame
                     {
                         FGFramework.Ins.GetCtr<EventController>().InteractionCenterLeave?.Invoke(LastRayCastInteractive);
                         LastRayCastInteractive = null;
+                        CurInteractiveType = InteractiveType.NUll;
                     }
                 }
             }
@@ -108,6 +117,7 @@ namespace FGame
                 {
                     FGFramework.Ins.GetCtr<EventController>().InteractionCenterLeave?.Invoke(LastRayCastInteractive);
                     LastRayCastInteractive = null;
+                    CurInteractiveType = InteractiveType.NUll;
                 }
             }
 
@@ -121,7 +131,7 @@ namespace FGame
             switch (CurRayCastInteractive.Type)
             {
                 case InteractiveType.SearchContainer:
-
+                    CurInteractiveType = InteractiveType.SearchContainer;
 
 
                     break;

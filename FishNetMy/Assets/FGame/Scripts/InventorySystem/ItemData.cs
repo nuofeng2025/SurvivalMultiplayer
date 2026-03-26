@@ -19,9 +19,9 @@ namespace FGame
 
         public int MaxStackCount;
 
-        public Vector2Int SlotSize;
+        public int SlotSizeX;
 
-
+        public int SlotSizeY;
 
 
 
