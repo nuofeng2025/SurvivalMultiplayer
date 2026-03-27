@@ -13,6 +13,12 @@ namespace FGame
         /// </summary>
         public void Interaction(GameObject obj);
 
+        /// <summary>
+        /// 判断当前交互物能否交互
+        /// </summary>
+        /// <param name="obj"></param>
+        /// <returns></returns>
+        public bool CanInteraction(GameObject obj);
     }
 
 

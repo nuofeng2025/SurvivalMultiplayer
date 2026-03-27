@@ -79,6 +79,8 @@ namespace FGame
         private Rigidbody rigidbody;
         private PlayerInput playerInput;
         private CharacterAnimator characterAnimator;
+        private CharacterInteraction characterInteraction;
+
 
         [FoldoutGroup("调试")]
         [SerializeField]
@@ -125,7 +127,7 @@ namespace FGame
 
                 CheckGround();//地面检测
 
-                Move();//控制移动
+                HandleInput();//控制输入
 
                 UpdateAnimator();//更新动画
             }
@@ -158,11 +160,30 @@ namespace FGame
             characterMovement = GetComponent<CharacterMovement>();
             playerInput = GetComponent<PlayerInput>();
             characterAnimator = GetComponent<CharacterAnimator>();
+            characterInteraction = GetComponent<CharacterInteraction>();
         }
 
 
-        public void Move()
+        public void HandleInput()
         {
+            MoveAndRotate();
+
+            HandleUse();
+
+
+            if (Input.GetKey(KeyCode.Space))
+            {
+                // 添加这两行
+                Cursor.lockState = CursorLockMode.Locked;
+                Cursor.visible = false;
+
+            }
+        }
+
+
+        public void MoveAndRotate()
+        {
+
             //移动角色
             if (playerInput.MoveDir.sqrMagnitude > 0)
             {
@@ -193,17 +214,24 @@ namespace FGame
                 }
             }
 
-            if (Input.GetKey(KeyCode.Space))
-            {
-                // 添加这两行
-                Cursor.lockState = CursorLockMode.Locked;
-                Cursor.visible = false;
 
-            }
+
         }
 
 
+        public void HandleUse()
+        {
+            if (!characterInteraction || !playerInput) return;
+            if (playerInput.IsUse)
+            { 
+                
+            
+            
+            }
+        
 
+
+        }
 
 
 

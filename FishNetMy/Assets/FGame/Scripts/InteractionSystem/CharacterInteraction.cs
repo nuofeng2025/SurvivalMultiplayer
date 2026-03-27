@@ -19,13 +19,20 @@ namespace FGame
         [SerializeField]
         private float ScreenCenterRayDistance;
 
+   
+        [TitleGroup("状态")]
         [SerializeField]
-        [LabelText("当前交互物")]
-        private IInteractive CurInteractive;
+        [LabelText("当前交互状态")]
+        private float CurInteractiveRemainTime;
 
         [SerializeField]
         [LabelText("当前交互物类型")]
         private InteractiveType CurInteractiveType;
+
+        [SerializeField]
+        [LabelText("当前交互物")]
+        private IInteractive CurInteractive;
+
 
         [TitleGroup("调试")]
         [SerializeField]
@@ -34,6 +41,11 @@ namespace FGame
 
         private RaycastHit ScreenCenterRayHitInfo;
         private IInteractive LastRayCastInteractive;//最后检测到的交互物，用于显示
+
+
+
+
+
         #endregion
 
 
@@ -52,14 +64,6 @@ namespace FGame
         void Update()
         {
             ScreenCenterRayCheck();
-
-            if (Input.GetKeyDown(KeyCode.E) && CurInteractiveType == InteractiveType.SearchContainer && LastRayCastInteractive!=null)
-            {
-                var IntObj = LastRayCastInteractive as InteractiveBase;
-                IntObj.GetComponent<LootContainer>().OpenInventory();
-
-            }
-
         }
         #endregion
 
@@ -143,6 +147,32 @@ namespace FGame
 
         }
 
+        /// <summary>
+        /// 交互
+        /// </summary>
+        public void DoInteractive()
+        {
+            if (LastRayCastInteractive == null) return;
+            if (CurInteractive != null && CurInteractiveRemainTime > 0)
+            {
+                Debug.Log("当前正在进行其它交互!");
+            }
+            switch (CurInteractiveType)
+            {
+                case InteractiveType.SearchContainer:
+
+                    var SearchContainer = LastRayCastInteractive as ContainerInteractive;
+                    if (SearchContainer) SearchContainer.Interaction(this.gameObject);
+
+
+                    break;
+
+
+            }
+
+
+
+        }
 
 
 

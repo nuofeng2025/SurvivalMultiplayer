@@ -11,6 +11,7 @@ namespace FGame
 
         #region ²ÎÊý
 
+        public InputMode CurInputMode;
 
         [SerializeField]
         private Vector2 _MoveDir;
@@ -22,7 +23,8 @@ namespace FGame
         private bool _IsSpring;
 
 
-
+        [SerializeField]
+        private bool _E;
 
         #endregion
 
@@ -34,6 +36,8 @@ namespace FGame
         public Vector2 LookDir { get => _LookDir;}
         public bool IsSpring { get => _IsSpring; }
 
+
+        public bool IsUse { get => _E; }
 
         #endregion
 
@@ -51,7 +55,7 @@ namespace FGame
             _MoveDir = _mainInput.PlayerController.Move.ReadValue<Vector2>();
             _LookDir = _mainInput.PlayerController.LookDir.ReadValue<Vector2>();
             _IsSpring = _mainInput.PlayerController.Spring.IsPressed();
-
+            _E = _mainInput.PlayerController.E.WasPressedThisFrame();
         }
 
         #endregion
@@ -71,6 +75,16 @@ namespace FGame
         #endregion
 
     }
+
+    public enum InputMode
+    { 
+        PC,
+        MOBILE,
+    
+    
+    
+    }
+
 
 
 }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Sirenix.OdinInspector;
 using FishNet.Object;
+
 namespace FGame
 {
     public class InteractiveBase : NetworkBehaviour, IInteractive
@@ -36,14 +37,7 @@ namespace FGame
 
         InteractiveType IInteractive.Type => interactiveType;
 
-        public virtual  void Interaction(GameObject obj)
-        {
-            
-
-
-
-        }
-
+    
 
 
         #endregion
@@ -62,6 +56,42 @@ namespace FGame
         #region API
 
 
+        public virtual bool CanInteraction( GameObject obj)
+        {
+            
+            if (!OpenInteraction)
+            {
+                return false;
+
+            }
+            //当前正在交互且非自己
+            if (CurInteractionObj != null)
+            { 
+            
+            
+            
+            }
+            else
+            {
+                return true;
+
+
+            }
+
+
+
+
+
+            return false;
+        }
+
+        public virtual void Interaction(GameObject obj)
+        {
+
+
+
+
+        }
 
 
         #endregion

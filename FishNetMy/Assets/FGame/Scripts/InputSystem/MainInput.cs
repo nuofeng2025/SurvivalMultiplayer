@@ -118,6 +118,15 @@ public partial class @MainInput: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""E"",
+                    ""type"": ""Button"",
+                    ""id"": ""7cdec7e7-1915-405b-80f4-4c4d620038f7"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -197,6 +206,17 @@ public partial class @MainInput: IInputActionCollection2, IDisposable
                     ""action"": ""Spring"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""4c91c678-652b-4672-8afd-66faf88431bf"",
+                    ""path"": ""<Keyboard>/e"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""E"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -208,6 +228,7 @@ public partial class @MainInput: IInputActionCollection2, IDisposable
         m_PlayerController_Move = m_PlayerController.FindAction("Move", throwIfNotFound: true);
         m_PlayerController_LookDir = m_PlayerController.FindAction("LookDir", throwIfNotFound: true);
         m_PlayerController_Spring = m_PlayerController.FindAction("Spring", throwIfNotFound: true);
+        m_PlayerController_E = m_PlayerController.FindAction("E", throwIfNotFound: true);
     }
 
     ~@MainInput()
@@ -291,6 +312,7 @@ public partial class @MainInput: IInputActionCollection2, IDisposable
     private readonly InputAction m_PlayerController_Move;
     private readonly InputAction m_PlayerController_LookDir;
     private readonly InputAction m_PlayerController_Spring;
+    private readonly InputAction m_PlayerController_E;
     /// <summary>
     /// Provides access to input actions defined in input action map "PlayerController".
     /// </summary>
@@ -314,6 +336,10 @@ public partial class @MainInput: IInputActionCollection2, IDisposable
         /// Provides access to the underlying input action "PlayerController/Spring".
         /// </summary>
         public InputAction @Spring => m_Wrapper.m_PlayerController_Spring;
+        /// <summary>
+        /// Provides access to the underlying input action "PlayerController/E".
+        /// </summary>
+        public InputAction @E => m_Wrapper.m_PlayerController_E;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -349,6 +375,9 @@ public partial class @MainInput: IInputActionCollection2, IDisposable
             @Spring.started += instance.OnSpring;
             @Spring.performed += instance.OnSpring;
             @Spring.canceled += instance.OnSpring;
+            @E.started += instance.OnE;
+            @E.performed += instance.OnE;
+            @E.canceled += instance.OnE;
         }
 
         /// <summary>
@@ -369,6 +398,9 @@ public partial class @MainInput: IInputActionCollection2, IDisposable
             @Spring.started -= instance.OnSpring;
             @Spring.performed -= instance.OnSpring;
             @Spring.canceled -= instance.OnSpring;
+            @E.started -= instance.OnE;
+            @E.performed -= instance.OnE;
+            @E.canceled -= instance.OnE;
         }
 
         /// <summary>
@@ -430,5 +462,12 @@ public partial class @MainInput: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnSpring(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "E" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnE(InputAction.CallbackContext context);
     }
 }
