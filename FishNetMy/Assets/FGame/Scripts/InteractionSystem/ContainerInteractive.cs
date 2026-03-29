@@ -30,6 +30,9 @@ namespace FGame
 
 
 
+
+
+
         [ServerRpc]
         public override void Interaction(GameObject obj)
         {

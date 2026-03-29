@@ -23,10 +23,15 @@ namespace FGame
         private bool _isSpring;
 
 
+        [LabelText("สนำร")]
+        [SerializeField]
+        private bool _isE;
+
         public Vector2 MoveDir { get => _moveDir; }
         public Vector2 LookDir { get => _lookDir; }
         public bool IsSpring { get => _isSpring; }
 
+        public bool IsUse { get => _isE; }
 
         //public static MainInput mainInput;
         #endregion
@@ -58,6 +63,7 @@ namespace FGame
             _moveDir = GameManager.Instance.inputSystem.MoveDir;
             _lookDir = GameManager.Instance.inputSystem.LookDir;
             _isSpring = GameManager.Instance.inputSystem.IsSpring;
+            _isE = GameManager.Instance.inputSystem.IsUse;
         }
 
         #endregion
