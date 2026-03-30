@@ -40,7 +40,7 @@ namespace FGame
             _controllers.Add(new ResourceController());
             _controllers.Add(new ConfigController());
             _controllers.Add(new EventController());
-           
+            _controllers.Add(new PoolController());
             foreach (var c in _controllers)
             {
                 c.Init();

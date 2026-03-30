@@ -14,7 +14,7 @@ namespace FGame
         public CameraSystem cameraSystem;
         public InputSystem inputSystem;
         public UiSystem uiSystem;
-
+        public PoolSystem poolSystem;
 
 
         #endregion
@@ -73,6 +73,10 @@ namespace FGame
             cameraSystem.Init();
             inputSystem.Init();
             uiSystem.Init();
+            poolSystem.Init();
+
+
+
 
 
         }
