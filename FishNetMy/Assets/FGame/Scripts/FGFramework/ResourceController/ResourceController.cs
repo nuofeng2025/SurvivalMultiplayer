@@ -175,8 +175,14 @@ namespace FGame
         /// 道具
         /// </summary>
         ItemSprites,
-
-
+        /// <summary>
+        /// 通用
+        /// </summary>
+        Common,
+        /// <summary>
+        /// Ui元素
+        /// </summary>
+        UiElement,
 
 
 

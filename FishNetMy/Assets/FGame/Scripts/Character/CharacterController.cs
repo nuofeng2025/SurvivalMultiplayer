@@ -223,10 +223,9 @@ namespace FGame
         {
             if (!characterInteraction || !playerInput) return;
             if (playerInput.IsUse)
-            { 
-                
-            
-            
+            {
+                Debug.Log("E");
+                characterInteraction.DoInteractive();
             }
         
 

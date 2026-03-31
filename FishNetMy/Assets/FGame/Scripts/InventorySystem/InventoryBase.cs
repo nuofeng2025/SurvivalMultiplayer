@@ -17,11 +17,12 @@ namespace FGame
 
         [TitleGroup("库存基础设置")]
         [LabelText("仓库名")]
-        public string InventoryName;
+        [SerializeField]
+        private string InventoryName;
 
         [LabelText("库存大小,x(列数)y(行数)")]
         [SerializeField]
-        private Vector2Int InventorySize;
+        private Vector2Int _inventorySize;
 
         // 服务端数据（不直接同步）
         [ShowInInspector]
@@ -39,6 +40,8 @@ namespace FGame
 
         private List<Item> CheckedSlot = new List<Item>();
         private List<Item> NoCheckeSlot = new List<Item>();
+
+        public Vector2Int InventorySize { get => _inventorySize; }
 
         #endregion
 
@@ -66,21 +69,17 @@ namespace FGame
             {
                 serverItems[i] = new Item(new Vector2Int(i % InventorySize.x, (i / InventorySize.x)));
             }
-            
-
-
+          
         }
 
         public override void OnStartClient()
         {
-
             clientItems = new Item[InventorySize.x * InventorySize.y];
 
             for (int i = 0; i < clientItems.Length; i++)
             {
                 clientItems[i] = new Item(new Vector2Int(i % InventorySize.x, (i / InventorySize.x)));
             }
-
 
         }
 
@@ -90,6 +89,14 @@ namespace FGame
             
         }
 
+
+        private void Start()
+        {
+            
+
+        }
+
+
         #endregion
 
 
@@ -97,7 +104,11 @@ namespace FGame
 
         #region API
 
-        public void OpenInventory()
+
+
+
+
+        public virtual void OpenInventory()
         {
             Debug.Log("打开物品");
             OpenItemRpc();
@@ -246,8 +257,16 @@ namespace FGame
             {
                 clientItems[i] = items[i];
             }
+
+            FGFramework.Ins.GetCtr<EventController>().OpenInventory.Invoke(this);
+
         }
 
+
+        private void OnDestroy()
+        {
+            
+        }
 
 
 

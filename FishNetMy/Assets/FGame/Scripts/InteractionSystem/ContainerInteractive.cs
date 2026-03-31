@@ -9,7 +9,8 @@ namespace FGame
     public class ContainerInteractive : InteractiveBase
     {
         #region 参数
-
+        [SerializeField]
+        protected InventoryBase inventoryBase;
 
 
 
@@ -33,12 +34,23 @@ namespace FGame
 
 
 
-        [ServerRpc]
+        
         public override void Interaction(GameObject obj)
         {
             base.Interaction(obj);
 
-            Debug.Log("调用服务器交互");
+            switch (interactiveType)
+            {
+                case InteractiveType.SearchContainer:
+
+                    inventoryBase = GetComponent<InventoryBase>();
+                    inventoryBase?.OpenInventory();
+                    break;
+
+
+            }
+
+
 
 
         }

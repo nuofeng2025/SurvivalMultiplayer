@@ -13,25 +13,25 @@ namespace FGame
         [TitleGroup("交互物设置")]
         [SerializeField]
         [LabelText("交互类型")]
-        private InteractiveType interactiveType;
+        protected InteractiveType interactiveType;
 
         [SerializeField]
         [LabelText("交互时间(为0瞬间完成交互)")]
-        private float InteractionTime;
+        protected float InteractionTime;
 
         [SerializeField]
         [LabelText("能否交互")]
-        private bool OpenInteraction;
+        protected bool OpenInteraction;
 
 
         [TitleGroup("交互状态")]
         [SerializeField]
         [LabelText("当前交互者")]
-        private GameObject CurInteractionObj;
+        protected GameObject CurInteractionObj;
 
         [SerializeField]
         [LabelText("剩余交互时间")]
-        private float RemainInteractionTime;
+        protected float RemainInteractionTime;
 
 
 

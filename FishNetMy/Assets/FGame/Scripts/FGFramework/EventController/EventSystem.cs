@@ -24,7 +24,15 @@ namespace FGame
 
         public UnityEvent<IInteractive> InteractionCenterLeave = new UnityEvent<IInteractive>();//离开检测
 
-      
+
+
+        //交互事件
+        public UnityEvent<InventoryBase> OpenInventory = new UnityEvent<InventoryBase>();//打开库存
+
+        public UnityEvent<InventoryBase> CloseInventory = new UnityEvent<InventoryBase>();//打开库存
+
+
+
     }
 }
 

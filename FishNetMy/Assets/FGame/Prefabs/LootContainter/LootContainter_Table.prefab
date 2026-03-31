@@ -174,7 +174,7 @@ MonoBehaviour:
   _initializeOrder: 0
   _preventDespawnOnDisconnect: 0
   _defaultDespawnType: 0
-  _initializedTimestamp: -8584270720186781314
+  _initializedTimestamp: -8584266535642711479
   NetworkObserver: {fileID: 0}
   _enablePrediction: 0
   _predictionType: 0
@@ -215,7 +215,7 @@ MonoBehaviour:
   _addedNetworkObject: {fileID: 8620549571721117792}
   _networkObjectCache: {fileID: 8620549571721117792}
   InventoryName: "\u8336\u51E0"
-  InventorySize: {x: 6, y: 4}
+  _inventorySize: {x: 8, y: 8}
   generationType: 0
   itemSpawnList: {fileID: 11400000, guid: c7868471cdc038b4d81b0ec82fddd0e8, type: 2}
   isRespawnable: 0
@@ -241,6 +241,7 @@ MonoBehaviour:
   OpenInteraction: 1
   CurInteractionObj: {fileID: 0}
   RemainInteractionTime: 0
+  inventoryBase: {fileID: 0}
 --- !u!1 &4353357203790569169
 GameObject:
   m_ObjectHideFlags: 0

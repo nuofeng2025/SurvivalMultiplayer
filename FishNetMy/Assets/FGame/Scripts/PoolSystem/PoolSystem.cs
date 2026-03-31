@@ -6,6 +6,9 @@ namespace FGame
 {
     public class PoolSystem : MonoBehaviour,ISystem
     {
+
+
+
         [ShowInInspector]
         public List<Pool> UiPools = new List<Pool>();
 
@@ -25,7 +28,7 @@ namespace FGame
             foreach (var p in UiPools)
             {
 
-               FGFramework.Ins.GetCtr<PoolController>().CreatePool<SlotUi>(p.PoolName, p.slotUiPrefab.GetComponent<SlotUi>(), null, p.intiSize, p.maxSize);
+               FGFramework.Ins.GetCtr<PoolController>().CreatePool<SlotUi>(p.PoolName.ToString(), p.slotUiPrefab.GetComponent<SlotUi>(), null, p.intiSize, p.maxSize);
             }
 
            
@@ -51,11 +54,19 @@ namespace FGame
     public class Pool
     {
         [LabelText("³ØÃû")]
-        public string PoolName;
+        public PoolName PoolName;
         public GameObject slotUiPrefab;
         public int intiSize;
         public int maxSize;
 
     }
+
+    public enum PoolName
+    {
+        SlotUi,
+
+
+    }
+
 
 }

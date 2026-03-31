@@ -148,7 +148,7 @@ namespace FGame
         }
 
         /// <summary>
-        /// 交互
+        /// 与当前物体交互
         /// </summary>
         public void DoInteractive()
         {
@@ -163,7 +163,6 @@ namespace FGame
 
                     var SearchContainer = LastRayCastInteractive as ContainerInteractive;
                     if (SearchContainer) SearchContainer.Interaction(this.gameObject);
-
 
                     break;
 
