@@ -214,7 +214,7 @@ MonoBehaviour:
   _componentIndexCache: 0
   _addedNetworkObject: {fileID: 8620549571721117792}
   _networkObjectCache: {fileID: 8620549571721117792}
-  InventoryName: "\u8336\u51E0"
+  _inventoryName: "\u67DC\u5B50"
   _inventorySize: {x: 8, y: 8}
   generationType: 0
   itemSpawnList: {fileID: 11400000, guid: c7868471cdc038b4d81b0ec82fddd0e8, type: 2}
