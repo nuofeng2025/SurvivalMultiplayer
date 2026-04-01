@@ -18,7 +18,7 @@ namespace FGame
         [TitleGroup("库存基础设置")]
         [LabelText("仓库名")]
         [SerializeField]
-        private string InventoryName;
+        private string _inventoryName;
 
         [LabelText("库存大小,x(列数)y(行数)")]
         [SerializeField]
@@ -42,6 +42,8 @@ namespace FGame
         private List<Item> NoCheckeSlot = new List<Item>();
 
         public Vector2Int InventorySize { get => _inventorySize; }
+        public string InventoryName { get => _inventoryName;}
+        public Item[] ClientItems { get => clientItems;}
 
         #endregion
 
@@ -163,6 +165,7 @@ namespace FGame
                 Debug.Log(item.GetSize().x); Debug.Log(item.GetSize().y);
                 var Rounds = GetRoundSlots(serverItems, serverItems[i], item.GetSize());
                 Debug.Log(Rounds.Count);
+
                 if (CanPlace(Rounds))
                 {
                     //Debug.Log("可以放置");
@@ -210,7 +213,9 @@ namespace FGame
             bool CanPlace = true;
             foreach (var r in Rounds)
             {
-                if (r.ItemId>0)
+                var slot = serverItems.FirstOrDefault(item => item.Position == r.Position);
+
+                if (slot.ItemId>0)
                 {
                     CanPlace = false;
                 }                               
@@ -255,7 +260,10 @@ namespace FGame
             Debug.Log($"TargetRpc executed on client: {conn.ClientId}");
             for (int i=0;i< items.Length;i++)
             {
-                clientItems[i] = items[i];
+                clientItems[i].InstanceId = items[i].InstanceId;
+                clientItems[i].Quantity = items[i].Quantity;
+                clientItems[i].ItemId = items[i].ItemId;
+                clientItems[i].CurStack = items[i].CurStack;
             }
 
             FGFramework.Ins.GetCtr<EventController>().OpenInventory.Invoke(this);

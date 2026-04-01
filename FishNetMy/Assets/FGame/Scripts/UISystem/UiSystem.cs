@@ -8,7 +8,7 @@ namespace FGame
     {
         public InteractionUi interactionUi;
         public GameObject crosshair;
-        public InventoryUi LootInventoryUi;
+        public LootInventoryUI LootInventoryUi;
 
         public Image TestImage;
         public void Init()
@@ -45,7 +45,7 @@ namespace FGame
 
         public void OpenInventoryUi(InventoryBase inventoryBase)
         {
-            LootInventoryUi.Show(inventoryBase);
+            LootInventoryUi.ShowLootInventory(inventoryBase);
 
 
 
