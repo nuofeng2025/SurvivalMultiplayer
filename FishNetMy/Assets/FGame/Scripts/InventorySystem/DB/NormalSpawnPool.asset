@@ -13,40 +13,40 @@ MonoBehaviour:
   m_Name: NormalSpawnPool
   m_EditorClassIdentifier: 
   SpawnItems:
-  - Weight: 50
+  - Weight: 18
     ItemName: "\u65A7\u5B50"
-    CurWeight: 14.29
-  - Weight: 50
+    CurWeight: 17.31
+  - Weight: 30
     ItemName: "\u7EF7\u5E26"
-    CurWeight: 14.29
-  - Weight: 50
+    CurWeight: 28.85
+  - Weight: 10
     ItemName: "\u533B\u7597\u7BB1"
-    CurWeight: 14.29
-  - Weight: 50
+    CurWeight: 9.62
+  - Weight: 8
     ItemName: "\u624B\u7535\u7B52"
-    CurWeight: 14.29
-  - Weight: 50
+    CurWeight: 7.69
+  - Weight: 10
     ItemName: "\u5DE5\u5177\u7BB1 "
-    CurWeight: 14.29
-  - Weight: 50
+    CurWeight: 9.62
+  - Weight: 18
     ItemName: "\u780D\u5200 "
-    CurWeight: 14.29
-  - Weight: 50
+    CurWeight: 17.31
+  - Weight: 10
     ItemName: "\u9730\u5F39\u67AA "
-    CurWeight: 14.29
+    CurWeight: 9.62
   SpawnCountWeight:
-  - Weight: 0
+  - Weight: 100
     Count: 0
-    CurWeight: 0
-  - Weight: 50
+    CurWeight: 34.48
+  - Weight: 100
     Count: 1
-    CurWeight: 25
+    CurWeight: 34.48
   - Weight: 50
     Count: 2
-    CurWeight: 25
-  - Weight: 50
+    CurWeight: 17.24
+  - Weight: 30
     Count: 3
-    CurWeight: 25
-  - Weight: 50
+    CurWeight: 10.34
+  - Weight: 10
     Count: 4
-    CurWeight: 25
+    CurWeight: 3.45

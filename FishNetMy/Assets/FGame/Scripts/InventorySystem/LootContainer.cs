@@ -96,7 +96,7 @@ namespace FGame
 
             //获得随机数量
             int randomCount = GetItemRandomCount();
-            //Debug.Log(randomCount);
+            Debug.Log(randomCount);
             //获得随机物品
             GetRandomItem(randomCount);
 
@@ -146,12 +146,13 @@ namespace FGame
                     for (int i = 0; i < itemSpawnList.SpawnItems.Count; i++)
                     {
                         CurWeight += itemSpawnList.SpawnItems[i].Weight;
-
+                        Debug.Log(CurWeight);
                         if (randomCount <= CurWeight)
                         {
                             var curItemName = itemSpawnList.SpawnItems[i].ItemName;
                             if (string.IsNullOrEmpty(curItemName)) continue;
                             var item =  FGFramework.Ins.GetCtr<ConfigController>().GetItemData(curItemName.Trim());
+                            Debug.Log(curItemName.Trim());
                             Debug.Log(item.Name);
 
                             //添加进容器

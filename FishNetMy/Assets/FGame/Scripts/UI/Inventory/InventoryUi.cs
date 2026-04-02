@@ -5,7 +5,10 @@ using Sirenix.OdinInspector;
 using UnityEngine.UI;
 using TMPro;
 using System;
+<<<<<<< HEAD
 using System.Linq;
+=======
+>>>>>>> parent of 0a05795 (完善库存显示和添加逻辑)
 
 namespace FGame
 {
@@ -15,6 +18,7 @@ namespace FGame
         private  TextMeshProUGUI InventoryName;
 
         [SerializeField]
+<<<<<<< HEAD
         private Vector2 SlotSize;
 
         [SerializeField]
@@ -23,13 +27,21 @@ namespace FGame
         [SerializeField]
         private Transform MultiItemRoot;
 
+=======
+        private GridLayoutGroup ItemRoot;
+
+>>>>>>> parent of 0a05795 (完善库存显示和添加逻辑)
         private string Name;
 
         [SerializeField]
         private InventoryBase _inventoryBase;
 
         private List<SlotUi> slotUis = new List<SlotUi>();
+<<<<<<< HEAD
         private List<SlotUi> MultislotUis = new List<SlotUi>();
+=======
+
+>>>>>>> parent of 0a05795 (完善库存显示和添加逻辑)
 
         // Start is called before the first frame update
         void Start()
@@ -44,6 +56,7 @@ namespace FGame
         {
 
         }
+<<<<<<< HEAD
 
 
         public void Show(InventoryBase inventoryBase)
@@ -56,6 +69,15 @@ namespace FGame
             var Items = inventoryBase.ClientItems;
 
             //Debug.Log(size);
+=======
+        public void Show(InventoryBase inventoryBase)
+        {
+            Debug.Log("�򿪿��");
+            this.gameObject.SetActive(true);
+            _inventoryBase = inventoryBase;
+            var size = inventoryBase.InventorySize;
+            Debug.Log(size);
+>>>>>>> parent of 0a05795 (完善库存显示和添加逻辑)
             ItemRoot.constraintCount = size.x;
             int allSlotCount = size.x * size.y;
             for (int i=0;i< allSlotCount;i++)
@@ -63,6 +85,7 @@ namespace FGame
                 var slotUi =  FGFramework.Ins.GetCtr<PoolController>().GetPool<SlotUi>(PoolName.SlotUi.ToString()).Get();
                 slotUis.Add(slotUi);
                 slotUi.transform.parent = ItemRoot.transform;
+<<<<<<< HEAD
                 slotUi.transform.localScale = Vector3.one;
                 slotUi.Init(new Vector2Int(i % size.x, (i / size.x)));
             }
@@ -137,6 +160,14 @@ namespace FGame
 
 
 
+=======
+            }
+
+
+
+
+        }
+>>>>>>> parent of 0a05795 (完善库存显示和添加逻辑)
         public void Show(Item[] items,string InventoryName)
         {
             this.gameObject.SetActive(true);
