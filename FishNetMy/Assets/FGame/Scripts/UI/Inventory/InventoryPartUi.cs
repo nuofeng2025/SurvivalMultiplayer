@@ -15,6 +15,9 @@ namespace FGame
         private  TextMeshProUGUI InventoryName;
 
         [SerializeField]
+        private TextMeshProUGUI Weight;
+
+        [SerializeField]
         private Vector2 SlotSize;
 
         [SerializeField]
@@ -54,7 +57,7 @@ namespace FGame
         }
 
 
-        public void Show(InventoryBase inventoryBase)
+        public virtual void Show(InventoryBase inventoryBase)
         {
             //Debug.Log("´ò¿ª¿â´æ");
            

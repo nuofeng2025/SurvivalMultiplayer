@@ -9,13 +9,14 @@ namespace FGame
         public InteractionUi interactionUi;
         public GameObject crosshair;
         public LootInventoryUI LootInventoryUi;
+        public CharacterInventoryUI characterInventoryUI;
 
         public Image TestImage;
         public void Init()
         {
             interactionUi.Init();
 
-            FGFramework.Ins.GetCtr<EventController>().OpenInventory.AddListener(OpenInventoryUi);
+            FGFramework.Ins.GetCtr<EventController>().OpenLootInventory.AddListener(OpenLootInventoryUi);
 
 
 
@@ -43,9 +44,17 @@ namespace FGame
 
 
 
-        public void OpenInventoryUi(InventoryBase inventoryBase)
+        public void OpenLootInventoryUi(InventoryBase inventoryBase,CharacterInventory characterInventory)
         {
             LootInventoryUi.ShowLootInventory(inventoryBase);
+
+            OpenCharacterInventoryUi(characterInventory);
+
+        }
+
+        public void OpenCharacterInventoryUi(CharacterInventory characterInventory)
+        {
+            characterInventoryUI.ShowUi(characterInventory);
 
 
 
@@ -53,9 +62,10 @@ namespace FGame
 
 
 
+
         public void OnDestroy()
         {
-            FGFramework.Ins.GetCtr<EventController>().OpenInventory.RemoveListener(OpenInventoryUi);
+            FGFramework.Ins.GetCtr<EventController>().OpenLootInventory.RemoveListener(OpenLootInventoryUi);
         }
     }
 

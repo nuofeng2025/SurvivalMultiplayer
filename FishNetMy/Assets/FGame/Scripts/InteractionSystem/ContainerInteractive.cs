@@ -35,16 +35,16 @@ namespace FGame
 
 
         
-        public override void Interaction(GameObject obj)
+        public override void Interaction(CharacterInteraction characterInteraction)
         {
-            base.Interaction(obj);
+            base.Interaction(characterInteraction);
 
             switch (interactiveType)
             {
                 case InteractiveType.SearchContainer:
 
                     inventoryBase = GetComponent<InventoryBase>();
-                    inventoryBase?.OpenInventory();
+                    inventoryBase?.OpenInventory(characterInteraction);
                     break;
 
 

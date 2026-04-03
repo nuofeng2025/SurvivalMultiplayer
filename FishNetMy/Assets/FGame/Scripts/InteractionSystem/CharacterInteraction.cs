@@ -43,7 +43,7 @@ namespace FGame
         private IInteractive LastRayCastInteractive;//最后检测到的交互物，用于显示
 
 
-
+        public CharacterController characterController;
 
 
         #endregion
@@ -57,7 +57,7 @@ namespace FGame
         #region 生命周期
         void Start()
         {
-
+            characterController = GetComponent<CharacterController>();
         }
 
         // Update is called once per frame
@@ -162,7 +162,7 @@ namespace FGame
                 case InteractiveType.SearchContainer:
 
                     var SearchContainer = LastRayCastInteractive as ContainerInteractive;
-                    if (SearchContainer) SearchContainer.Interaction(this.gameObject);
+                    if (SearchContainer) SearchContainer.Interaction(this);
 
                     break;
 

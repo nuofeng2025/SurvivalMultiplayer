@@ -36,7 +36,7 @@ namespace FGame
         private int nextInstanceId = 1;
         private int secretKey = 0;  // 服务器启动时随机生成
 
-
+        private CharacterInteraction CurCharacterInteraction;
 
         private List<Item> CheckedSlot = new List<Item>();
         private List<Item> NoCheckeSlot = new List<Item>();
@@ -110,11 +110,11 @@ namespace FGame
 
 
 
-        public virtual void OpenInventory()
+        public virtual void OpenInventory(CharacterInteraction characterInteraction)
         {
             Debug.Log("打开物品");
             OpenItemRpc();
-
+            CurCharacterInteraction = characterInteraction;
 
         }
 
@@ -266,7 +266,7 @@ namespace FGame
                 clientItems[i].CurStack = items[i].CurStack;
             }
 
-            FGFramework.Ins.GetCtr<EventController>().OpenInventory.Invoke(this);
+            FGFramework.Ins.GetCtr<EventController>().OpenLootInventory.Invoke(this, CurCharacterInteraction.characterController.characterInventory);
 
         }
 

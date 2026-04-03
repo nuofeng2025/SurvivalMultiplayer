@@ -1,12 +1,28 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 namespace FGame
 {
-    public class LootInventoryUI : MonoBehaviour
+    public class LootInventoryUI : MonoBehaviour,IPlane
     {
         [SerializeField]
         private InventoryPartUi inventoryPartUi;
+
+        public void Close()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Init()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Open(Action<IPlane> action)
+        {
+            throw new NotImplementedException();
+        }
 
         public void ShowLootInventory(InventoryBase inventoryBase)
         {

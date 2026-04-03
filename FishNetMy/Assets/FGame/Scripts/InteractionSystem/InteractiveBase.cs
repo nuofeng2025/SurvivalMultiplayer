@@ -56,7 +56,7 @@ namespace FGame
         #region API
 
 
-        public virtual bool CanInteraction( GameObject obj)
+        public virtual bool CanInteraction(CharacterInteraction characterInteraction)
         {
             
             if (!OpenInteraction)
@@ -85,7 +85,7 @@ namespace FGame
             return false;
         }
 
-        public virtual void Interaction(GameObject obj)
+        public virtual void Interaction(CharacterInteraction characterInteraction)
         {
 
 

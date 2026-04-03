@@ -27,9 +27,9 @@ namespace FGame
 
 
         //交互事件
-        public UnityEvent<InventoryBase> OpenInventory = new UnityEvent<InventoryBase>();//打开库存
+        public UnityEvent<InventoryBase,CharacterInventory> OpenLootInventory = new UnityEvent<InventoryBase, CharacterInventory>();//打开库存
 
-        public UnityEvent<InventoryBase> CloseInventory = new UnityEvent<InventoryBase>();//打开库存
+        public UnityEvent<InventoryBase, CharacterInventory> CloseLootInventory = new UnityEvent<InventoryBase, CharacterInventory>();//打开库存
 
 
 

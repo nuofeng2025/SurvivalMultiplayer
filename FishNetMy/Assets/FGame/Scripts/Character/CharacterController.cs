@@ -71,6 +71,7 @@ namespace FGame
 
 
         #region 组件
+        [TitleGroup("组件")]
         [LabelText("角色属性")]
         private CharacterState characterState;      
 
@@ -78,9 +79,12 @@ namespace FGame
         private UnityEngine.CharacterController characterController;
         private Rigidbody rigidbody;
         private PlayerInput playerInput;
-        private CharacterAnimator characterAnimator;
-        private CharacterInteraction characterInteraction;
-
+        [SerializeField]
+        public CharacterAnimator characterAnimator;
+        [SerializeField]
+        public CharacterInteraction characterInteraction;
+        [SerializeField]
+        public CharacterInventory characterInventory;
 
         [FoldoutGroup("调试")]
         [SerializeField]
@@ -161,6 +165,7 @@ namespace FGame
             playerInput = GetComponent<PlayerInput>();
             characterAnimator = GetComponent<CharacterAnimator>();
             characterInteraction = GetComponent<CharacterInteraction>();
+            characterInventory = GetComponent<CharacterInventory>();
         }
 
 
