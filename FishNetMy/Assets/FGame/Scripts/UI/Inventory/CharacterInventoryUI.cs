@@ -13,6 +13,9 @@ namespace FGame
         [SerializeField]
         private  EquipInventoryPartUi equipInventoryPartUiPrefab;
 
+        [SerializeField]
+        private Transform Root;
+
         private List<EquipInventoryPartUi> equipInventoryPartUis = new List<EquipInventoryPartUi>();
 
 
@@ -30,7 +33,13 @@ namespace FGame
         public void ShowUi(CharacterInventory characterInventory)
         {
             this.gameObject.SetActive(true);
-        
+            for (int i=0;i< characterInventory.equipContainers.Count;i++)
+            {
+                Instantiate(equipInventoryPartUiPrefab,Root);
+
+            
+            
+            }
         
         
         
