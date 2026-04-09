@@ -171,9 +171,17 @@ namespace FGame
 
         public void HandleInput()
         {
+            if (!playerInput) return;
+
             MoveAndRotate();
 
             HandleUse();
+
+
+            if (playerInput.IsTab)
+            { 
+                           
+            }
 
 
             if (Input.GetKey(KeyCode.Space))
@@ -226,10 +234,10 @@ namespace FGame
 
         public void HandleUse()
         {
-            if (!characterInteraction || !playerInput) return;
+            if (!characterInteraction) return;
             if (playerInput.IsUse)
             {
-                Debug.Log("E");
+                Debug.Log("F");
                 characterInteraction.DoInteractive();
             }
         

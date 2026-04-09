@@ -24,7 +24,11 @@ namespace FGame
 
 
         [SerializeField]
-        private bool _E;
+        private bool _F;
+
+
+        [SerializeField]
+        private bool _Tab;
 
         #endregion
 
@@ -35,10 +39,8 @@ namespace FGame
         public Vector2 MoveDir { get => _MoveDir;}
         public Vector2 LookDir { get => _LookDir;}
         public bool IsSpring { get => _IsSpring; }
-
-
-        public bool IsUse { get => _E; }
-
+        public bool IsUse { get => _F; }
+        public bool IsTab { get => _Tab; }
         #endregion
 
 
@@ -55,7 +57,8 @@ namespace FGame
             _MoveDir = _mainInput.PlayerController.Move.ReadValue<Vector2>();
             _LookDir = _mainInput.PlayerController.LookDir.ReadValue<Vector2>();
             _IsSpring = _mainInput.PlayerController.Spring.IsPressed();
-            _E = _mainInput.PlayerController.E.WasPressedThisFrame();
+            _F = _mainInput.PlayerController.F.WasPressedThisFrame();
+            _Tab = _mainInput.PlayerController.Tab.WasPressedThisFrame();
         }
 
         #endregion

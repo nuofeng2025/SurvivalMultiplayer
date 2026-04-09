@@ -34,9 +34,18 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "E",
+                    "name": "F",
                     "type": "Button",
                     "id": "7cdec7e7-1915-405b-80f4-4c4d620038f7",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Tab",
+                    "type": "Button",
+                    "id": "277a2515-e2b1-4e35-9ebe-50daa0d0978d",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -124,11 +133,22 @@
                 {
                     "name": "",
                     "id": "4c91c678-652b-4672-8afd-66faf88431bf",
-                    "path": "<Keyboard>/e",
+                    "path": "<Keyboard>/f",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "E",
+                    "action": "F",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d33c2441-f69e-4669-8596-5b52ea293d92",
+                    "path": "<Keyboard>/tab",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Tab",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

@@ -22,16 +22,21 @@ namespace FGame
         [SerializeField]
         private bool _isSpring;
 
-
-        [LabelText("使用")]
+        [LabelText("交互")]
         [SerializeField]
-        private bool _isE;
+        private bool _isF;
+
+        [LabelText("交互")]
+        [SerializeField]
+        private bool _isTab;
 
         public Vector2 MoveDir { get => _moveDir; }
         public Vector2 LookDir { get => _lookDir; }
         public bool IsSpring { get => _isSpring; }
 
-        public bool IsUse { get => _isE; }
+        public bool IsUse { get => _isF; }
+
+        public bool IsTab { get => _isTab; }
 
         //public static MainInput mainInput;
         #endregion
@@ -63,7 +68,8 @@ namespace FGame
             _moveDir = GameManager.Instance.inputSystem.MoveDir;
             _lookDir = GameManager.Instance.inputSystem.LookDir;
             _isSpring = GameManager.Instance.inputSystem.IsSpring;
-            _isE = GameManager.Instance.inputSystem.IsUse;
+            _isF = GameManager.Instance.inputSystem.IsUse;
+            _isTab = GameManager.Instance.inputSystem.IsTab;
         }
 
         #endregion

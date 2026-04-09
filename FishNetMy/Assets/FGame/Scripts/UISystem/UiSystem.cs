@@ -10,6 +10,8 @@ namespace FGame
         public GameObject crosshair;
         public LootInventoryUI LootInventoryUi;
         public CharacterInventoryUI characterInventoryUI;
+        public EquipemntPlane equipemntPlane;
+        public AroundPlane aroundPlane;
 
         public Image TestImage;
         public void Init()
@@ -50,7 +52,21 @@ namespace FGame
 
             OpenCharacterInventoryUi(characterInventory);
 
+            aroundPlane.gameObject.SetActive(true);
+
         }
+
+        public void CloseLootInventoryUi()
+        {
+            // LootInventoryUi.ShowLootInventory(inventoryBase);
+
+            //OpenCharacterInventoryUi(characterInventory);
+
+            aroundPlane.gameObject.SetActive(false);
+
+        }
+
+
 
         public void OpenCharacterInventoryUi(CharacterInventory characterInventory)
         {

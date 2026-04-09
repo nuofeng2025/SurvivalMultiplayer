@@ -35,10 +35,12 @@ namespace FGame
             this.gameObject.SetActive(true);
             for (int i=0;i< characterInventory.equipContainers.Count;i++)
             {
-                Instantiate(equipInventoryPartUiPrefab,Root);
+                var equipContainer = characterInventory.equipContainers[i];
+                var equipInventoryPartUi =  Instantiate(equipInventoryPartUiPrefab,Root);
+                equipInventoryPartUi.Show(equipContainer);
 
-            
-            
+                equipInventoryPartUis.Add(equipInventoryPartUi);
+
             }
         
         

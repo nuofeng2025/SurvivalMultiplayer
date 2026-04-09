@@ -120,9 +120,18 @@ public partial class @MainInput: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""E"",
+                    ""name"": ""F"",
                     ""type"": ""Button"",
                     ""id"": ""7cdec7e7-1915-405b-80f4-4c4d620038f7"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Tab"",
+                    ""type"": ""Button"",
+                    ""id"": ""277a2515-e2b1-4e35-9ebe-50daa0d0978d"",
                     ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
@@ -210,11 +219,22 @@ public partial class @MainInput: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""4c91c678-652b-4672-8afd-66faf88431bf"",
-                    ""path"": ""<Keyboard>/e"",
+                    ""path"": ""<Keyboard>/f"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""E"",
+                    ""action"": ""F"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""d33c2441-f69e-4669-8596-5b52ea293d92"",
+                    ""path"": ""<Keyboard>/tab"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Tab"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -228,7 +248,8 @@ public partial class @MainInput: IInputActionCollection2, IDisposable
         m_PlayerController_Move = m_PlayerController.FindAction("Move", throwIfNotFound: true);
         m_PlayerController_LookDir = m_PlayerController.FindAction("LookDir", throwIfNotFound: true);
         m_PlayerController_Spring = m_PlayerController.FindAction("Spring", throwIfNotFound: true);
-        m_PlayerController_E = m_PlayerController.FindAction("E", throwIfNotFound: true);
+        m_PlayerController_F = m_PlayerController.FindAction("F", throwIfNotFound: true);
+        m_PlayerController_Tab = m_PlayerController.FindAction("Tab", throwIfNotFound: true);
     }
 
     ~@MainInput()
@@ -312,7 +333,8 @@ public partial class @MainInput: IInputActionCollection2, IDisposable
     private readonly InputAction m_PlayerController_Move;
     private readonly InputAction m_PlayerController_LookDir;
     private readonly InputAction m_PlayerController_Spring;
-    private readonly InputAction m_PlayerController_E;
+    private readonly InputAction m_PlayerController_F;
+    private readonly InputAction m_PlayerController_Tab;
     /// <summary>
     /// Provides access to input actions defined in input action map "PlayerController".
     /// </summary>
@@ -337,9 +359,13 @@ public partial class @MainInput: IInputActionCollection2, IDisposable
         /// </summary>
         public InputAction @Spring => m_Wrapper.m_PlayerController_Spring;
         /// <summary>
-        /// Provides access to the underlying input action "PlayerController/E".
+        /// Provides access to the underlying input action "PlayerController/F".
         /// </summary>
-        public InputAction @E => m_Wrapper.m_PlayerController_E;
+        public InputAction @F => m_Wrapper.m_PlayerController_F;
+        /// <summary>
+        /// Provides access to the underlying input action "PlayerController/Tab".
+        /// </summary>
+        public InputAction @Tab => m_Wrapper.m_PlayerController_Tab;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -375,9 +401,12 @@ public partial class @MainInput: IInputActionCollection2, IDisposable
             @Spring.started += instance.OnSpring;
             @Spring.performed += instance.OnSpring;
             @Spring.canceled += instance.OnSpring;
-            @E.started += instance.OnE;
-            @E.performed += instance.OnE;
-            @E.canceled += instance.OnE;
+            @F.started += instance.OnF;
+            @F.performed += instance.OnF;
+            @F.canceled += instance.OnF;
+            @Tab.started += instance.OnTab;
+            @Tab.performed += instance.OnTab;
+            @Tab.canceled += instance.OnTab;
         }
 
         /// <summary>
@@ -398,9 +427,12 @@ public partial class @MainInput: IInputActionCollection2, IDisposable
             @Spring.started -= instance.OnSpring;
             @Spring.performed -= instance.OnSpring;
             @Spring.canceled -= instance.OnSpring;
-            @E.started -= instance.OnE;
-            @E.performed -= instance.OnE;
-            @E.canceled -= instance.OnE;
+            @F.started -= instance.OnF;
+            @F.performed -= instance.OnF;
+            @F.canceled -= instance.OnF;
+            @Tab.started -= instance.OnTab;
+            @Tab.performed -= instance.OnTab;
+            @Tab.canceled -= instance.OnTab;
         }
 
         /// <summary>
@@ -463,11 +495,18 @@ public partial class @MainInput: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnSpring(InputAction.CallbackContext context);
         /// <summary>
-        /// Method invoked when associated input action "E" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// Method invoked when associated input action "F" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>
         /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnE(InputAction.CallbackContext context);
+        void OnF(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "Tab" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnTab(InputAction.CallbackContext context);
     }
 }
