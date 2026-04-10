@@ -20,6 +20,9 @@ namespace FGame
         private Vector2 _LookDir;
 
         [SerializeField]
+        private bool _lockLookDired;
+
+        [SerializeField]
         private bool _IsSpring;
 
 
@@ -41,6 +44,7 @@ namespace FGame
         public bool IsSpring { get => _IsSpring; }
         public bool IsUse { get => _F; }
         public bool IsTab { get => _Tab; }
+        public bool LockLookDired { get => _lockLookDired;}
         #endregion
 
 
@@ -55,7 +59,14 @@ namespace FGame
         void Update()
         {
             _MoveDir = _mainInput.PlayerController.Move.ReadValue<Vector2>();
-            _LookDir = _mainInput.PlayerController.LookDir.ReadValue<Vector2>();
+            if (!_lockLookDired)
+            {
+                _LookDir = _mainInput.PlayerController.LookDir.ReadValue<Vector2>();
+            }else
+            {
+                _LookDir = Vector2.zero;
+            }
+            
             _IsSpring = _mainInput.PlayerController.Spring.IsPressed();
             _F = _mainInput.PlayerController.F.WasPressedThisFrame();
             _Tab = _mainInput.PlayerController.Tab.WasPressedThisFrame();
@@ -72,7 +83,15 @@ namespace FGame
         }
 
 
+        public void LockLookDir()
+        {
+            _lockLookDired = true;
+        }
 
+        public void OpenLookDir()
+        {
+            _lockLookDired = false;
+        }
 
 
         #endregion

@@ -184,11 +184,24 @@ namespace FGame
             }
 
 
-            if (Input.GetKey(KeyCode.Space))
+            if (Input.GetKeyDown(KeyCode.Space))
             {
-                // 添加这两行
-                Cursor.lockState = CursorLockMode.Locked;
-                Cursor.visible = false;
+                if (Cursor.visible)
+                {
+                    // 添加这两行
+                    Cursor.lockState = CursorLockMode.Locked;
+                    Cursor.visible = false;
+                }
+                else
+                {
+                    // 添加这两行
+                    Cursor.lockState = CursorLockMode.None;
+                    Cursor.visible = true;
+
+                }
+
+
+         
 
             }
         }

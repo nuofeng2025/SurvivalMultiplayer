@@ -18,7 +18,7 @@ namespace FGame
 
         private List<EquipInventoryPartUi> equipInventoryPartUis = new List<EquipInventoryPartUi>();
 
-
+        public RectTransform LockCameraRotateRt;
         public void Start()
         {
             

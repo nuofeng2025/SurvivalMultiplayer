@@ -9,6 +9,8 @@ namespace FGame
         [SerializeField]
         private InventoryPartUi inventoryPartUi;
 
+
+        public RectTransform LockCameraRotateRt;
         public void Close()
         {
             throw new NotImplementedException();

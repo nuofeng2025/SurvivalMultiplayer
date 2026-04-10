@@ -8,6 +8,8 @@ namespace FGame
     {
         public static GameManager Instance;
 
+        [Title("游戏状态")]
+        private bool ShowCursored;
 
         #region 组件
 
@@ -80,6 +82,37 @@ namespace FGame
 
 
         }
+
+
+
+
+
+
+
+
+        public void ShowCursor()
+        {
+
+            // 添加这两行
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+            ShowCursored = Cursor.visible;
+
+
+        }
+
+        public void HideCursor()
+        {
+
+            // 添加这两行
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+            ShowCursored = Cursor.visible;
+        }
+
+
+
+
 
         #endregion
 
