@@ -56,6 +56,8 @@ namespace FGame
         [LabelText("池名")]
         public PoolName PoolName;
         public GameObject slotUiPrefab;
+        [LabelText("是否场景持久化")]
+        public bool DontDestory;
         public int intiSize;
         public int maxSize;
 

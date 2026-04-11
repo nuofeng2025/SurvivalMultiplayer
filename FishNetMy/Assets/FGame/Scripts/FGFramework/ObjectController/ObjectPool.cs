@@ -14,6 +14,7 @@ namespace FGame
         private readonly Queue<T> pool = new Queue<T>();
         private readonly int defaultCapacity;
         private readonly int maxSize;
+        private float lastUseTime;
 
         public int Count => pool.Count;
         public int TotalCreated { get; private set; }
@@ -50,8 +51,9 @@ namespace FGame
                 return null;
             }
 
-            T obj = Object.Instantiate(prefab, parent);
+            T obj = UnityEngine.Object.Instantiate(prefab, parent);
             obj.gameObject.SetActive(false);
+            pool.Enqueue(obj);
             TotalCreated++;
             return obj;
         }
@@ -61,11 +63,13 @@ namespace FGame
         /// </summary>
         public T Get()
         {
+            lastUseTime = Time.time;
             if (pool.Count > 0)
             {
                 T obj = pool.Dequeue();
                 if (obj != null)
                 {
+                    Debug.Log("池中找到物体");
                     obj.gameObject.SetActive(true);
                     return obj;
                 }
@@ -76,6 +80,7 @@ namespace FGame
             if (newObj != null)
             {
                 newObj.gameObject.SetActive(true);
+                newObj = pool.Dequeue();
                 return newObj;
             }
 
@@ -88,6 +93,8 @@ namespace FGame
         public void Return(T obj)
         {
             if (obj == null) return;
+            if (pool.Contains(obj)) return;
+
 
             obj.gameObject.SetActive(false);
             obj.transform.SetParent(parent);
@@ -108,7 +115,7 @@ namespace FGame
                 T obj = pool.Dequeue();
                 if (obj != null)
                 {
-                    Object.Destroy(obj.gameObject);
+                    UnityEngine.Object.Destroy(obj.gameObject);
                 }
             }
             TotalCreated = 0;
