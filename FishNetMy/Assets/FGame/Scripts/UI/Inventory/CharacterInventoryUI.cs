@@ -67,10 +67,14 @@ namespace FGame
         {
             this.gameObject.SetActive(false);
 
+
             foreach (var e in equipInventoryPartUis)
             {
                 e.Close();
             }
+
+
+
         }
     }
 
