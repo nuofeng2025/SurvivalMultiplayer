@@ -58,10 +58,21 @@ namespace FGame
         {
             switch (CurUiPlane)
             {
+
+                case UiPlane.Close:
+
+                    //CloseLootInventoryUi();
+
+                    break;
                 case UiPlane.Loot_Inventory:
+
+                    CloseLootInventoryUi();
 
                     break;
                 case UiPlane.Player_Inventory:
+
+
+
 
                     break;
 
@@ -74,6 +85,8 @@ namespace FGame
 
         public void OpenLootInventoryUi(InventoryBase inventoryBase,CharacterInventory characterInventory)
         {
+            CurUiPlane = UiPlane.Loot_Inventory;
+
             OpenLootInventoryUied = true;
 
             LootInventoryUi.ShowLootInventory(inventoryBase);
@@ -89,9 +102,11 @@ namespace FGame
 
         public void CloseLootInventoryUi()
         {
+            CurUiPlane = UiPlane.Close;
+
             LootInventoryUi.HideLootInventory();
 
-            //OpenCharacterInventoryUi(characterInventory);
+            CloseCharacterInventoryUi();
 
             aroundPlane.gameObject.SetActive(false);
 
@@ -103,12 +118,14 @@ namespace FGame
         {
             characterInventoryUI.ShowUi(characterInventory);
 
-
-
         }
 
 
+        public void CloseCharacterInventoryUi()
+        {
+            characterInventoryUI.Close();
 
+        }
 
         public void OnDestroy()
         {

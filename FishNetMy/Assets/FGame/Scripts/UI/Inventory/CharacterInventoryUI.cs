@@ -71,7 +71,10 @@ namespace FGame
 
         public void Close()
         {
-            throw new NotImplementedException();
+            this.gameObject.SetActive(false);
+
+
+
         }
     }
 
