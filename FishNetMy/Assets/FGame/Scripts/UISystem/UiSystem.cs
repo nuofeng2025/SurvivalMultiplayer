@@ -20,7 +20,7 @@ namespace FGame
 
         [TitleGroup("״̬")]
         private bool OpenLootInventoryUied;
-
+        public UiPlane CurUiPlane;
 
 
         public List<RectTransform> LockCameraUIs_OpenLootInventoryUi;
@@ -54,6 +54,24 @@ namespace FGame
 
 
 
+        public void SwitchPlayerInventory()
+        {
+            switch (CurUiPlane)
+            {
+                case UiPlane.Loot_Inventory:
+
+                    break;
+                case UiPlane.Player_Inventory:
+
+                    break;
+
+            }
+        
+        
+        
+        }
+
+
         public void OpenLootInventoryUi(InventoryBase inventoryBase,CharacterInventory characterInventory)
         {
             OpenLootInventoryUied = true;
@@ -66,11 +84,12 @@ namespace FGame
 
             GameManager.Instance.ShowCursor();
 
+            GameManager.Instance.inputSystem.LockLookDir();
         }
 
         public void CloseLootInventoryUi()
         {
-            // LootInventoryUi.ShowLootInventory(inventoryBase);
+            LootInventoryUi.HideLootInventory();
 
             //OpenCharacterInventoryUi(characterInventory);
 
@@ -122,6 +141,21 @@ namespace FGame
 
 
     }
+
+
+    public enum UiPlane
+    { 
+        Close,
+        Loot_Inventory,
+        Player_Inventory,
+
+
+
+
+
+    }
+
+
 
 }
 

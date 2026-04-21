@@ -32,7 +32,12 @@ namespace FGame
             inventoryPartUi.Show(inventoryBase);
         }
 
-
+        public void HideLootInventory()
+        {
+            inventoryPartUi.Close();
+            this.gameObject.SetActive(false);
+            //inventoryPartUi.Show(inventoryBase);
+        }
 
     }
 
