@@ -18,7 +18,6 @@ namespace FGame
 
         private List<EquipInventoryPartUi> equipInventoryPartUis = new List<EquipInventoryPartUi>();
 
-        public RectTransform LockCameraRotateRt;
         public void Start()
         {
             
@@ -33,30 +32,25 @@ namespace FGame
         public void ShowUi(CharacterInventory characterInventory)
         {
             this.gameObject.SetActive(true);
+          
             for (int i=0;i< characterInventory.equipContainers.Count;i++)
             {
                 var equipContainer = characterInventory.equipContainers[i];
-                var equipInventoryPartUi =  Instantiate(equipInventoryPartUiPrefab,Root);
-                equipInventoryPartUi.Show(equipContainer);
-
-                equipInventoryPartUis.Add(equipInventoryPartUi);
+                //5(01234) > 3
+                if (i >= equipInventoryPartUis.Count)
+                {                   
+                    var equipInventoryPartUi = Instantiate(equipInventoryPartUiPrefab, Root);
+                    equipInventoryPartUi.Show(equipContainer);
+                    equipInventoryPartUis.Add(equipInventoryPartUi);
+                }
+                else
+                {
+                    var equipInventoryPartUi = equipInventoryPartUis[i];
+                    equipInventoryPartUi.Show(equipContainer);
+                }
 
             }
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+               
         }
 
         public void Open(Action<IPlane> action)
@@ -71,7 +65,12 @@ namespace FGame
 
         public void Close()
         {
-            throw new NotImplementedException();
+            this.gameObject.SetActive(false);
+
+            foreach (var e in equipInventoryPartUis)
+            {
+                e.Close();
+            }
         }
     }
 

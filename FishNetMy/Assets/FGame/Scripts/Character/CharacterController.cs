@@ -179,8 +179,8 @@ namespace FGame
 
 
             if (playerInput.IsTab)
-            { 
-                
+            {
+                GameManager.Instance.uiSystem.SwitchPlayerInventory();
 
 
             }
