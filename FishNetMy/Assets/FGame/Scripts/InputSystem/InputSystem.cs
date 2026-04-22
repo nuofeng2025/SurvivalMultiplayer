@@ -25,7 +25,9 @@ namespace FGame
         [SerializeField]
         private bool _IsSpring;
 
-
+        [SerializeField]
+        private bool _LongPress_RMouse;
+      
         [SerializeField]
         private bool _F;
 
@@ -45,6 +47,9 @@ namespace FGame
         public bool IsUse { get => _F; }
         public bool IsTab { get => _Tab; }
         public bool LockLookDired { get => _lockLookDired;}
+        public bool LongPress_RMouse { get => _LongPress_RMouse;}
+
+
         #endregion
 
 
@@ -70,6 +75,7 @@ namespace FGame
             _IsSpring = _mainInput.PlayerController.Spring.IsPressed();
             _F = _mainInput.PlayerController.F.WasPressedThisFrame();
             _Tab = _mainInput.PlayerController.Tab.WasPressedThisFrame();
+            _LongPress_RMouse = _mainInput.PlayerController.LongPress_RMouse.WasPerformedThisDynamicUpdate();
         }
 
         #endregion
@@ -92,6 +98,8 @@ namespace FGame
         {
             _lockLookDired = false;
         }
+
+
 
 
         #endregion

@@ -69,7 +69,7 @@ namespace FGame
                 T obj = pool.Dequeue();
                 if (obj != null)
                 {
-                    Debug.Log("池中找到物体");
+                    //Debug.Log("池中找到物体");
                     obj.gameObject.SetActive(true);
                     return obj;
                 }

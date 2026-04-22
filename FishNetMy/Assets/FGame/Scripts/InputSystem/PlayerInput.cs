@@ -26,9 +26,16 @@ namespace FGame
         [SerializeField]
         private bool _isF;
 
-        [LabelText("交互")]
+        [LabelText("打开物品栏")]
         [SerializeField]
         private bool _isTab;
+
+        [LabelText("长按右键")]
+        [SerializeField]
+        private bool _longPress_RMouse;
+
+        
+
 
         public Vector2 MoveDir { get => _moveDir; }
         public Vector2 LookDir { get => _lookDir; }
@@ -37,6 +44,7 @@ namespace FGame
         public bool IsUse { get => _isF; }
 
         public bool IsTab { get => _isTab; }
+        public bool LongPress_RMouse { get => _longPress_RMouse;}
 
         //public static MainInput mainInput;
         #endregion
@@ -70,6 +78,7 @@ namespace FGame
             _isSpring = GameManager.Instance.inputSystem.IsSpring;
             _isF = GameManager.Instance.inputSystem.IsUse;
             _isTab = GameManager.Instance.inputSystem.IsTab;
+            _longPress_RMouse = GameManager.Instance.inputSystem.LongPress_RMouse;
         }
 
         #endregion

@@ -31,7 +31,7 @@ namespace FGame
 
         [SerializeField]
         [LabelText("当前交互物")]
-        private IInteractive CurInteractive;
+        private IInteractive _curInteractive;
 
 
         [TitleGroup("调试")]
@@ -44,6 +44,8 @@ namespace FGame
 
 
         public CharacterController characterController;
+
+        public IInteractive CurInteractive { get => _curInteractive;  }
 
 
         #endregion
@@ -152,18 +154,21 @@ namespace FGame
         /// </summary>
         public void DoInteractive()
         {
-            if (LastRayCastInteractive == null) return;
-            if (CurInteractive != null && CurInteractiveRemainTime > 0)
+            if (LastRayCastInteractive == null) return;//如果准心没有对准交互物，则不交互
+            if (_curInteractive != null)
             {
                 Debug.Log("当前正在进行其它交互!");
+                return;
             }
+
+            _curInteractive = LastRayCastInteractive;
+
             switch (CurInteractiveType)
             {
                 case InteractiveType.SearchContainer:
 
                     var SearchContainer = LastRayCastInteractive as ContainerInteractive;
                     if (SearchContainer) SearchContainer.Interaction(this);
-
                     break;
 
 
@@ -173,6 +178,52 @@ namespace FGame
 
         }
 
+        /// <summary>
+        /// 当前是否在进行容器交互
+        /// </summary>
+        /// <returns></returns>
+        public bool IsContainerInteracting()
+        {
+            if (_curInteractive != null && (_curInteractive as ContainerInteractive) != null)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        /// <summary>
+        /// 是否正在交互
+        /// </summary>
+        /// <returns></returns>
+        public bool IsInteracting()
+        {
+            if (_curInteractive != null && CurInteractiveType != InteractiveType.NUll)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+
+        /// <summary>
+        /// 停止当前交互
+        /// </summary>
+        public void StopInteract()
+        {
+            _curInteractive = null;
+
+
+
+
+
+
+        }
 
 
 

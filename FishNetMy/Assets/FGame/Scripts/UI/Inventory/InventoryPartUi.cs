@@ -59,7 +59,8 @@ namespace FGame
 
         public virtual void Show(InventoryBase inventoryBase)
         {
-            //Debug.Log("打开库存");
+            slotUis.Clear();
+            Debug.Log("打开库存");  
            
             _inventoryBase = inventoryBase;
             InventoryName.text = inventoryBase.InventoryName;
@@ -80,13 +81,16 @@ namespace FGame
 
             LayoutRebuilder.ForceRebuildLayoutImmediate(ItemRootRectT);
 
-            Debug.Log(ItemRootRectT.sizeDelta);
+            //Debug.Log(ItemRootRectT.sizeDelta);
             MultiItemRootRectT.sizeDelta = new Vector2(ItemRootRectT.sizeDelta.x, ItemRootRectT.sizeDelta.y);
             thisRootRectT.sizeDelta = new Vector2(ItemRootRectT.sizeDelta.x, ItemRootRectT.sizeDelta.y +65);
 
             for (int i=0;i< slotUis.Count;i++)
             {
                 //Debug.Log($"{slotUis[i].Index}:{slotUis[i].Item.ItemId}");
+                Debug.Log(slotUis.Count);
+                Debug.Log(i);
+                Debug.Log(Items.Length);
                 var curItem = Items[i];
                 //Debug.Log(curItem.Position);
                 if (curItem.ItemId == 0) continue;
@@ -173,7 +177,8 @@ namespace FGame
         {
             foreach (var s in slotUis)
             {
-                FGFramework.Ins.GetCtr<PoolController>().Return<SlotUi>(PoolName.SlotUi.ToString(), s);
+                s.ReTurnPool();
+                
             }
             slotUis.Clear();
 

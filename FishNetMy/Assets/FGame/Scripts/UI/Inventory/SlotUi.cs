@@ -6,7 +6,7 @@ using Sirenix.OdinInspector;
 using TMPro;
 namespace FGame
 {
-    public class SlotUi : MonoBehaviour
+    public class SlotUi : MonoBehaviour ,IPoolObject
     {
         [SerializeField]
         private Item item;
@@ -68,7 +68,7 @@ namespace FGame
 
         public async void UpateUi(Item item,bool ShowIcon = true)
         {
-            //Debug.Log(10);
+            Debug.Log(item.ItemId);
             this.item = item;
             if (ShowIcon == false) return;
             var itemData = FGFramework.Ins.GetCtr<ConfigController>().GetItemData(item.ItemId);
@@ -87,26 +87,23 @@ namespace FGame
         }
 
 
-
-        public void UpateUi(List<Item> items)
+      
+        public void Reset()
         {
-            this.items = items;
-
-            /*this.item = item;
-            var itemData = FGFramework.Ins.GetCtr<ConfigController>().GetItemData(item.ItemId);
-            Sprite sp = FGFramework.Ins.GetCtr<ResourceController>().GetSpriteFromAtlas(SpriteType.ItemSprites, itemData.Name).Result;
-
-            if (sp != null)
-            {
-                ItemIcon.sprite = sp;
-                ItemIcon.gameObject.SetActive(true);
-            }*/
-
+            item = new Item();
+            ItemIcon.sprite = null;
+            _index = Vector2.zero;
+            items.Clear();
 
         }
 
 
- 
+        public void ReTurnPool()
+        {
+            Reset();
+            FGFramework.Ins.GetCtr<PoolController>().Return<SlotUi>(PoolName.SlotUi.ToString(), this);
+        }
+
     }
 
 }

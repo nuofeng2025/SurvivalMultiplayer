@@ -136,6 +136,15 @@ public partial class @MainInput: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""LongPress_RMouse"",
+                    ""type"": ""Button"",
+                    ""id"": ""1e1715f9-cdec-4f66-aa86-6f6b431a753a"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -237,6 +246,17 @@ public partial class @MainInput: IInputActionCollection2, IDisposable
                     ""action"": ""Tab"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""7335a450-0d9e-4f20-99c3-a148cd1cfefd"",
+                    ""path"": ""<Mouse>/rightButton"",
+                    ""interactions"": ""Hold(duration=0.3,pressPoint=0.5)"",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""LongPress_RMouse"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -250,6 +270,7 @@ public partial class @MainInput: IInputActionCollection2, IDisposable
         m_PlayerController_Spring = m_PlayerController.FindAction("Spring", throwIfNotFound: true);
         m_PlayerController_F = m_PlayerController.FindAction("F", throwIfNotFound: true);
         m_PlayerController_Tab = m_PlayerController.FindAction("Tab", throwIfNotFound: true);
+        m_PlayerController_LongPress_RMouse = m_PlayerController.FindAction("LongPress_RMouse", throwIfNotFound: true);
     }
 
     ~@MainInput()
@@ -335,6 +356,7 @@ public partial class @MainInput: IInputActionCollection2, IDisposable
     private readonly InputAction m_PlayerController_Spring;
     private readonly InputAction m_PlayerController_F;
     private readonly InputAction m_PlayerController_Tab;
+    private readonly InputAction m_PlayerController_LongPress_RMouse;
     /// <summary>
     /// Provides access to input actions defined in input action map "PlayerController".
     /// </summary>
@@ -366,6 +388,10 @@ public partial class @MainInput: IInputActionCollection2, IDisposable
         /// Provides access to the underlying input action "PlayerController/Tab".
         /// </summary>
         public InputAction @Tab => m_Wrapper.m_PlayerController_Tab;
+        /// <summary>
+        /// Provides access to the underlying input action "PlayerController/LongPress_RMouse".
+        /// </summary>
+        public InputAction @LongPress_RMouse => m_Wrapper.m_PlayerController_LongPress_RMouse;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -407,6 +433,9 @@ public partial class @MainInput: IInputActionCollection2, IDisposable
             @Tab.started += instance.OnTab;
             @Tab.performed += instance.OnTab;
             @Tab.canceled += instance.OnTab;
+            @LongPress_RMouse.started += instance.OnLongPress_RMouse;
+            @LongPress_RMouse.performed += instance.OnLongPress_RMouse;
+            @LongPress_RMouse.canceled += instance.OnLongPress_RMouse;
         }
 
         /// <summary>
@@ -433,6 +462,9 @@ public partial class @MainInput: IInputActionCollection2, IDisposable
             @Tab.started -= instance.OnTab;
             @Tab.performed -= instance.OnTab;
             @Tab.canceled -= instance.OnTab;
+            @LongPress_RMouse.started -= instance.OnLongPress_RMouse;
+            @LongPress_RMouse.performed -= instance.OnLongPress_RMouse;
+            @LongPress_RMouse.canceled -= instance.OnLongPress_RMouse;
         }
 
         /// <summary>
@@ -508,5 +540,12 @@ public partial class @MainInput: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnTab(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "LongPress_RMouse" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnLongPress_RMouse(InputAction.CallbackContext context);
     }
 }

@@ -181,9 +181,22 @@ namespace FGame
             if (playerInput.IsTab)
             {
                 GameManager.Instance.uiSystem.SwitchPlayerInventory();
+                if (characterInteraction.IsContainerInteracting())
+                {
+                    Debug.Log("StopInteract");
+                    characterInteraction.StopInteract();
+                }
 
 
             }
+
+
+            if (playerInput.LongPress_RMouse)
+            {
+                Debug.Log("检测到长按右键");
+            
+            }
+
 
 
             if (Input.GetKeyDown(KeyCode.Space))
@@ -252,8 +265,12 @@ namespace FGame
             if (!characterInteraction) return;
             if (playerInput.IsUse)
             {
-                Debug.Log("F");
-                characterInteraction.DoInteractive();
+                //防止重复交互
+                if (!characterInteraction.IsInteracting())
+                {
+                    characterInteraction.DoInteractive();
+                } 
+
             }
         
 

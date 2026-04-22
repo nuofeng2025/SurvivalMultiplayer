@@ -50,6 +50,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "LongPress_RMouse",
+                    "type": "Button",
+                    "id": "1e1715f9-cdec-4f66-aa86-6f6b431a753a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -149,6 +158,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "Tab",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7335a450-0d9e-4f20-99c3-a148cd1cfefd",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "Hold(duration=0.3,pressPoint=0.5)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LongPress_RMouse",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
